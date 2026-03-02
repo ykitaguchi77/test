@@ -1,0 +1,235 @@
+THE ASSOCIATION BETWEEN DIABETIC RETINOPATHY AND MACULAR DEGENERATION: A NATIONWIDE POPULATION-BASED STUDY
+
+Published: Biomedicines 2024, 12(4), 727
+DOI: 10.3390/biomedicines12040727
+PMID: 38672083
+PMCID: PMC11047965
+License: CC BY 4.0
+Received: 2 February 2024 | Revised: 12 March 2024 | Accepted: 20 March 2024 | Published: 25 March 2024
+Special Issue: Molecular Research and Recent Advances in Diabetic Retinopathy
+
+Authors: Lin H.-T., Zheng C.-M., Tsai C.-H., Chen C.-L., Chou Y.-C., Zheng J.-Q., Lin Y.-F., Lin C.-W., Chen Y.-C., Sun C.-A., et al.
+
+Affiliations:
+1. Department of Ophthalmology, Tri-Service General Hospital, National Defense Medical Center, Taipei 114, Taiwan
+2. Graduate Institute of Medical Sciences, National Defense Medical Center, Taipei 114, Taiwan
+3. Division of Nephrology, Department of Internal Medicine, School of Medicine, College of Medicine, Taipei Medical University, Taipei 110, Taiwan
+4. TMU Research Center of Urology and Kidney, Taipei Medical University, Taipei 110, Taiwan
+5. Division of Nephrology, Department of Internal Medicine, Shuang Ho Hospital, Taipei Medical University, Taipei 235, Taiwan
+6. Graduate Institute of Clinical Medicine, College of Medicine, Taipei Medical University, Taipei 110, Taiwan
+
+IRB Approval: Institutional Review Board of Fu Jen Catholic University (FJU-IRB NO: C104014)
+Ethics: Patient consent was waived as this study was a retrospective cohort study conducted using the Taiwan National Health Insurance Database (NHIRD).
+Funding: This research received no external funding.
+Conflicts of Interest: The authors declare no competing interests.
+
+================================================================================
+ABSTRACT
+================================================================================
+
+Age-related macular degeneration (AMD), particularly its exudative form, is a primary cause of vision impairment in older adults. As diabetes becomes increasingly prevalent in aging, it is crucial to explore the potential relationship between diabetic retinopathy (DR) and AMD. This study aimed to assess the risk of developing overall, non-exudative, and exudative AMD in individuals with DR compared to those without retinopathy (non-DR) based on a nationwide population study in Taiwan.
+
+A retrospective cohort study was conducted using the Taiwan National Health Insurance Database (NHIRD) (2000–2013). A total of 3,413 patients were placed in the study group (DR) and 13,652 in the control group (non-DR) for analysis. Kaplan–Meier analysis and the Cox proportional hazards model were used to calculate the hazard ratios (HRs) and adjusted hazard ratios (aHRs) for the development of AMD, adjusting for confounding factors, such as age, sex, and comorbid conditions.
+
+Keywords: diabetes mellitus (DM), diabetic retinopathy (DR), non-diabetic retinopathy (non-DR), age-related macular degeneration (AMD), Taiwan National Health Insurance Database (NHIRD).
+
+================================================================================
+INTRODUCTION
+================================================================================
+
+Diabetic retinopathy (DR) and age-related macular degeneration (AMD) are important retinal degenerative disorders that represent a growing concern among aging societies. These conditions exhibit overlapping pathological processes, such as retinal edema and progressive inflammation within the central macula.
+
+Age-related macular degeneration (AMD), particularly its exudative form, is a primary cause of vision impairment in older adults. As diabetes becomes increasingly prevalent in aging, it is crucial to explore the potential relationship between diabetic retinopathy (DR) and AMD.
+
+This study aimed to assess the risk of developing overall, non-exudative, and exudative AMD in individuals with DR compared to those without retinopathy (non-DR) based on a nationwide population study in Taiwan.
+
+================================================================================
+METHODS
+================================================================================
+
+2.1 Data Source
+
+Taiwan's National Health Insurance (NHI) was launched by the Taiwan Department of Health in 1995, providing comprehensive medical care coverage. A total of 23,832,551 Taiwanese residents, accounting for approximately 99% of the population in Taiwan, have joined the program. The Longitudinal Health Insurance Database (LHID), which is part of the NHI Research Database (NHIRD), contains data for one million randomly sampled patients from the Registry for Beneficiaries of the NHIRD. The database exhibits no statistically significant differences in terms of age, sex, or healthcare costs when compared to all NHI enrollees. Diagnoses in the database were assigned by qualified clinical physicians based on laboratory, imaging, and pathological data and following the International Classification of Diseases, Ninth Revision, Clinical Modification (ICD-9-CM). Personal identification numbers were encrypted to safeguard patient privacy before the electronic files were released for study. The study was based on the LHID 2000.
+
+The study was approved by the Institutional Review Board of Fu Jen Catholic University (FJU-IRB NO: C104014). Patient consent was waived as this study was a retrospective cohort study conducted using the NHIRD.
+
+2.2 Study Design and Participants
+
+This was a retrospective cohort study. They selected patients (aged ≥55 years old) who were newly diagnosed with diabetic retinopathy (DR) using ICD-9-CM codes 362.01 and 362.02 between 2000 and 2006 as the study cohort. To only include new cases, individuals who had previously received any DR and diabetes mellitus (DM) diagnoses, using ICD-9-CM code 250, in the medical claim data before 2000 were excluded.
+
+For each patient diagnosed with DR, they randomly selected four patients without diabetic retinopathy (non-DR) as the control group from the same database who were matched for age and sex. The non-DR group excluded individuals with a history of AMD before the index date. Overall, the final sample for analysis included 3,413 subjects with DR (study group) and 13,652 subjects without DR (control group), with a matching ratio of 1:4.
+
+2.3 Outcome and Covariates
+
+Following the ICD-9-CM format, AMD has several types, such as senile (unspecified), non-exudative, exudative, familial, juvenile, congenital, cystic AMD, etc., and they chose the most often cited codes by ophthalmologists — senile (unspecified) (362.50), non-exudative (362.51), and exudative (362.52) AMD — to represent all types of AMD for reasonable convenience of further analysis.
+
+All subjects were observed until a diagnosis of AMD, death, or 31 December 2013, whichever occurred first.
+
+The model was adjusted for age, sex, low income, hypertension, hyperlipidemia, coronary artery disease (CAD), stroke, chronic obstructive pulmonary disease (COPD), and liver cirrhosis and chronic hepatitis.
+
+2.4 Statistical Analysis
+
+Chi-square tests were used to analyze categorical variables, including demographics and comorbidities, while continuous variables were assessed with two-sample t-tests. Kaplan–Meier curves were used to depict cumulative AMD incidence and Cox regression was used to estimate AMD risk, adjusted for age, sex, and comorbidities and stratified by age and sex to determine DR and AMD association. Data were analyzed via SAS 9.4 and SPSS 22.0, with p < 0.05 set as the significance level.
+
+================================================================================
+RESULTS
+================================================================================
+
+3.1 Baseline Characteristics (Table 1)
+
+The baseline demographic information and comorbidity conditions of patients in the DR group (N = 3,413) and the non-DR group (N = 13,652) are presented in Table 1. The mean age in the DR group (67.1 years) was significantly higher than that in the non-DR group (66.5 years) (p < 0.001); however, there were no significant differences in age and gender distribution between groups (matched variables).
+
+DR patients had significantly higher rates of comorbidities, including hypertension, hyperlipidemia, coronary artery disease (CAD), stroke, chronic obstructive pulmonary disease (COPD), and liver cirrhosis/chronic hepatitis, compared to the non-DR group (all p < 0.001).
+
+Table 1: Baseline Demographic Information and Comorbidity Conditions
+-------------------------------------------------------------------
+Variable                          DR (N=3,413)    Non-DR (N=13,652)    p-value
+Age (mean ± SD)                   67.1            66.5                 <0.001
+Age groups:
+  55-64                           —               —                    0.999
+  65-74                           —               —
+  ≥75                             —               —
+Sex (Male, %)                     —               —                    0.999
+Low income                        Higher in DR    Lower in non-DR      <0.001
+Hypertension                      Higher in DR    Lower in non-DR      <0.001
+Hyperlipidemia                    Higher in DR    Lower in non-DR      <0.001
+CAD                               Higher in DR    Lower in non-DR      <0.001
+Stroke                            Higher in DR    Lower in non-DR      <0.001
+COPD                              Higher in DR    Lower in non-DR      <0.001
+Liver cirrhosis/chronic hepatitis Higher in DR    Lower in non-DR      <0.001
+
+Note: Age and sex were matched between groups (p = 0.999). DR group had significantly higher prevalence of all comorbidities (all p < 0.001).
+
+3.2 Incidence and Hazard Ratios of All Types of AMD (Table 2)
+
+Table 2 shows the occurrence and hazard ratios of all types of AMD (ICD-9 codes 362.50, 362.51, 362.52) for both groups.
+
+Overall AMD incidence:
+- DR group: incidence rate of 16.77 per 10,000 person-years
+- Non-DR group: incidence rate of 5.36 per 10,000 person-years
+- Adjusted HR (aHR): 3.50 (95% CI = 3.10–3.95)
+
+The incidence of AMD increased with age in both groups, but the association was stronger in the DR group across all age categories, with the highest risk observed in patients over 85 years old. The incidence rates of AMD were higher for both genders in the DR group, with males showing a slightly higher risk than females.
+
+The DR group had a significantly higher HR and aHR than the non-DR group, regardless of comorbid conditions. A significant increase in AMD was noted in the DR group regardless of the presence or absence of comorbid conditions, such as hypertension, CAD, hyperlipidemia, stroke, COPD, or cirrhosis/chronic hepatitis.
+
+3.3 Incidence and Hazard Ratios of Senile (Unspecified) AMD (Table 3)
+
+Table 3 shows the incidence and estimated hazard ratios of senile (unspecified) AMD (ICD-9 code 362.50).
+
+Senile (unspecified) AMD:
+- Non-DR group (N = 13,652): incidence rate of 4.78 per 10,000 person-years
+- DR group (N = 3,413): incidence rate of 14.65 per 10,000 person-years
+- Adjusted HR (aHR): 3.45 (95% CI = 3.04–3.92)
+
+Model adjusted for age, sex, low income, hypertension, hyperlipidemia, CAD, stroke, COPD, and liver cirrhosis and chronic hepatitis.
+
+In the DR group, the incidence rate was markedly higher with aging, particularly in the 65–75 and ≥85 age groups.
+
+These findings substantiate DR as a significant predictor of senile AMD, independent of demographic factors and comorbid conditions.
+
+3.4 Incidence and Hazard Ratios of Non-Exudative AMD (Table 4)
+
+Table 4 presents incidence and estimated hazard ratios of non-exudative AMD (ICD-9 code 362.51).
+
+Non-exudative AMD:
+- Adjusted HR (aHR): 2.92 (95% CI = 2.08–4.09)
+
+Like in overall AMD, male patients with DR had a higher incidence rate of non-exudative AMD compared to female patients with DR.
+
+Model adjusted for age, sex, low income, hypertension, hyperlipidemia, CAD, stroke, COPD, and liver cirrhosis and chronic hepatitis.
+
+3.5 Incidence and Hazard Ratios of Exudative AMD (Table 5)
+
+Table 5 covers exudative AMD (ICD-9 code 362.52).
+
+Exudative AMD:
+- DR group: incidence rate of 1.37 per 10,000 person-years
+- Non-DR group: incidence rate of 0.31 per 10,000 person-years
+- Adjusted HR (aHR): 3.92 (95% CI = 2.51–6.14)
+
+A notably higher incidence rate of exudative AMD was observed in the DR group compared to the non-DR group.
+
+After adjusting for confounding factors, the adjusted hazard ratios of exudative AMD remained significantly higher in the DR group, and the risks were influenced by the presence of cardiovascular comorbid conditions such as hypertension, hyperlipidemia, and CAD.
+
+Model adjusted for age, sex, low income, hypertension, hyperlipidemia, CAD, stroke, COPD, and liver cirrhosis and chronic hepatitis.
+
+3.6 Kaplan-Meier Survival Analysis
+
+Kaplan–Meier survival analysis indicated a significantly higher cumulative incidence of AMD in the DR group compared to the non-DR group (log-rank test, p < 0.001).
+
+Figure Descriptions:
+- Figure 1: Flow chart of patient selection showing how patients from the LHID 2000 database were screened, with exclusion criteria applied, resulting in 3,413 DR subjects and 13,652 non-DR controls (1:4 matching).
+- Figure 2: Kaplan-Meier curve showing cumulative risk of all types of macular degeneration (ICD-9 codes 362.50, 362.51, 362.52) in the DR group compared to the non-DR group. Higher cumulative incidence in DR group (log-rank test, p < 0.001).
+- Figure 3: Kaplan-Meier curve showing cumulative risk of senile (unspecified) AMD (ICD-9 code 362.50) in the DR group compared to the non-DR group.
+- Figure 4: Kaplan-Meier curve showing cumulative risk of non-exudative AMD (ICD-9 code 362.51) in the DR group compared to the non-DR group.
+- Figure 5: Kaplan-Meier curve showing cumulative risk of exudative AMD (ICD-9 code 362.52) in the DR group compared to the non-DR group.
+
+================================================================================
+DISCUSSION
+================================================================================
+
+This population-based cohort study explored the risks of age-related macular degeneration (AMD) in senile (unspecified), exudative, and non-exudative forms in elderly patients with diabetic retinopathy (DR).
+
+The initial assessment of baseline characteristics, including age and gender, showed similar distributions between the DR and non-DR groups. This eliminates the potential impact of these variables on the findings. However, a notably higher prevalence of comorbidities, such as hypertension, hyperlipidemia, and CAD, was observed in patients with DR.
+
+DR is a significant risk factor for both overall, senile, exudative, and non-exudative AMD, even after adjusting for demographic and comorbid conditions. DR patients tend to have a higher prevalence of vascular comorbidities; however, the findings indicate that the ocular pathologies inherent to DR might have a more significant impact on the progression to AMD.
+
+Shared Pathological Mechanisms:
+Both DR and AMD involve shared pathological processes including retinal edema and progressive inflammation within the central macula. Oxidative stress and inflammation play crucial roles in both conditions. Both genetic and non-genetic factors, including aging, hyperglycemia, and hypertension, can disrupt retinal homeostasis and trigger inflammatory cascades, leading to vascular dysfunction and retinal cell death, contributing to the development of AMD and DR under chronic inflammatory conditions.
+
+Patients in the DR group had significantly higher incidence rates of AMD than their non-DR counterparts, regardless of their comorbid conditions. The risks were influenced by the presence of cardiovascular comorbid conditions such as hypertension, hyperlipidemia, and CAD.
+
+The incidence of AMD increased with age in both groups, but the association was stronger in the DR group across all age categories, with the highest risk observed in patients over 85 years old.
+
+Early detection and appropriate treatment of AMD is critically important among DR patients.
+
+================================================================================
+LIMITATIONS
+================================================================================
+
+1. Following the ICD-9-CM format, AMD has several types, such as senile (unspecified), non-exudative, exudative, familial, juvenile, congenital, cystic AMD, etc., and they chose the most often cited codes by ophthalmologists — senile (unspecified) (362.50), non-exudative (362.51), and exudative (362.52) AMD — to represent all types of AMD for reasonable convenience of further analysis. This study design will result in inconsistency of codes cited by ophthalmologists and will be listed as a study limitation.
+
+2. Administrative database limitations: The NHIRD relies on ICD-9-CM coding by physicians, which may be subject to coding errors or variability in diagnostic practices.
+
+3. Inability to control for unmeasured confounders: The study could not account for factors like smoking status, body mass index (BMI), genetic factors, diet, and other lifestyle variables that may influence AMD risk.
+
+4. Lack of clinical details: The database does not contain detailed clinical information such as visual acuity, OCT findings, fundus examination details, severity grading of DR, or specific treatment data.
+
+5. Surveillance bias: DR patients may undergo more frequent eye examinations than non-DR controls, potentially leading to higher detection rates of AMD in the DR group.
+
+================================================================================
+STRENGTHS
+================================================================================
+
+1. Large sample size: The study included 3,413 DR subjects and 13,652 non-DR controls.
+2. Population-based design: Utilized the Taiwan NHIRD, which covers approximately 99% of the Taiwanese population.
+3. Long follow-up period: Data spanning from 2000 to 2013.
+4. Matched cohort design: 1:4 matching by age and sex minimized selection bias.
+5. The LHID exhibits no statistically significant differences in terms of age, sex, or healthcare costs when compared to all NHI enrollees, supporting representativeness.
+6. Diagnoses in the database were assigned by qualified clinical physicians based on laboratory, imaging, and pathological data following ICD-9-CM coding.
+7. Comprehensive adjustment for multiple comorbidities: age, sex, low income, hypertension, hyperlipidemia, CAD, stroke, COPD, and liver cirrhosis/chronic hepatitis.
+
+================================================================================
+CONCLUSIONS
+================================================================================
+
+DR is a significant risk factor for both overall, senile, exudative, and non-exudative AMD, even after adjusting for demographic and comorbid conditions. DR patients tend to have a higher prevalence of vascular comorbidities; however, the findings indicate that the ocular pathologies inherent to DR might have a more significant impact on the progression to AMD. Early detection and appropriate treatment of AMD is critically important among DR patients.
+
+================================================================================
+ABBREVIATIONS
+================================================================================
+
+DR: diabetic retinopathy
+AMD: age-related macular degeneration
+DM: diabetes mellitus
+NHIRD: National Health Insurance Research Database
+NHI: National Health Insurance
+LHID: Longitudinal Health Insurance Database
+ICD-9-CM: International Classification of Diseases, Ninth Revision, Clinical Modification
+CAD: coronary artery disease
+COPD: chronic obstructive pulmonary disease
+PYs: person years
+HR: hazard ratio
+aHR: adjusted hazard ratio
+CI: confidence interval
