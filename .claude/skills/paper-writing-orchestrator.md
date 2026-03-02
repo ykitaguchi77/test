@@ -6,25 +6,45 @@ Orchestrate the iterative paper-writing improvement loop. This is the main entry
 ## Process Overview
 
 ```
-┌─────────────────────────────────────────────────────┐
-│                  Orchestrator Loop                    │
-│                                                       │
-│  ┌──────────┐    ┌──────────┐    ┌──────────┐        │
-│  │  Paper    │───>│  Data    │───>│  Draft   │        │
-│  │  Search   │    │  Extract │    │  Writing │        │
-│  └──────────┘    └──────────┘    └──────────┘        │
-│                                       │               │
-│                                       v               │
-│  ┌──────────┐    ┌──────────────────────────┐        │
-│  │  Update   │<──│  Compare Draft vs        │        │
-│  │  Skills   │   │  Original Paper          │        │
-│  └──────────┘    └──────────────────────────┘        │
-│       │                                               │
-│       └──── Next Iteration ──────────────>           │
-│                                                       │
-│  Report to user every 3 iterations                   │
-└─────────────────────────────────────────────────────┘
+┌───────────────────────────────────────────────────────────────┐
+│                    Orchestrator Loop                           │
+│                                                               │
+│  ┌──────────┐    ┌──────────┐    ┌──────────┐                │
+│  │  Paper    │───>│  Data    │───>│ Reference│                │
+│  │  Search   │    │  Extract │    │  Search  │                │
+│  └──────────┘    │ (PDF+    │    └──────────┘                │
+│                  │  Vision) │         │                        │
+│                  └──────────┘         │                        │
+│                       │               v                        │
+│                       └──────>┌──────────┐                    │
+│                               │  Draft   │                    │
+│                               │  Writing │                    │
+│                               └──────────┘                    │
+│                                    │                           │
+│                                    v                           │
+│  ┌──────────┐    ┌──────────────────────────┐                │
+│  │  Update   │<──│  Compare Draft vs        │                │
+│  │  Skills   │   │  Original Paper          │                │
+│  └──────────┘    └──────────────────────────┘                │
+│       │                                                       │
+│       └──── Next Iteration ──────────────>                   │
+│                                                               │
+│  Report to user every 3 iterations                           │
+└───────────────────────────────────────────────────────────────┘
 ```
+
+## Prerequisites
+
+Ensure the following are installed (see `requirements.txt`):
+```bash
+pip3 install -r requirements.txt
+```
+
+Scripts available in `scripts/`:
+- `download_pdf.py` — Download PDF from Europe PMC
+- `extract_tables_from_pdf.py` — Extract tables using PyMuPDF
+- `pdf_to_images.py` — Convert PDF pages to PNG for vision reading
+- `search_pubmed.py` — Search PubMed for reference verification
 
 ## Instructions
 
@@ -40,16 +60,37 @@ Launch a subagent (Agent tool, subagent_type="general-purpose") with the paper-s
 - Download and save to `papers/iteration_{N}/original/`
 - Select a DIFFERENT paper than previous iterations
 
-#### Phase 2: Data Extraction (データ抽出サブエージェント)
+#### Phase 2: Data Extraction (データ抽出サブエージェント — PDF Enhanced)
 Launch a subagent with the data-extraction skill instructions:
-- Extract Results, tables, figures from the downloaded paper
-- Save to `papers/iteration_{N}/extracted/`
-- Create the combined `extracted_data_bundle.md`
+- **Step 0**: Download PDF and run PyMuPDF table extraction + page-to-image conversion
+  ```bash
+  python3 scripts/download_pdf.py {PMCID} papers/iteration_{N}/original/
+  python3 scripts/extract_tables_from_pdf.py papers/iteration_{N}/original/paper.pdf papers/iteration_{N}/extracted/
+  python3 scripts/pdf_to_images.py papers/iteration_{N}/original/paper.pdf papers/iteration_{N}/original/page_images/ --dpi 200
+  ```
+- **Step 1-4**: Extract Results, tables (from PDF + text), figures (from page images), study design
+- **Step 5**: Extract raw reference list
+- **Step 6**: Save all extracted data to `papers/iteration_{N}/extracted/`
+
+#### Phase 2.5: Reference Verification (参考文献検証サブエージェント — NEW)
+Launch a subagent with the reference-search skill instructions:
+- Read `papers/iteration_{N}/extracted/references_raw.json`
+- Verify each reference via PubMed using `scripts/search_pubmed.py`
+- Save verified references to `papers/iteration_{N}/extracted/references_verified.json`
+- Save formatted list to `papers/iteration_{N}/extracted/references_formatted.md`
+
+**NOTE**: This can run IN PARALLEL with Phase 3 draft writing, since the draft writer
+should first write the paper body, then incorporate verified references.
+Alternatively, run it before Phase 3 and include `references_formatted.md` in the
+draft writer's input.
 
 #### Phase 3: Draft Writing (ドラフト作成サブエージェント)
 Launch a subagent with the draft-writing skill instructions:
 - **CRITICAL**: This subagent must NOT have access to the original paper
-- Provide ONLY the `extracted_data_bundle.md` and current `writing-guidelines.md`
+- Provide ONLY:
+  - `extracted_data_bundle.md`
+  - `writing-guidelines.md`
+  - `references_formatted.md` (verified reference list from Phase 2.5)
 - Save draft to `papers/iteration_{N}/draft/`
 
 #### Phase 4: Comparison & Skill Refinement (比較・スキル改善サブエージェント)
@@ -83,9 +124,8 @@ After each iteration:
 - Quality Score: [X/10]
 - Key Gaps: [list]
 - New Rules Added: [count]
-
-## Iteration 2
-...
+- PDF Tables Extracted: [count]
+- References Verified: [X/Y]
 
 ## Score Trend
 | Iteration | Accuracy | Completeness | Logic | Readability | Structure | Clinical | Overall |
