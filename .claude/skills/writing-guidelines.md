@@ -54,6 +54,12 @@
 12. **[Iter3]** In administrative database studies, always specify the exact database version used (e.g., "LHID 2000" not just "LHID") and describe the sampling methodology (random sampling from registry) in the Data Source section.
 13. **[Iter3]** When reporting hazard ratios for multiple outcome subtypes, present a summary comparison paragraph or summary table in Results showing all aHRs side by side to facilitate pattern recognition across subtypes.
 
+## Blind Writing / Anti-Cheating Rules
+1. **[Iter4-pre]** The extracted data bundle is anonymized: it contains NO paper title, author names, journal name, DOI, or identifiers. The draft writer must write purely from the data provided.
+2. **[Iter4-pre]** Do NOT attempt to identify the original paper from data patterns, sample sizes, effect sizes, or study design. Even if recognized, write as if the study is entirely novel.
+3. **[Iter4-pre]** Use a descriptive working title based on the study content (e.g., "Association Between X and Y: A Retrospective Cohort Study"), NOT the original paper's title.
+4. **[Iter4-pre]** Use placeholders for author names ("[Author et al.]") and institutions ("[Institution]"). Do NOT fabricate these.
+
 ## Technical Rules
 1. Report confidence intervals alongside p-values when available
 2. Specify units for all measurements (mmHg, logMAR, etc.)

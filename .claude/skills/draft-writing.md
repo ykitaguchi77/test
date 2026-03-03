@@ -5,12 +5,23 @@ Write a complete research paper draft using ONLY the extracted data provided. Th
 
 ## Instructions
 
-### CRITICAL CONSTRAINT
+### CRITICAL CONSTRAINT — BLIND WRITING
 You have NO access to the original paper. You must write the paper using ONLY the extracted data bundle provided. Do NOT attempt to read or reference any files in the `original/` directory.
 
+**ANTI-CHEATING RULES:**
+1. The extracted data bundle has been anonymized — it contains NO paper title, author names, journal name, DOI, or other identifiers.
+2. You MUST NOT attempt to identify the original paper from the data patterns, study design, or numerical results.
+3. You MUST NOT use any prior knowledge about specific published papers. Write as if this is an entirely novel, unpublished study.
+4. If you recognize the study from its data, you MUST ignore that recognition and write purely from the extracted data.
+5. Do NOT include any specific paper title in the draft — use a descriptive working title based on the study content (e.g., "Association Between X and Y: A Retrospective Cohort Study").
+6. Do NOT fabricate author names or institutional affiliations — leave placeholders like "[Author et al.]" and "[Institution]".
+
 ### Input
-- Path to `papers/iteration_{N}/extracted/extracted_data_bundle.md`
+- Path to `papers/iteration_{N}/extracted/extracted_data_bundle.md` (anonymized — no identifying info)
 - Current writing guidelines from `skills/writing-guidelines.md` (if it exists)
+- Path to `papers/iteration_{N}/extracted/references_formatted.md` (verified reference list, if available)
+
+**DO NOT read**: `papers/iteration_{N}/original/` directory, `papers/iteration_{N}/extracted/paper_identity.json`, or any file containing the paper's title/authors/journal.
 
 ### Step 1: Analyze the Extracted Data
 

@@ -60,7 +60,7 @@ Launch a subagent (Agent tool, subagent_type="general-purpose") with the paper-s
 - Download and save to `papers/iteration_{N}/original/`
 - Select a DIFFERENT paper than previous iterations
 
-#### Phase 2: Data Extraction (データ抽出サブエージェント — PDF Enhanced)
+#### Phase 2: Data Extraction (データ抽出サブエージェント — PDF Enhanced + Anonymized)
 Launch a subagent with the data-extraction skill instructions:
 - **Step 0**: Download PDF and run PyMuPDF table extraction + page-to-image conversion
   ```bash
@@ -71,6 +71,11 @@ Launch a subagent with the data-extraction skill instructions:
 - **Step 1-4**: Extract Results, tables (from PDF + text), figures (from page images), study design
 - **Step 5**: Extract raw reference list
 - **Step 6**: Save all extracted data to `papers/iteration_{N}/extracted/`
+- **Step 7 (CRITICAL — Anonymization)**: Before saving `extracted_data_bundle.md`:
+  1. Remove ALL identifying information: paper title, author names, journal name, DOI, PMCID, PMID, institution names, named study acronyms
+  2. Save identifying metadata separately to `papers/iteration_{N}/extracted/paper_identity.json`
+  3. Verify the bundle contains NO information that could identify the original paper
+  This ensures the Phase 3 draft writer cannot "cheat" by recognizing the paper from its training data.
 
 #### Phase 2.5: Reference Verification (参考文献検証サブエージェント — NEW)
 Launch a subagent with the reference-search skill instructions:
@@ -84,13 +89,15 @@ should first write the paper body, then incorporate verified references.
 Alternatively, run it before Phase 3 and include `references_formatted.md` in the
 draft writer's input.
 
-#### Phase 3: Draft Writing (ドラフト作成サブエージェント)
+#### Phase 3: Draft Writing (ドラフト作成サブエージェント — Blind)
 Launch a subagent with the draft-writing skill instructions:
 - **CRITICAL**: This subagent must NOT have access to the original paper
+- **CRITICAL**: This subagent must NOT receive any identifying information (title, authors, journal, DOI, PMCID)
 - Provide ONLY:
-  - `extracted_data_bundle.md`
+  - `extracted_data_bundle.md` (anonymized — no identifying info)
   - `writing-guidelines.md`
   - `references_formatted.md` (verified reference list from Phase 2.5)
+- Do NOT provide `paper_identity.json` or any file from `original/`
 - Save draft to `papers/iteration_{N}/draft/`
 
 #### Phase 4: Comparison & Skill Refinement (比較・スキル改善サブエージェント)

@@ -146,8 +146,10 @@ The `extracted_data_bundle.md` should follow this structure:
 ```markdown
 # Extracted Paper Data
 
+**IMPORTANT: This bundle has been anonymized. No paper title, author names, journal name, DOI, or other identifiers are included. Write the draft using ONLY the data below.**
+
 ## Study Design
-[study type, outcomes, participants, follow-up]
+[study type, outcomes, participants, follow-up — NO paper title, authors, journal, or identifiers]
 
 ## Results
 [full results text]
@@ -166,6 +168,19 @@ The `extracted_data_bundle.md` should follow this structure:
 [numbered list of references as extracted — to be verified via PubMed]
 ```
 
+A separate `paper_identity.json` file must also be saved (NOT included in the bundle):
+```json
+{
+  "title": "...",
+  "authors": "...",
+  "journal": "...",
+  "doi": "...",
+  "pmcid": "...",
+  "pmid": "...",
+  "year": "..."
+}
+```
+
 ### CRITICAL RULES
 1. Do NOT include the Introduction, Discussion, or Abstract in the extracted data
 2. Do NOT include the authors' interpretation or conclusions
@@ -174,3 +189,13 @@ The `extracted_data_bundle.md` should follow this structure:
 5. **NEW**: Always prefer PDF-extracted table data over text-parsed tables — PDF preserves cell alignment and completeness
 6. **NEW**: When PyMuPDF table extraction fails or is incomplete, use vision (Read tool on page images) as the definitive source
 7. **NEW**: Extract BOTH adjusted and unadjusted effect estimates — never silently omit one
+8. **BLIND**: The `extracted_data_bundle.md` must NOT contain any information that could identify the original paper. Specifically, REMOVE ALL of the following before saving:
+   - Paper title
+   - Author names
+   - Journal name
+   - DOI, PMCID, PMID, or any other identifier
+   - Specific institution names (replace with generic descriptions like "a university hospital" or "a tertiary center")
+   - Named study acronyms that are widely known (e.g., "SCALE study" → "a large-scale pediatric eye study")
+   - Country/region names may be kept ONLY if essential for understanding the study design (e.g., database studies where the healthcare system matters), but should be generalized where possible
+   The purpose is to prevent the draft-writing subagent from identifying the paper and using prior knowledge instead of writing purely from the extracted data. This is the most important rule for ensuring the integrity of the blind writing exercise.
+9. **BLIND**: Save identifying metadata (title, authors, journal, DOI, PMCID) in a SEPARATE file `papers/iteration_{N}/extracted/paper_identity.json` that is NOT included in the bundle and NOT passed to the draft writer. This file is used only by the orchestrator and comparison skill.
