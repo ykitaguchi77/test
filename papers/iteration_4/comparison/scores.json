@@ -1,0 +1,107 @@
+{
+  "iteration": 4,
+  "paper_type": "Cross-sectional study (anti-VEGF injections and optic nerve head parameters)",
+  "date": "2026-03-03",
+  "section_scores": {
+    "abstract": {
+      "accuracy": 10,
+      "completeness": 9,
+      "logic": 9,
+      "readability": 8,
+      "structure": 9,
+      "clinical_relevance": 8,
+      "originality": 8,
+      "notes": "All numerical data correct. Slightly verbose (282 vs 210 words). Good structured format. Includes excess methodological detail better suited for Methods."
+    },
+    "introduction": {
+      "accuracy": 10,
+      "completeness": 8,
+      "logic": 9,
+      "readability": 9,
+      "structure": 9,
+      "clinical_relevance": 8,
+      "originality": 9,
+      "notes": "Well-structured funnel progression. 4 paragraphs vs original's 2. Independent organization. Adds appropriate epidemiological context. Misses some breadth (other VEGF-treated diseases) that was in the original but not the bundle."
+    },
+    "methods": {
+      "accuracy": 10,
+      "completeness": 9,
+      "logic": 9,
+      "readability": 9,
+      "structure": 10,
+      "clinical_relevance": 9,
+      "originality": 9,
+      "notes": "Excellent subsection organization (6 subsections vs 1 block). All methodological details correct. Adds 'spectral-domain' qualifier appropriately. Ethics committee identifier correctly anonymized."
+    },
+    "results": {
+      "accuracy": 10,
+      "completeness": 9,
+      "logic": 9,
+      "readability": 9,
+      "structure": 10,
+      "clinical_relevance": 8,
+      "originality": 8,
+      "notes": "28/28 data points correct. 5 formal tables added (improvement over original's running text). RNFL vs injections table simplified but correctly reflects available data. Strictly descriptive per guidelines."
+    },
+    "discussion": {
+      "accuracy": 9,
+      "completeness": 7,
+      "logic": 9,
+      "readability": 9,
+      "structure": 9,
+      "clinical_relevance": 8,
+      "originality": 8,
+      "notes": "Well-organized thematic subsections. Adds Study Strengths (not in original). Expanded Limitations (5 vs 1). Missing specific study comparisons and VEGF mechanistic detail (extraction-limited). General-knowledge additions are factually accurate but unverifiable from bundle."
+    },
+    "conclusions": {
+      "accuracy": 10,
+      "completeness": 9,
+      "logic": 9,
+      "readability": 9,
+      "structure": 9,
+      "clinical_relevance": 9,
+      "originality": 8,
+      "notes": "More comprehensive than original (130 vs 60 words). Includes actionable clinical recommendation (MRW monitoring). Appropriate call for longitudinal studies."
+    }
+  },
+  "overall_scores": {
+    "accuracy": 10,
+    "completeness": 8,
+    "logic": 9,
+    "readability": 9,
+    "structure": 9,
+    "clinical_relevance": 8,
+    "originality": 8,
+    "overall": 8.9
+  },
+  "numerical_verification": {
+    "total_data_points_checked": 28,
+    "correct": 28,
+    "errors": 0,
+    "accuracy_rate": "100%"
+  },
+  "blind_integrity": {
+    "structural_mirroring": "PASS",
+    "structural_mirroring_detail": "Substantially different organization: 4-para intro vs 2, 6 methods subsections vs 1, tabulated results vs running text, headed discussion subsections vs unheaded paragraphs, added Strengths section",
+    "phrasing_overlap": "PASS",
+    "phrasing_overlap_detail": "0/19 distinctive original phrases found verbatim. Partial overlaps limited to standard academic vocabulary (more sensitive marker, longitudinal studies, warranted)",
+    "knowledge_leakage": "PASS",
+    "knowledge_leakage_detail": "0/18 original-specific Discussion items found in draft. General-knowledge additions (lamina cribrosa, 0.05 mL, >40 mmHg) are NOT in the original paper, confirming independent generation",
+    "verdict": "PASS",
+    "verdict_detail": "No evidence of access to original paper. Structure, phrasing, and knowledge content are independently generated. Draft adds concepts the original does not mention, further confirming independence."
+  },
+  "word_counts": {
+    "original_total": 1698,
+    "draft_total": 2715,
+    "ratio": 1.60
+  },
+  "gaps_identified": 7,
+  "new_rules_generated": 7,
+  "iteration_comparison": {
+    "iter1_overall": 5.2,
+    "iter2_overall": 8.5,
+    "iter3_overall": 8.7,
+    "iter4_overall": 8.9,
+    "trend": "Continued improvement. 100% numerical accuracy maintained for 3rd consecutive iteration. Structural organization is the strongest yet. Remaining ceiling is extraction-limited Discussion depth."
+  }
+}

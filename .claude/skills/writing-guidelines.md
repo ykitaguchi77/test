@@ -5,6 +5,7 @@
 - Iteration 1: Added 15 rules from myopia/ophthalmic clinical services cohort study comparison (2026-03-01)
 - Iteration 2: Added 6 rules from TVC trabeculectomy vs canaloplasty 11-year RCT follow-up (2026-03-01)
 - Iteration 3: Added 9 rules from DR-AMD Taiwan NHIRD retrospective cohort study (2026-03-02)
+- Iteration 4: Added 7 rules from anti-VEGF intravitreal injections and optic nerve head parameters cross-sectional study (2026-03-03)
 
 ## Structural Rules
 1. Follow IMRAD structure: Introduction, Methods, Results, And Discussion
@@ -20,6 +21,8 @@
 11. **[Iter2]** For Kaplan-Meier survival analyses, describe censoring criteria and include number-at-risk at key time points in figure legends when this information is available in the source.
 12. **[Iter3]** For database/claims studies, create a dedicated "Outcome Definition" subsection in Methods that explicitly lists all ICD codes used, the rationale for code selection, and how codes map to clinical entities. This enhances reproducibility and transparency.
 13. **[Iter3]** When Table 1 data is incomplete (exact percentages unavailable), use directional indicators ("Significantly higher," "Matched") with p-values rather than leaving cells empty or fabricating values. Acknowledge the limitation in a table footnote.
+14. **[Iter4]** Keep the Abstract to 200-250 words. Include only essential elements: study design, sample size, primary outcomes, key instrument, and principal results. Reserve treatment protocol specifics (regimen type, paracentesis details), software version numbers, and sector enumeration for the Methods section.
+15. **[Iter4]** Aim for the draft to be within 130-150% of the typical word count for the study type and journal. If the draft significantly exceeds this range, systematically review each section for redundant phrasing, repetitive concepts, and speculative content that could be consolidated.
 
 ## Content Rules
 1. Introduction should establish clinical significance with epidemiological data
@@ -38,6 +41,9 @@
 14. **[Iter3]** For population-based database studies, the Discussion must include a paragraph specifically addressing surveillance/detection bias -- the possibility that the exposed group receives more frequent clinical encounters leading to higher detection of the outcome. This is a critical methodological consideration for claims-based research.
 15. **[Iter3]** When comparing outcome subtypes (e.g., AMD subtypes), explicitly discuss biological plausibility for differential associations using shared pathogenic mechanisms (e.g., VEGF pathways for exudative AMD vs. DR neovascularization).
 16. **[Iter3]** Include at least one quantitative comparison with prior literature in the Discussion (e.g., "A prior study reported HR 3.89 for nonexudative AMD"). Do not fabricate study details but reference verified findings from the search.
+17. **[Iter4]** When introducing clinical facts from general field knowledge not present in the extracted data bundle, use hedging language and [REF] placeholders. Avoid citing specific numerical values from memory (e.g., ">40 mmHg," "0.05 mL") without a verifiable source. Prefer qualitative descriptions unless a cited source supports the number.
+18. **[Iter4]** When specific study references are unavailable, organize Discussion literature comparisons by study design type, population characteristics, and finding direction (e.g., "The majority of cross-sectional studies in treatment-experienced patients found no RNFL reduction") rather than using vague "some studies" or "several studies" phrasing.
+19. **[Iter4]** When a primary outcome shows a null result, the Discussion must explicitly address whether the exposure level in the study cohort (e.g., mean injection count, treatment duration) may be below a threshold needed to detect the effect. This is standard dose-response reasoning and strengthens the interpretation.
 
 ## Style Rules
 1. Use formal academic English throughout
@@ -76,6 +82,8 @@
 11. **[Iter1]** CRITICAL: Never fabricate or generate references. Only include citations that are explicitly present in and extractable from the source paper. If the reference list is unavailable, acknowledge this limitation rather than generating plausible-looking citations.
 12. **[Iter3]** For matched cohort studies, explicitly report both the matching variables (confirming balance via p-values) AND the unmatched covariates (showing where imbalances exist) in the baseline characteristics description. This dual reporting clarifies which confounders required statistical adjustment versus those controlled by design.
 13. **[Iter3]** When unadjusted hazard ratios are available in the source but adjusted HRs are the primary result, report BOTH to show the impact of confounding adjustment. If unadjusted HRs are unavailable from extraction, note this explicitly rather than silently omitting them.
+14. **[Iter4]** When tabulated results are incomplete for certain analyses (e.g., sector-level p-values available for one outcome but not another), include an explicit table footnote explaining the scope of available data rather than using summary rows that obscure the distinction between "not significant" and "not reported."
+15. **[Iter4]** In the Study Strengths subsection, state methodological facts without evaluative adjectives or inferred quality claims. Write what was done (e.g., "Manual correction of segmentation errors was performed by a trained physician") rather than what it achieves (e.g., "enhances the reliability and accuracy"). Let the reader draw the quality inference.
 
 ## Lessons Learned
 ### Iteration 1 (Myopia/Ophthalmic Services Cohort Study)
@@ -122,3 +130,18 @@
 3. No formal numbered reference list -- Discussion references studies by description only, limiting scholarly completeness
 
 **Meta-lesson**: The pipeline now reliably produces 100% numerically accurate drafts across different study types (RCT follow-up in Iter2, retrospective cohort in Iter3). The ceiling on improvement is primarily determined by extraction completeness rather than drafting quality. Key advances in Iter3: (1) structured abstracts with quantitative results, (2) deeper Discussion with verified international comparisons, (3) surveillance bias addressed for database studies. The 9 new rules focus on database/claims study-specific considerations that were not covered by Iter1-2 rules, which were oriented toward prospective/screening studies and RCTs.
+
+### Iteration 4 (Anti-VEGF Injections and Optic Nerve Head Parameters Cross-Sectional Study)
+**Key finding**: The draft scored 8.9/10 overall, continuing the upward trend (5.2 -> 8.5 -> 8.7 -> 8.9). Numerical accuracy remained at 100% (28/28 data points verified correct). First iteration with blind integrity testing: PASS.
+
+**Top 3 Strengths of Draft:**
+1. Perfect numerical accuracy (28/28 verified data points correct) -- maintains 100% accuracy streak for the 3rd consecutive iteration across a new study design (cross-sectional)
+2. Superior structural organization compared to original: 6 Methods subsections, 5 formal tables in Results, and themed Discussion subsections with clear headings improve readability significantly
+3. Clean blind integrity: zero knowledge leakage (0/18 original-specific items), zero verbatim phrase overlap (0/19 phrases tested), and substantially different organizational structure from original
+
+**Top 3 Weaknesses:**
+1. Limited Discussion depth -- unable to match the original's specific literature comparisons (5+ named studies) and VEGF mechanistic detail because these were not in the extracted data bundle (extraction-limited gap)
+2. General-knowledge additions (lamina cribrosa, 0.05 mL bolus, >40 mmHg IOP spikes) are factually accurate but introduce unverifiable numerical claims that carry risk if wrong
+3. Verbosity (60% longer than original at 2715 vs 1698 words) -- some sections could be more concise, particularly the Abstract (282 vs 210 words) and Conclusions (130 vs 60 words)
+
+**Meta-lesson**: This is the first iteration using blind writing with anonymized data bundles. The draft writer successfully produced an independently structured paper with no evidence of accessing the original. The key remaining improvement areas are: (1) controlling general-knowledge numerical claims that lack citations, (2) structuring literature comparisons more specifically even without named references, and (3) maintaining conciseness. The 7 new rules address these gaps. The overall pipeline now consistently produces high-quality, numerically accurate drafts across 4 different study designs (cohort, RCT follow-up, retrospective database, cross-sectional).
