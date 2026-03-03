@@ -157,7 +157,7 @@ The relationship between intravitreal anti-VEGF therapy and optic nerve head int
 
 ### Mechanisms and Clinical Implications
 
-The mechanism underlying the association between cumulative anti-VEGF injections and MRW reduction may involve repeated episodes of transient IOP elevation causing subclinical mechanical stress on the lamina cribrosa and adjacent neuroretinal rim tissue. Each intravitreal injection introduces approximately 0.05 mL of fluid into the vitreous cavity, which can cause IOP spikes exceeding 40 mmHg in the immediate post-injection period [8,9]. While these episodes are typically self-limited, their cumulative effect over multiple injections spanning several years could plausibly contribute to structural remodeling of the optic nerve head tissues. This is of particular clinical relevance given the advanced age of the study population (mean 83.4 years), as aging is independently associated with reduced optic nerve head resilience to mechanical stress [3,4]. These findings suggest that clinicians managing patients on long-term anti-VEGF therapy should consider incorporating MRW monitoring into their routine follow-up protocols, particularly in patients who have received a large cumulative number of injections.
+The mechanism underlying the association between cumulative anti-VEGF injections and MRW reduction may involve repeated episodes of transient IOP elevation causing subclinical mechanical stress on the lamina cribrosa and adjacent neuroretinal rim tissue. Each intravitreal injection introduces approximately 0.05 mL of fluid into the vitreous cavity, which can cause IOP spikes exceeding 40 mmHg in the immediate post-injection period [8,9]. While these episodes are typically self-limited, their cumulative effect over multiple injections spanning several years could plausibly contribute to structural remodeling of the optic nerve head tissues. This is of particular clinical relevance given the advanced age of the study population (mean 83.4 years), as aging is independently associated with reduced optic nerve head resilience to mechanical stress [18,23]. These findings suggest that clinicians managing patients on long-term anti-VEGF therapy should consider incorporating MRW monitoring into their routine follow-up protocols, particularly in patients who have received a large cumulative number of injections.
 
 ### Study Strengths
 
@@ -220,6 +220,8 @@ In this cross-sectional study of 66 eyes with nAMD, cumulative intravitreal anti
 [21] Soheilian M, Karimi S, Montahae T, Nikkhah H, Mosavi SA. Effects of intravitreal injection of bevacizumab with or without anterior chamber paracentesis on intraocular pressure and peripapillary retinal nerve fiber layer thickness: a prospective study. Graefes Arch Clin Exp Ophthalmol. 2017;255(9):1705-1712. doi:10.1007/s00417-017-3702-1. PMID: 28616715.
 
 [22] Boltz A, Spoettl T, Huf W, Weingessel B, Vecsei-Marlovits VP. Effect of intravitreal injections due to neovascular age-related macular degeneration on retinal nerve fiber layer thickness and minimum rim width: a cross sectional study. BMC Ophthalmol. 2024;24(1):185. doi:10.1186/s12886-024-03453-2. PMID: 38654214.
+
+[23] Downs JC. Optic nerve head biomechanics in aging and disease. Exp Eye Res. 2015;133:19-29. doi:10.1016/j.exer.2015.02.011. PMID: 25819451.
 
 ---
 
