@@ -1,0 +1,57 @@
+{
+  "pmcid": "PMC11913762",
+  "pmid": "39161063",
+  "doi": "10.1111/php.14016",
+  "title": "Interventional human ocular safety experiments for 222-nm far-ultraviolet-C lamp irradiation",
+  "authors": [
+    {
+      "first_name": "Kazunobu",
+      "last_name": "Sugihara",
+      "affiliation": "Department of Ophthalmology, Shimane University Faculty of Medicine, Izumo, Japan"
+    },
+    {
+      "first_name": "Sachiko",
+      "last_name": "Kaidzu",
+      "affiliation": "Department of Ophthalmology, Shimane University Faculty of Medicine, Izumo, Japan"
+    },
+    {
+      "first_name": "Masahiro",
+      "last_name": "Sasaki",
+      "affiliation": "Ushio Inc., Tokyo, Japan"
+    },
+    {
+      "first_name": "Masaki",
+      "last_name": "Tanito",
+      "affiliation": "Department of Ophthalmology, Shimane University Faculty of Medicine, Izumo, Japan"
+    }
+  ],
+  "journal": "Photochemistry and Photobiology",
+  "journal_abbreviation": "Photochem Photobiol",
+  "publication_date": "2025-03-01",
+  "epub_date": "2024-08-19",
+  "volume": "101",
+  "issue": "2",
+  "pages": "517-526",
+  "year": 2025,
+  "study_type": "Prospective interventional study",
+  "keywords": [
+    "222-nm far-ultraviolet-C",
+    "far-UVC",
+    "ocular safety",
+    "photokeratitis",
+    "germicidal irradiation",
+    "KrCl excimer lamp",
+    "corneal erosion",
+    "corneal endothelial cell density",
+    "interventional study"
+  ],
+  "funding": "Contract research funded by Ushio Inc. to Shimane University",
+  "ethics": {
+    "irb_number": "20201130-1",
+    "irb_institution": "Shimane University Hospital",
+    "approval_date": "2020-12-28",
+    "clinical_trial_registration": "UMIN000042867"
+  },
+  "license": "CC-BY 4.0",
+  "open_access": true
+}

@@ -1,0 +1,243 @@
+================================================================================
+Interventional human ocular safety experiments for 222-nm far-ultraviolet-C
+lamp irradiation
+================================================================================
+
+Journal: Photochemistry and Photobiology
+Year: 2025
+Volume: 101, Issue: 2, Pages: 517-526
+Published: March 2025 (Epub: August 19, 2024)
+DOI: 10.1111/php.14016
+PMCID: PMC11913762
+PMID: 39161063
+
+Authors:
+  Kazunobu Sugihara (1), Sachiko Kaidzu (1), Masahiro Sasaki (2), Masaki Tanito (1)
+
+Affiliations:
+  1. Department of Ophthalmology, Shimane University Faculty of Medicine, Izumo, Japan
+  2. Ushio Inc., Tokyo, Japan
+
+Correspondence: Masaki Tanito, Department of Ophthalmology, Shimane University
+Faculty of Medicine, 89-1 Enya, Izumo, Shimane 693-8501, Japan.
+Email: mtanito@med.shimane-u.ac.jp
+
+Article Type: Research Article (Open Access, CC-BY 4.0)
+
+Abbreviations: ACGIH, The American Conference of Governmental Industrial Hygienists;
+BCVA, best-corrected visual acuity; CECD, corneal endothelial cell density;
+KrBr, krypton-bromide; KrCl, krypton-chloride; SERE, spherical equivalent refractive
+error; SPK, superficial punctate keratopathy; TLV, threshold limit value;
+UV, ultraviolet; UVGI, ultraviolet germicidal irradiation.
+
+================================================================================
+
+== ABSTRACT ==
+
+The study aimed to directly assess the ocular safety of 222-nm far-ultraviolet-C (UVC) irradiation in humans, given the limited clinical trials in this area. This wavelength offers the potential for safe and effective microbial inactivation in occupied spaces, but its safety profile for human eyes requires thorough investigation. This prospective, interventional study involved five subjects aged 29-47 years, who were exposed to 222-nm UVC at doses of 22, 50, and 75 mJ/cm2. The subjects were monitored using custom-made glasses with a UV-cut filter on one eye to serve as a control. UVC irradiation was conducted using a KrCl excimer lamp, and ocular examinations were performed prior to exposure, 24 h post-exposure, and at 1, 3, and 6 months. Parameters assessed included visual acuity, refractive error, corneal endothelial density, corneal erosion scores, and conjunctival hyperemia scores. The study found no clinically significant photokeratitis or long-term eye damage across the five subjects, even at the highest dose of 75 mJ/cm2. Temporary ocular discomfort, including sensations of dryness and epiphora, was reported, but these symptoms subsided within hours after irradiation. The findings indicate that 222-nm far-UVC irradiation up to 75 mJ/cm2 does not cause "clinically significant photokeratitis" or long-term ocular damage, though it may induce temporary discomfort. This supports the safe use of 222-nm UVC for germicidal applications in occupied environments, providing a basis for revised safety guidelines.
+
+Keywords: 222-nm excimer lamp, erythema, health hazard, photokeratitis, ultraviolet germicidal irradiation (UVGI)
+
+================================================================================
+
+== INTRODUCTION ==
+
+Ultraviolet (UV) radiation spans wavelengths from 100 to 400 nm, categorized into UVC (100-280 nm), UV-B (280-315 nm), and UV-A (315-400 nm). Previous research has indicated that exposure to longer UV wavelengths, such as UV-B and UV-A, can cause biological effects like photokeratitis and corneal opacity, as well as chronic conditions such as pterygium, droplet keratopathies, and cortical cataract. While UVC has a potent germicidal effect on viruses and bacteria, its traditional use in human-occupied spaces is limited to unoccupied areas like the upper room air to avoid direct exposure, which could potentially cause skin erythema and photokeratitis.
+
+Recently, shorter-wavelength ultraviolet germicidal irradiation (UVGI) sources, such as krypton-bromide (KrBr) and krypton-chloride (KrCl) excimer lamps emitting at 207 and 222 nm, respectively, have gained attention for their ability to provide full-room irradiation that is considered safe for humans while effectively inactivating microbes. Animal studies have demonstrated that the UV penetration depth in the rat corneal epithelium strongly depends on the wavelength. Far-UVC wavelengths like 207 and 222 nm only penetrate to the superficial cellular layers of the corneal epithelium, which are shed within approximately 24 h due to the natural turnover cycle. This minimal penetration and rapid turnover are likely reasons for the reduced hazard of Far-UVC. A 1-year prospective observation in a hospital outpatient clinic showed that a full-room UVGI setting with 222-nm lamp units caused no acute or chronic health effects in subjects while effectively inactivating bacteria and phages in the room.
+
+The American Conference of Governmental Industrial Hygienists (ACGIH) previously set the threshold limit value (TLV) for 222 nm at 22 mJ/cm2 per day, which has now been revised to 160 mJ/cm2 per day. A 50-year-old study determined photokeratitis thresholds for 215-225 nm as 46 mJ/cm2 in rabbits, 21 mJ/cm2 in primates, and 10 mJ/cm2 in humans. Recent research using rat models and high-throughput KrBr and KrCl excimer lamps found that the minimal photokeratitis threshold doses for 207 and 222 nm were 15,000 and 5000 mJ/cm2, respectively. Consequently, the ACGIH's TLV is much lower than the photokeratitis level found in rat experiments but higher than the dose identified in earlier human studies. In pathogen-contaminated environments, a minimum dose of 27 mJ/cm2 of 222-nm UVC was necessary for over 95% germicidal activity against gram-negative and gram-positive bacteria. A dose of 25.1 mJ/cm2 was sufficient for more than 95% virucidal activity against low-pathogenic avian influenza virus and SARS-CoV-2. This study was conducted to confirm the eye safety of far-UVC doses at levels required for UVGI in humans.
+
+================================================================================
+
+== MATERIALS AND METHODS ==
+
+--- Study designs and subjects ---
+
+This prospective, interventional study was conducted at the Department of Ophthalmology, Shimane University Faculty of Medicine. The study adhered to the tenets of the Declaration of Helsinki and Ethical Guidelines for Medical and Health Research Involving Human Subjects in Japan. Prior to the start of study, the protocol was reviewed and approved by the Institutional Review Board of Shimane University Hospital (IRB No.: 20201130-1, approval date December 28, 2020) and registered at the public clinical trial registration site (UMIN000042867). All the subjects provided written informed consent for participation in the study. The inclusion criteria that need to be fulfilled were: an age range of 20-49 years old; the person who can avoid excessive UV exposure (such as outdoor sports, sea swimming, and climbing) within 48 h preceding the experimental UV irradiation and scheduled follow-up visits; decimal best-corrected visual acuities of 0.9 or better in both eyes, and uncorrected visual acuity by both eyes of 0.3 or better (to ensure the possibility to watch movies during UV irradiation); no ocular pathologies that affected visual acuity; and no use of topical eye or facial skin medications. The exclusion criteria were contact lens wearer, engaged in occupations that exposed the subject to UV radiation on a daily basis (e.g., outdoor work and welding), a corneal erosion density score of 2 or higher or a conjunctival hyperemia score of 2 or higher prior to the UV irradiation; dry eye disease, atopic dermatitis, sunlight sensitivity, and current participants of other clinical trials. As a result, this study included five subjects (age range, 29-47 years; mean +/- SD age of 40.0 +/- 7.3 years; 4 males) (Table 1).
+
+--- Settings of UVC irradiation ---
+
+The setting of the UVC irradiation is shown in Figure 1A,B. The TV monitor and sofa were placed so that the distance between the surface of the monitor and the back of the sofa was 196 cm. A mercury-free, KrCl excimer UVC lamp unit (Care222 model U3-Z2, USHIO Inc., Tokyo, Japan) was placed under the TV monitor and adjusted so that the distance between the subject's eyes and the UVC lamp was 200 cm. One camera unit was placed in front of the subject (Camera 1) and one behind the subject (Camera 2) to monitor the irradiation process. The spectral distribution measured by a spectrometer (QE-PRO Ocean Optics, FL, USA) is shown in Figure 2. Each unit emitted a peak wavelength of 222 nm and had a cut-off filter that cut wavelengths longer than 230 nm, and totally cut wavelength longer than 240 nm. The impurity of light wavelength (235-320 nm/200-230 nm) was calculated to be 0.55% for this unit. The housing of the lamp unit was covered by black paper, installed at a height of 40 cm above the floor, and directed to the subject's eye level (Figure 1A). During UVC irradiation, the subjects wore custom-made glasses with no filter on the right side and a UV-cut filter (YS180, Yamamoto Kogaku, Higashi-Osaka, Japan) on the left side (Figure 3A). The spectral transmittance of the left side filter measured by a V-7200 UV-VIS-NIR spectrophotometer (JASCO, Tokyo, Japan) was shown in Figure 3B,C. The filter cut wavelengths shorter than 400 nm, and the transmittance was around 0.3% at 222 nm. Therefore, the right eyes were the irradiated eyes, and the left eyes were the non-irradiated controls in this study.
+
+The right eyes of subjects were irradiated to achieve total irradiation doses of: 22 mJ/cm2 (n=1, study ID=UVC01), 50 mJ/cm2 (n=2, UVC02 and UVC03), or 75 mJ/cm2 (n=2, UVC04 and UVC05) (Table 1). The different irradiation doses were achieved by the changes in irradiation duration (2-, 4-, and 6-h irradiation for 22, 50, and 75 mJ/cm2 irradiation doses, respectively) at the same irradiance (3.1-3.4 microW/cm2). Prior to the irradiation, the irradiance was measured at the subject's eye level behind the transmitting spectacle lens with an ultraviolet irradiance meter (VUV-S172/UIT-250 USHIO INC) by directing the detector to the lamp. During the irradiation, the subjects spent time watching a movie on a TV monitor (91 cm high at the center of the monitor). The subjects were monitored on another TV monitor in a separate room during irradiation using images sent from Cameras 1 and 2 to confirm that they were not dozing or looking away, and to warn them when necessary to view the screen (Figure 4). For the 50 and 75 mJ/cm2 irradiations, a 10-min break was taken after every 2 h of irradiation.
+
+--- Scheduled examinations ---
+
+For the acquisition of ocular safety profiles, the participants were examined within 1 week prior to the irradiation (for baselines), at 24 h after the start of irradiation (for 1 day), and at 1, 3, and 6 months after the irradiation. In each examination, bilateral best-corrected visual acuity (BCVA), spherical equivalent refractive error (SERE), slit lamp examination findings, corneal endothelial cell density (CECD), subjective symptoms, and any other potentially adverse events were recorded. Measurements of SERE and CECD were omitted in the first-day examination. Visual acuity was measured using a decimal visual acuity chart. SERE was measured by using an autorefract-keratometer (TonoRef III, Nidek, Gamagori, Japan). A slit lamp examination using a slit lamp microscope 4ZL (Takagi, Nagano, Japan) was used to obtain a corneal erosion score, conjunctival hyperemia score, and presence or absence of pterygium or cataract. The slit lamp microscope was also used to record any potential lid skin changes (erythema, increase or decrease in pigmentation). Lid skin change was assessed with 6.3x magnification (Figure 5A-E), and the other signs were assessed with 10x magnification (Figure 5F-P). For assessment of corneal erosion, the ocular surface was stained with a sodium-fluorescein solution for observation under a blue light (Figure 5K-P). For assessment of cataract, both thin slit-beam and diffuse lights were used for observation (Figure 5F-J), while the other examinations were observed with diffuse light (Figure 5A-E,K-P). Corneal erosion was scored in each area (0-3; 0, no punctate staining; 1, staining area occupied less than one third of the cornea; 2, staining area occupied one to two thirds of the cornea; and 3, the staining area occupied greater than two thirds of the cornea.) and the presence (density, 0-3; 0, no staining; 1, sparse density; 2, moderate density; and 3, high density and overlapped lesion by reference to standard photographs) of superficial punctate keratopathy (SPK). Scoring of conjunctival hyperemia was determined based on the Japanese Guidelines for Allergic Conjunctival Disease 2020; where a score 0 = no manifestation, a score 1 = dilation of several vessels, a score 2 = dilation of many vessels, and a score 3 = impossible to distinguish individual blood vessels. CECD was measured using a specular microscope (EM-3000; Tomey Corporation, Nagoya, Japan). All the examinations/measurements were performed by an experienced ophthalmologist (K.S.) and orthoptists.
+
+To ensure the safety of the subjects, exposures were delivered stepwise, such that the 50 mJ/cm2 irradiation was performed only after confirming that no significant ocular damage (i.e., corneal erosion density score of 3) causally related to the irradiation had occurred by 1 month following the 22 mJ/cm2 irradiation. Similarly, a 75 mJ/cm2 irradiation was only performed after confirming that no significant ocular damage causally related to the irradiation had occurred 3 months after the 22 mJ/cm2 irradiation or 1 month after the 50 mJ/cm2 irradiation.
+
+================================================================================
+
+== RESULTS ==
+
+The results are summarized in Table 2. During the follow-up period from 1 day to 6 months after the irradiation, the safety indices including VA, SERE, corneal erosion area and density scores, conjunctival hyperemia score, and CECD did not change for both eyes of the five subjects. During the same period, pterygium, cataract and face skin change were not detected for any of the five subjects.
+
+Subject-reported events within 24 h of the start of irradiation, as reported in interviews during Day 1 observations, were summarized in Table 3. From the subjects, epiphora sensation, dry eye sensation, epiphora, eye discomfort, conjunctival hyperemia, and mild pain were reported. All reports were for the right eye, and these events started 2-2.5 h after the start of irradiation and disappeared 4.5-11 h after the start of irradiation. No events were reported for the left eye.
+
+--- Table 1: Summary of subjects ---
+
+| Subject ID | UVC01 | UVC02 | UVC03 | UVC04 | UVC05 |
+|---|---|---|---|---|---|
+| Age | 37 | 46 | 29 | 47 | 41 |
+| Gender | Female | Male | Male | Male | Male |
+| Total irradiation dose (Right eye), mJ/cm2 | 22 | 50 | 50 | 75 | 75 |
+| Total irradiation dose (Left eye), mJ/cm2 | 0 | 0 | 0 | 0 | 0 |
+| Irradiance (Right eye), microW/cm2 | 3.1-3.4 | 3.1-3.4 | 3.1-3.4 | 3.1-3.4 | 3.1-3.4 |
+| Irradiance (Left eye), microW/cm2 | 0 | 0 | 0 | 0 | 0 |
+| Irradiation time, h | 2 | 4 | 4 | 6 | 6 |
+
+--- Table 2: Summary of results ---
+
+Subject ID: UVC01 (Right eye: 22 mJ/cm2, Left eye: control)
+| Parameter | Baseline R/L | 1D R/L | 1M R/L | 3M R/L | 6M R/L |
+|---|---|---|---|---|---|
+| Corrected VA, decimal | 1.2/1.2 | -/- | 1.2/1.2 | 1.2/1.2 | 1.2/1.2 |
+| SERE, D | -3.625/-4.25 | -/- | -3/-3.5 | -3/-3.375 | -3.875/-4 |
+| Corneal erosion area score | 1/1 | 1/1 | 1/2 | 0/0 | 0/0 |
+| Corneal erosion density score | 1/1 | 1/1 | 1/1 | 0/0 | 0/0 |
+| Conjunctival hyperemia score | 0/0 | 0/0 | 0/0 | 0/0 | 0/0 |
+| CECD, cells/mm2 | 2733/2642 | -/- | 2701/2880 | 3050/2916 | 2670/2881 |
+| Pterygium | NR | NR | NR | NR | NR |
+| Cataract | NR | NR | NR | NR | NR |
+| Face skin change | NR | NR | NR | NR | NR |
+
+Subject ID: UVC02 (Right eye: 50 mJ/cm2, Left eye: control)
+| Parameter | Baseline R/L | 1D R/L | 1M R/L | 3M R/L | 6M R/L |
+|---|---|---|---|---|---|
+| Corrected VA, decimal | 1.2/1.2 | -/- | 1.2/1.2 | 1.5/1.5 | 1.2/1.2 |
+| SERE, D | 0/-0.125 | -/- | -0.25/-0.25 | +0.125/+0.125 | 0/+0.25 |
+| Corneal erosion area score | 0/0 | 0/0 | 0/0 | 0/0 | 0/0 |
+| Corneal erosion density score | 0/0 | 0/0 | 0/0 | 0/0 | 0/0 |
+| Conjunctival hyperemia score | 0/0 | 0/0 | 0/0 | 0/0 | 0/0 |
+| CECD, cells/mm2 | 2967/2974 | -/- | 2799/2791 | 3006/2819 | 2987/2849 |
+| Pterygium | NR | NR | NR | NR | NR |
+| Cataract | NR | NR | NR | NR | NR |
+| Face skin change | NR | NR | NR | NR | NR |
+
+Subject ID: UVC03 (Right eye: 50 mJ/cm2, Left eye: control)
+| Parameter | Baseline R/L | 1D R/L | 1M R/L | 3M R/L | 6M R/L |
+|---|---|---|---|---|---|
+| Corrected VA, decimal | 1.2/1.2 | -/- | 1.2/1.2 | 2/1.5 | 1.2/1.2 |
+| SERE, D | +0.125/+0.125 | -/- | +0.125/+0.125 | +0.125/0 | -0.125/0 |
+| Corneal erosion area score | 1/1 | 1/1 | 1/1 | 0/0 | 1/1 |
+| Corneal erosion density score | 1/1 | 1/1 | 1/1 | 0/0 | 1/1 |
+| Conjunctival hyperemia score | 0/0 | 0/0 | 0/0 | 0/0 | 0/0 |
+| CECD, cells/mm2 | 2586/2737 | -/- | 2668/2602 | 2700/2780 | 2783/2732 |
+| Pterygium | NR | NR | NR | NR | NR |
+| Cataract | NR | NR | NR | NR | NR |
+| Face skin change | NR | NR | NR | NR | NR |
+
+Subject ID: UVC04 (Right eye: 75 mJ/cm2, Left eye: control)
+| Parameter | Baseline R/L | 1D R/L | 1M R/L | 3M R/L | 6M R/L |
+|---|---|---|---|---|---|
+| Corrected VA, decimal | 1.5/1.5 | -/- | 1.2/1.2 | 1.2/1.2 | 1.5/1.5 |
+| SERE, D | -0.625/-0.625 | -/- | -0.5/-0.625 | -0.25/-0.25 | -0.125/0 |
+| Corneal erosion area score | 0/0 | 1/0 | 0/0 | 0/0 | 0/0 |
+| Corneal erosion density score | 0/0 | 1/0 | 0/0 | 0/0 | 0/0 |
+| Conjunctival hyperemia score | 0/0 | 0/0 | 0/0 | 0/0 | 0/0 |
+| CECD, cells/mm2 | 2726/2748 | -/- | 2892/2811 | 2651/2624 | 2806/2740 |
+| Pterygium | NR | NR | NR | NR | NR |
+| Cataract | NR | NR | NR | NR | NR |
+| Face skin change | NR | NR | NR | NR | NR |
+
+Subject ID: UVC05 (Right eye: 75 mJ/cm2, Left eye: control)
+| Parameter | Baseline R/L | 1D R/L | 1M R/L | 3M R/L | 6M R/L |
+|---|---|---|---|---|---|
+| Corrected VA, decimal | 1.5/2 | -/- | 1.5/1.5 | 1.2/1.2 | 1.5/1.5 |
+| SERE, D | +0.125/-0.125 | -/- | +0.125/+0.125 | +0.125/0 | +0.375/0 |
+| Corneal erosion area score | 0/1 | 1/1 | 1/1 | 0/0 | 0/1 |
+| Corneal erosion density score | 0/1 | 1/1 | 1/1 | 0/0 | 0/1 |
+| Conjunctival hyperemia score | 0/0 | 0/0 | 0/0 | 0/0 | 0/0 |
+| CECD, cells/mm2 | 2681/2608 | -/- | 2701/2487 | 2823/2745 | 2814/2625 |
+| Pterygium | NR | NR | NR | NR | NR |
+| Cataract | NR | NR | NR | NR | NR |
+| Face skin change | NR | NR | NR | NR | NR |
+
+Note: NR = not reported (i.e., none detected). SERE and CECD measurements were omitted at the 1-day examination. VA was not measured at 1 day for VA chart assessment (only subjective symptoms were assessed at 1D).
+
+--- Table 3: Subject-reported events within 24 h after the start of irradiation ---
+
+| Subject (Dose) | Eye | Events | Events started from start of irradiation | Events lasted from start of irradiation |
+|---|---|---|---|---|
+| UVC01 (22 mJ/cm2) | Right eye | Epiphora sensation | 2.5 h | 4.5 h |
+| UVC01 (22 mJ/cm2) | Left eye | None | - | - |
+| UVC02 (50 mJ/cm2) | Right eye | Dry eye sensation, mild photophobia, and epiphora sensation | 2 h | 7 h |
+| UVC02 (50 mJ/cm2) | Left eye | None | - | - |
+| UVC03 (50 mJ/cm2) | Right eye | Eye discomfort, mild photophobia, epiphora sensation | 3 h | 6 h |
+| UVC03 (50 mJ/cm2) | Left eye | None | - | - |
+| UVC04 (75 mJ/cm2) | Right eye | Mild pain, epiphora, conjunctival hyperemia | 2 h | 11 h |
+| UVC04 (75 mJ/cm2) | Left eye | None | - | - |
+| UVC05 (75 mJ/cm2) | Right eye | Eye discomfort, mild pain, epiphora | 2 h | 10 h |
+| UVC05 (75 mJ/cm2) | Left eye | None | - | - |
+
+--- Figure descriptions ---
+
+Figure 1: Settings of ultraviolet-C (UVC) irradiation. (A) Device setting in front of the subject. (B) Devices setting behind the subject. TV monitor and sofa placed at 196 cm distance, KrCl excimer lamp 200 cm from subject's eyes, two cameras monitoring the irradiation process.
+
+Figure 2: Spectral distribution of the 222-nm far-ultraviolet-C (UVC) lamps used in this study (log10 scale). Peak wavelength at 222 nm with cut-off filter cutting wavelengths longer than 230 nm and totally cutting wavelengths longer than 240 nm.
+
+Figure 3: Custom-made glasses used in this study. (A) Appearance of the glasses with no filter on right side and UV-cut filter on left side. (B) Transmittance of the filter on the left side with maximum y-axis value of 100%. (C) Transmittance of the filter on the left side with maximum y-axis value of 1%. Filter cut wavelengths shorter than 400 nm; transmittance around 0.3% at 222 nm.
+
+Figure 4: Typical monitoring images during irradiation (UVC01). Subject watching TV monitor while being monitored by cameras.
+
+Figure 5: Representative slit lamp photographs of 75 mJ/cm2 irradiated eye (UVC05, right eye). Conditions for observation of lid skin change (A-E), conjunctival hyperemia, pterygium, cataract (F-J), and corneal erosion (K-P). Lid skin change assessed at 6.3x magnification; other signs at 10x magnification. Corneal erosion assessed with sodium-fluorescein staining under blue light.
+
+================================================================================
+
+== DISCUSSION ==
+
+In the present study, dose-controlled far-UVC was irradiated directly to the human eye for check safety profile: no clinically identifiable photokeratitis or facial skin erythema was observed after irradiation with 222 nm lamps from 22 to 75 mJ/cm2. In rat experiments, the minimal threshold dose of photokeratitis was 5000 mJ/cm2; therefore, the present results were well predicted. However, in the earlier human experiments conducted in the 1970s, photokeratitis was reported to be induced at only 10 mJ/cm2.
+
+In those previous human studies, by 9 h after the exposures of 215-225 nm UVC, corneal epithelial debris and an increase in corneal light scattering were induced by 3.6 or 5.5 mJ/cm2 exposure, and corneal epithelial debris, haze, and granulation were observed, along with a decrease in visual acuity. In these experiments by Pitts, a 5000 W xenon-mercury high pressure lamp monochromator was used; and because of its small throughput, his experiments were done with very wide (10 nm full width at half maximum) monochromator bands, which therefore introduced large uncertainties created by the large bandwidth and stray-light (out-of-pass-band) spectral radiant energy. In this study, the eyes of the subjects were carefully observed by ophthalmologists using slit lamps and other examination instruments. Considering the results of this study, the threshold for clinically detectable photokeratitis is likely to be higher than 75 mJ/cm2 as long as well-filtered lamps that currently can be used for UVGI are employed.
+
+No photokeratitis was observed after the first day of irradiation (i.e., 24 h after the start of irradiation). However, all five subjects reported subjective symptoms that started during or immediately after irradiation, although they did not report visual acuity reduction. These were all symptoms in the right eye and were not reported in the left eye wearing the filter spectacles. Therefore, these symptoms are considered to be a direct effect of UVC irradiation. The human corneal epithelium has five to seven cell layers and an accepted central thickness of approximately 50 to 52 micrometers; this thickness is approximately one tenth of the total corneal thickness. In rat experiments, 222 nm UVC was only able to penetrate one cell layer of the topmost surface layer of the corneal epithelium and no UV penetration was observed into the germinative cells in the base of the corneal limbus. This is well explained by the other report that the irradiance of far-UVC such as 207 nm radiant energy was reduced by half in about 0.3 micrometers of tissue. The corneal epithelium is a highly active, self-renewing layer; a complete turnover occurs in approximately 5 to 7 days. The typical lifetime of corneal surface cells is about 48 h, so they serve as "sacrificial" surface cells soon to be sloughed off in the normal corneal epithelial life cycle to act as a protective shield for the underlying corneal epithelium. Human tear fluid transmits 222 nm UVCs by 90%, although the data were obtained from collected tear fluid and not from the normal tear film. We therefore believe that the influence of the tear fluid was minimal. Corneal pain is perceived by the trigeminal nerve, whose terminals are distributed in the corneal epithelial cell layer as intraepithelial terminals. Therefore, some findings, at least findings of conjunctival hyperemia and/or increase in tear meniscus height, could have been observed if observations were made before 24 h. In rat experiments, cyclobutane pyrimidine dimer formation was observed in the most superficial layer of the corneal epithelium within a few minutes after the start of 222 nm irradiation. However, this change was not accompanied by an obvious loss of corneal epithelium. As corneal fluorescein staining is a test to detect areas of epithelial defects, it is possible that corneal erosions would not have been detected if the test was performed when the patient was symptomatic. This point will be clarified in another clinical study currently planned.
+
+As UV damage to the eyes and skin is known to be fluence-dependent, eye and skin safety, including ACGIH TLVs, are set at total irradiation dose. In mannequin studies, it has been calculated that in full-room UVGI settings, the amount of UV radiation incident on the eyes is about 5.8% of the UV dose set for the space. In the real world, the irradiance incident on the eye may vary further because people move. The effects of short periods of UV irradiation should also be clarified in such situations; additional studies on irradiance-dependent eye and skin damage are warranted, as little is known about it.
+
+In conclusion, direct irradiation of the eyes with 222 nm far-UVC up to 75 mJ/cm2 delivered at an irradiance of 3.1-3.4 microW/cm2 does not induce "clinically significant photokeratitis," such as that associated with SPK, nor long-term eye and skin damage. However, it may induce ocular discomfort and tearing sensations that disappear after a short period of time.
+
+================================================================================
+
+== ACKNOWLEDGMENTS ==
+
+We appreciate the helpful suggestions on conducting the studies and the valuable comments on this manuscript provided by Dr. David H. Sliney and Mr. Tatushi Igarashi.
+
+== CONFLICT OF INTEREST STATEMENT ==
+
+This study was conducted as contract research funded by Ushio Inc. to Shimane University. The equipment used for irradiation was provided by Ushio Inc. MT and SK were supported by an unrestricted research donation from Ushio Inc. MS is an employee of Ushio Inc.
+
+================================================================================
+
+== REFERENCES ==
+
+1. Tanito M, Takanashi T, Kaidzu S, Yoshida Y, Ohira A. Cytoprotective effects of rebamipide and carteolol hydrochloride against ultraviolet B-induced corneal damage in mice. Invest Ophthalmol Vis Sci. 2003;44:2980-2985.
+2. Sasaki H, Kawakami Y, Ono M, et al. Localization of cortical cataract in subjects of diverse races and latitude. Invest Ophthalmol Vis Sci. 2003;44:4210-4214.
+3. Zhou WP, Zhu YF, Zhang B, Qiu WY, Yao YF. The role of ultraviolet radiation in the pathogenesis of pterygia (review). Mol Med Rep. 2016;14:3-15.
+4. Taylor W, Camilleri E, Craft DL, et al. DNA damage kills bacterial spores and cells exposed to 222-nanometer UV radiation. Appl Environ Microbiol. 2020;86:e03039-19.
+5. Sliney DH, Stuck BE. A need to revise human exposure limits for ultraviolet UV-C radiation. Photochem Photobiol. 2021;97:485-492.
+6. Welch D, Aquino de Muro M, Buonanno M, Brenner DJ. Wavelength-dependent DNA Photodamage in a 3-D human skin model over the far-UVC and germicidal UVC wavelength ranges from 215 to 255 nm. Photochem Photobiol. 2022;98:1167-1171.
+7. Buonanno M, Ponnaiya B, Welch D, et al. Germicidal efficacy and mammalian skin safety of 222-nm UV light. Radiat Res. 2017;187:483-491.
+8. Buonanno M, Stanislauskas M, Ponnaiya B, et al. 207-nm UV light-a promising tool for safe low-cost reduction of surgical site infections. II: in-vivo safety studies. PLoS One. 2016;11:e0138418.
+9. Eadie E, Hiwar W, Fletcher L, et al. Far-UVC (222 nm) efficiently inactivates an airborne pathogen in a room-sized chamber. Sci Rep. 2022;12:4373.
+10. Gorlitz M, Justen L, Rochette PJ, et al. Assessing the safety of new germicidal far-UVC technologies. Photochem Photobiol. 2023;100:501-520.
+11. Yamano N, Kunisada M, Kaidzu S, et al. Long-term effects of 222-nm ultraviolet radiation C sterilizing lamps on mice susceptible to ultraviolet radiation. Photochem Photobiol. 2020;96:853-862.
+12. Kaidzu S, Sugihara K, Sasaki M, Nishiaki A, Igarashi T, Tanito M. Evaluation of acute corneal damage induced by 222-nm and 254-nm ultraviolet light in Sprague-Dawley rats. Free Radic Res. 2019;53:611-617.
+13. Kaidzu S, Sugihara K, Sasaki M, et al. Re-evaluation of rat corneal damage by short-wavelength UV revealed extremely less hazardous property of far-UV-C. Photochem Photobiol. 2021;97:505-516.
+14. Kaidzu S, Sugihara K, Sasaki M, et al. Safety evaluation of far-UV-C irradiation to epithelial basal cells in the corneal limbus. Photochem Photobiol. 2023;99:1142-1148.
+15. Sugihara K, Kaidzu S, Sasaki M, et al. One-year ocular safety observation of workers and estimations of microorganism inactivation efficacy in the room irradiated with 222-nm far ultraviolet-C lamps. Photochem Photobiol. 2023;99:967-974.
+16. American Conference of Governmental Industrial Hygienists (ACGIH). Ultraviolet Radiation: TLV(R) Physical Agents Documentation, Notice of Intended Change. ACGIH; 2020.
+17. American Conference of Governmental Industrial Hygienists (ACGIH). 2021 Threshold Limit Values and Biological Exposure Indices. ACGIH; 2021.
+18. Pitts DG. The ocular ultraviolet action spectrum and protection criteria. Health Phys. 1973;25:559-566.
+19. Song BM, Lee GH, Han HJ, et al. Ultraviolet-C light at 222 nm has a high disinfecting spectrum in environments contaminated by infectious pathogens, including SARS-CoV-2. PLoS One. 2023;18:e0294427.
+20. Miyata K, Amano S, Sawa M, Nishida T. A novel grading method for superficial punctate keratopathy magnitude and its correlation with corneal epithelial permeability. Arch Ophthalmol. 2003;121:1537-1539.
+21. Miyazaki D, Takamura E, Uchio E, et al. Japanese guidelines for allergic conjunctival diseases 2020. Allergol Int. 2020;69:346-355.
+22. Pitts DG. The human ultraviolet action spectrum. Am J Optom Physiol Opt. 1974;51:946-960.
+23. Hogan MJ. Histology of the Human Eye: An Atlas and Textbook. Saunders; 1971:187.
+24. Abtahi MA, Beheshtnejad AH, Latifi G, et al. Corneal epithelial thickness mapping: a major review. J Ophthalmol. 2024;2024:6674747.
+25. Hanna C, O'Brien JE. Cell production and migration in the epithelial layer of the cornea. Arch Ophthalmol. 1960;64:536-539.
+26. Michalos P, Avila EN, Florakis GJ, Hersh PS. Do human tears absorb ultraviolet light? CLAO J. 1994;20:192-193.
+27. Marfurt CF, Cox J, Deek S, Dvorscak L. Anatomy of the human corneal innervation. Exp Eye Res. 2010;90:478-492.
+28. Kowalewski A, Forde NR. Fluence-dependent degradation of fibrillar type I collagen by 222 nm far-UVC radiation. PLoS One. 2024;19:e0292298.
+29. Duncan MA, Welch D, Shuryak I, Brenner DJ. Ocular and facial far-UVC doses from ceiling-mounted 222 nm far-UVC fixtures. Photochem Photobiol. 2023;99:160-167.
