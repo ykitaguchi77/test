@@ -1,0 +1,70 @@
+{
+  "iteration": 8,
+  "paper_type": "Prospective interventional study (far-UVC ocular safety)",
+  "scores": {
+    "accuracy": 9,
+    "completeness": 6,
+    "logic": 9,
+    "readability": 9,
+    "structure": 9,
+    "clinical_relevance": 8,
+    "originality": 9,
+    "conciseness": 7,
+    "clinical_actionability": 9,
+    "overall": 8.3
+  },
+  "word_counts": {
+    "original_total": 5132,
+    "draft_total": 4909,
+    "original_prose_only": 3100,
+    "draft_prose_only": 3035,
+    "word_count_ratio_total": 0.96,
+    "word_count_ratio_prose": 0.98
+  },
+  "section_word_counts": {
+    "abstract": { "original": 241, "draft": 300, "ratio": 1.24 },
+    "introduction": { "original": 421, "draft": 387, "ratio": 0.92 },
+    "methods": { "original": 1221, "draft": 619, "ratio": 0.51 },
+    "results": { "original": 1551, "draft": 1791, "ratio": 1.15 },
+    "discussion_conclusions": { "original": 800, "draft": 1147, "ratio": 1.43 }
+  },
+  "numerical_accuracy": {
+    "total_verified": 88,
+    "correct": 88,
+    "errors": 0,
+    "accuracy_rate": 1.0,
+    "note": "All 88 verified data points correct. One minor discrepancy (symptom onset range 2-2.5h original text vs 2-3h draft) where draft more accurately reflects tabular data."
+  },
+  "blind_integrity": {
+    "verdict": "PASS",
+    "structural_mirroring": false,
+    "phrasing_overlap_count": 0,
+    "phrasing_overlap_tested": 15,
+    "knowledge_leakage_count": 0,
+    "knowledge_leakage_tested": 18,
+    "note": "Fifth consecutive PASS. Reference 14 in Phase 3.5 cites the original paper -- process issue in reference integration, not in blind writing."
+  },
+  "gap_analysis": {
+    "total_gaps": 7,
+    "high_severity": 3,
+    "medium_severity": 3,
+    "low_severity": 1,
+    "categories": {
+      "structural": 0,
+      "content": 3,
+      "stylistic": 1,
+      "technical": 3
+    }
+  },
+  "new_rules_added": 7,
+  "iteration_history": {
+    "iter1": 5.2,
+    "iter2": 8.5,
+    "iter3": 8.7,
+    "iter4": 8.9,
+    "iter5": 9.0,
+    "iter6": 9.1,
+    "iter7": 8.8,
+    "iter8": 8.3
+  }
+}

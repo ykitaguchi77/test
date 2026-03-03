@@ -10,14 +10,15 @@
 | 5         | DR Progression Primary Care (Longitudinal) | 9.5 | 8.5 | 9.0 | 9.0 | 9.5 | 8.5 | **9.0** |
 | 6         | KC Risk Factors (Case-Control, All of Us) | 10.0 | 8.5 | 9.5 | 9.0 | 9.5 | 8.5 | **9.1** |
 | 7         | BlephEx Blepharitis (Sham-Controlled RCT) | 10.0 | 7.0 | 9.0 | 9.0 | 9.5 | 9.0 | **8.8** |
+| 8         | Far-UVC Ocular Safety (Interventional) | 9.0 | 6.0 | 9.0 | 9.0 | 9.0 | 8.0 | **8.3** |
 
-## Summary After 7 Iterations
-- **Total improvement**: 5.2 -> 9.1 peak, current 8.8 (+3.6 points, +69%)
-- **Total rules accumulated**: 56 (15 from Iter1, 6 from Iter2, 9 from Iter3, 7 from Iter4, 6 from Iter5, 7 from Iter6, 6 from Iter7)
-- **Numerical accuracy**: 0% (Iter1) -> 100% (Iter2-7, 6 consecutive)
-- **Blind integrity**: PASS (Iter4), PASS (Iter5), PASS (Iter6), PASS (Iter7)
-- **Study designs covered**: Prospective cohort, RCT follow-up, retrospective database, cross-sectional, longitudinal observational, case-control, sham-controlled device RCT
-- **Primary bottleneck**: Discussion scholarly depth when original has extensive literature comparisons not available in extracted data bundle
+## Summary After 8 Iterations
+- **Total improvement**: 5.2 -> 9.1 peak, current 8.3 (+3.1 points from start)
+- **Total rules accumulated**: 63 (15 from Iter1, 6 from Iter2, 9 from Iter3, 7 from Iter4, 6 from Iter5, 7 from Iter6, 6 from Iter7, 7 from Iter8)
+- **Numerical accuracy**: 0% (Iter1) -> 100% (Iter2-8, 7 consecutive)
+- **Blind integrity**: PASS (Iter4), PASS (Iter5), PASS (Iter6), PASS (Iter7), PASS (Iter8)
+- **Study designs covered**: Prospective cohort, RCT follow-up, retrospective database, cross-sectional, longitudinal observational, case-control, sham-controlled device RCT, prospective interventional safety study
+- **Primary bottleneck**: Methods completeness for interventional/experimental studies (equipment details, scoring criteria, examination protocols) and Discussion mechanistic depth
 
 ## Iteration 1
 - **Paper**: Lyu et al. (2024) "Impact of ophthalmic clinical service use in mitigating myopia onset and progression in preschool children" - BMC Ophthalmology 24, 221
@@ -131,3 +132,24 @@
   - Word count ratio 0.57 (substantially under 0.95-1.15 target)
 - **New Rules Added**: 6
 - **Key Lesson**: This iteration reveals the pipeline's vulnerability to literature-rich Discussion sections. When the original paper devotes extensive space to named study comparisons not available in the data bundle, the draft inevitably undershoots on completeness. The 6 new rules address this by encouraging framework-level literature contextualization, intervention-class mechanism discussion, unmeasured endpoint limitations, Discussion length monitoring, figure referencing, and zero-prevalence row retention. The score decrease is paper-specific rather than systemic -- the pipeline's core strengths (accuracy, blind integrity, structural organization, clinical actionability) remain undiminished.
+
+## Iteration 8
+- **Paper**: Sugihara et al. (2025) "Interventional human ocular safety experiments for 222-nm far-ultraviolet-C lamp irradiation" - Photochemistry and Photobiology 101(2):517-526 (PMC11913762)
+- **Quality Score**: 8.3/10 (-0.5 from Iteration 7)
+- **Blind Integrity**: PASS (5th consecutive)
+- **Numerical Accuracy**: 88/88 (100%) -- 7th consecutive, largest data point count to date
+- **References Discovered**: 20 PubMed-verified references
+- **Word Count Ratio**: 0.98 (prose-only, excellent)
+- **Key Results**:
+  - 100% numerical accuracy maintained across all 3 tables (88 data points)
+  - Fifth consecutive blind integrity PASS with zero knowledge leakage
+  - Excellent clinical actionability (9/10) with specific dose threshold recommendations
+  - New study design covered: prospective interventional safety study
+- **Score Decrease Cause**: Completeness gap (6/10). Methods section ~50% shorter than original, missing equipment model numbers, scoring criteria definitions, examination protocols. Discussion missing ~12 specific mechanistic details (corneal anatomy, UV penetration depths, Pitts study critique).
+- **Remaining Gaps**:
+  - Methods under-reproduction for interventional study design (equipment, protocols, scoring)
+  - Discussion missing general-knowledge corneal biology content
+  - Phase 3.5 reference self-citation (Ref 14 cites original paper)
+  - Abstract slightly over target (300 vs 241 words original)
+- **New Rules Added**: 7 (equipment models, scoring criteria, mechanistic substrate, prior study discrepancies, quantitative intro, Results interpretation prevention, reference self-citation screening)
+- **Key Lesson**: Interventional/experimental studies expose the pipeline's reliance on high-level summarization. Unlike observational studies with standardized Methods, interventional studies require detailed equipment specifications, physical setup descriptions, scoring system definitions, and examination protocols. The accuracy-completeness tradeoff is now the dominant challenge: the pipeline excels at correctly reproducing what it includes (100% accuracy streak) but needs to include more methodological and mechanistic detail. The 7 new rules target this specific weakness.
