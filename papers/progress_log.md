@@ -8,13 +8,15 @@
 | 3         | DR-AMD Taiwan NHIRD (Retina) | 9.2 | 7.7 | 9.0 | 8.8 | 9.1 | 8.3 | **8.7** |
 | 4         | Anti-VEGF/ONH Parameters (Cross-sectional) | 9.5 | 8.2 | 9.0 | 9.0 | 9.5 | 8.5 | **8.9** |
 | 5         | DR Progression Primary Care (Longitudinal) | 9.5 | 8.5 | 9.0 | 9.0 | 9.5 | 8.5 | **9.0** |
+| 6         | KC Risk Factors (Case-Control, All of Us) | 10.0 | 8.5 | 9.5 | 9.0 | 9.5 | 8.5 | **9.1** |
 
-## Summary After 5 Iterations
-- **Total improvement**: 5.2 -> 9.0 (+3.8 points, +73%)
-- **Total rules accumulated**: 43 (15 from Iter1, 6 from Iter2, 9 from Iter3, 7 from Iter4, 6 from Iter5)
-- **Numerical accuracy**: 0% (Iter1) -> 100% (Iter2) -> 100% (Iter3) -> 100% (Iter4) -> 100% (Iter5)
-- **Blind integrity**: PASS (Iter4), PASS (Iter5)
-- **Primary bottleneck**: Discussion depth and clinical contextualization (extraction-limited), not accuracy or structure
+## Summary After 6 Iterations
+- **Total improvement**: 5.2 -> 9.1 (+3.9 points, +75%)
+- **Total rules accumulated**: 50 (15 from Iter1, 6 from Iter2, 9 from Iter3, 7 from Iter4, 6 from Iter5, 7 from Iter6)
+- **Numerical accuracy**: 0% (Iter1) -> 100% (Iter2) -> 100% (Iter3) -> 100% (Iter4) -> 100% (Iter5) -> 100% (Iter6)
+- **Blind integrity**: PASS (Iter4), PASS (Iter5), PASS (Iter6)
+- **Study designs covered**: Prospective cohort, RCT follow-up, retrospective database, cross-sectional, longitudinal observational, case-control
+- **Primary bottleneck**: Discussion conciseness, clinical actionability of Conclusions, and fine-grained clinical details
 
 ## Iteration 1
 - **Paper**: Lyu et al. (2024) "Impact of ophthalmic clinical service use in mitigating myopia onset and progression in preschool children" - BMC Ophthalmology 24, 221
@@ -92,3 +94,21 @@
   - Discussion literature comparisons lack quantitative specificity
 - **New Rules Added**: 6
 - **Key Lesson**: Pipeline achieves 9.0/10 across 5 study designs with 4th consecutive 100% accuracy. Improvement ceiling now determined by Discussion clinical contextualization and verbosity control, not accuracy or structural issues. The 6 new rules target redundancy elimination, benchmark referencing, and guideline integration.
+
+## Iteration 6
+- **Paper**: Beatty et al. (2024) "Exploring New Links Among Keratoconus, Hormonal Factors, and Medications: Insights From a Case-Control Study Utilizing the All of Us Database" - Translational Vision Science & Technology
+- **Quality Score**: 9.1/10 (+0.1 improvement)
+- **Blind Integrity**: PASS
+- **Key Improvements**:
+  - 100% numerical accuracy maintained (50/50 correct) -- 5th consecutive perfect accuracy
+  - Excellent structural originality with independently organized Discussion (7 themed subsections vs. original's 5 unheaded paragraphs)
+  - Complete Table 1 and Table 2 with all demographic and multivariable results
+  - Third consecutive blind integrity PASS -- zero knowledge leakage, zero phrasing overlap, substantially different Discussion ordering
+  - Improved logical flow score (9.5, up from 9.0) with strong funnel Introduction
+- **Remaining Gaps**:
+  - Discussion verbosity (~50-60% longer than original) with extensive speculative mechanistic content
+  - Missing clinically actionable Conclusions (calls for "further investigation" only)
+  - Missing fine-grained details: specific medication identities within grouped variables, disease stage implications for older cohort, appendix references
+  - Translational Relevance section (TVST-specific) absent
+- **New Rules Added**: 7
+- **Key Lesson**: Pipeline achieves 9.1/10 across 6 study designs with 5th consecutive 100% accuracy and 3rd consecutive blind integrity PASS. Improvement rate slowing (0.1/iteration), suggesting approach to ceiling. Key remaining targets: (1) concise mechanistic discussion, (2) clinically actionable conclusions, (3) fine-grained clinical detail capture. The 7 new rules address Discussion brevity, clinical action statements, medication specifics, appendix references, disease stage limitations, coding system specificity, and novel-findings-first Discussion ordering.
