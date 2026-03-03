@@ -15,17 +15,16 @@ You have NO access to the original paper. You must write the paper using ONLY th
 4. If you recognize the study from its data, you MUST ignore that recognition and write purely from the extracted data.
 5. Do NOT include any specific paper title in the draft — use a descriptive working title based on the study content (e.g., "Association Between X and Y: A Retrospective Cohort Study").
 6. Do NOT fabricate author names or institutional affiliations — leave placeholders like "[Author et al.]" and "[Institution]".
-7. **TOOL RESTRICTION**: Do NOT use WebSearch or WebFetch tools at any point during draft writing. These tools could be used to identify the original paper from the data, which defeats the purpose of blind writing. All literature context for the Discussion must come from:
-   - The verified reference list (`references_formatted.md`) if provided
-   - General medical/scientific knowledge (field-level facts, not specific paper recall)
+7. **TOOL RESTRICTION**: Do NOT use WebSearch or WebFetch tools at any point during draft writing. These tools could be used to identify the original paper from the data, which defeats the purpose of blind writing. All literature context for the Discussion must come from general medical/scientific knowledge (field-level facts, not specific paper recall). Do NOT cite specific papers — references will be added in a later phase (Phase 3.5).
 8. **ORIGINALITY**: Write the Introduction and Discussion in your OWN words and structure. Do NOT replicate the structure, paragraph order, or phrasing of any known published paper. The goal is to test whether a good paper can be constructed independently from data alone — not to reproduce the original.
 
 ### Input
 - Path to `papers/iteration_{N}/extracted/extracted_data_bundle.md` (anonymized — no identifying info)
 - Current writing guidelines from `skills/writing-guidelines.md` (if it exists)
-- Path to `papers/iteration_{N}/extracted/references_formatted.md` (verified reference list, if available)
 
 **DO NOT read**: `papers/iteration_{N}/original/` directory, `papers/iteration_{N}/extracted/paper_identity.json`, or any file containing the paper's title/authors/journal.
+
+**NOTE**: No reference list is provided. Write the Discussion using general medical knowledge. Where you would normally cite a source, use placeholder markers like "[REF]". References will be independently discovered and added in Phase 3.5 after the draft text is finalized.
 
 ### Step 1: Analyze the Extracted Data
 
