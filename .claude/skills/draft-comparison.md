@@ -40,7 +40,17 @@ For each section (Abstract, Introduction, Methods, Results, Discussion), evaluat
 - **Readability**: Is it well-written and clear?
 - **Structure**: Is the organization appropriate?
 - **Clinical Relevance**: Are implications well-articulated?
+- **Originality**: Does the draft use its OWN structure and phrasing, or does it suspiciously mirror the original? (10 = completely independent structure, 1 = near-copy of original)
 - **Overall**: How close is it to publication quality?
+
+#### E. Blind Integrity Check (カンニング検出)
+Evaluate whether the draft shows signs of the writer having recognized the original paper:
+1. **Structural mirroring**: Does the draft follow the exact same paragraph order and subheading structure as the original? (Some similarity is expected from IMRAD, but identical sub-section ordering within Discussion is suspicious)
+2. **Phrasing overlap**: Are there phrases or sentences that are unusually close to the original's wording? (Beyond standard academic phrasing)
+3. **Knowledge leakage**: Does the draft contain specific facts, literature references, or contextual details that are NOT present in the extracted data bundle but ARE in the original paper?
+4. **Verdict**: PASS (draft appears independently written) / SUSPECT (some signs of recognition) / FAIL (clear evidence of prior knowledge use)
+
+If verdict is SUSPECT or FAIL, note the specific evidence and flag it in the comparison report.
 
 ### Step 2: Gap Analysis
 

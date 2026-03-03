@@ -59,6 +59,8 @@
 2. **[Iter4-pre]** Do NOT attempt to identify the original paper from data patterns, sample sizes, effect sizes, or study design. Even if recognized, write as if the study is entirely novel.
 3. **[Iter4-pre]** Use a descriptive working title based on the study content (e.g., "Association Between X and Y: A Retrospective Cohort Study"), NOT the original paper's title.
 4. **[Iter4-pre]** Use placeholders for author names ("[Author et al.]") and institutions ("[Institution]"). Do NOT fabricate these.
+5. **[Iter4-pre]** Do NOT use WebSearch or WebFetch tools during draft writing. All literature context must come from the verified reference list or general field-level knowledge.
+6. **[Iter4-pre]** Write the Introduction and Discussion in your OWN structure and words. Do NOT replicate the paragraph order, rhetorical structure, or phrasing of any known published paper. The comparison skill will evaluate originality alongside accuracy.
 
 ## Technical Rules
 1. Report confidence intervals alongside p-values when available

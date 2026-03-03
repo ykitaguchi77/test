@@ -93,11 +93,13 @@ draft writer's input.
 Launch a subagent with the draft-writing skill instructions:
 - **CRITICAL**: This subagent must NOT have access to the original paper
 - **CRITICAL**: This subagent must NOT receive any identifying information (title, authors, journal, DOI, PMCID)
+- **CRITICAL**: This subagent must NOT use WebSearch or WebFetch tools (to prevent identifying the paper via search)
 - Provide ONLY:
   - `extracted_data_bundle.md` (anonymized — no identifying info)
   - `writing-guidelines.md`
   - `references_formatted.md` (verified reference list from Phase 2.5)
 - Do NOT provide `paper_identity.json` or any file from `original/`
+- Instruct the subagent to write in its OWN structure and words — not to replicate any known paper's structure
 - Save draft to `papers/iteration_{N}/draft/`
 
 #### Phase 4: Comparison & Skill Refinement (比較・スキル改善サブエージェント)
