@@ -34,6 +34,21 @@ Read the extracted data bundle and identify:
 - The clinical/scientific significance of the results
 - Logical flow for presenting the results
 
+### Conciseness Rules (冗長性対策)
+**The draft MUST be concise.** Published ophthalmology papers are typically tight and efficient. Follow these rules:
+1. **Word count target**: Aim for a total word count within 95–115% of a typical published paper of this study type (~2,500–3,500 words). Do NOT exceed 115%.
+2. **Introduction**: Maximum 3-4 paragraphs. Get to the study objective by paragraph 3. Do NOT over-elaborate general background.
+3. **No redundancy**: Do NOT restate Results numbers in the Discussion unless you are interpreting or comparing them. Avoid repeating information across sections.
+4. **Cut filler phrases**: Avoid "It is worth noting that", "It is important to mention that", "Interestingly,", "Of note,". Just state the fact directly.
+5. **Hedging economy**: Use ONE hedging word per claim ("may suggest"), not chains ("it is possible that this could potentially suggest").
+6. **Discussion**: Each paragraph should make ONE clear point. Combine related sub-points rather than giving each its own paragraph.
+
+### Clinical Actionability Rules (臨床提言)
+**The Conclusions MUST include specific, actionable clinical recommendations.**
+1. **At least ONE concrete recommendation**: e.g., "Patients with [condition X] should undergo [screening Y] at [interval Z]" or "Clinicians should consider [intervention] when [threshold] is reached."
+2. **Avoid vague endings**: Do NOT end with only "Further research is needed." If future research is mentioned, it must be in addition to (not instead of) a concrete clinical takeaway.
+3. **Discussion clinical implications**: Include a dedicated paragraph in the Discussion that explicitly discusses how the findings should influence clinical practice, mentioning specific patient subgroups, screening intervals, or treatment decisions where the data supports it.
+
 ### Step 2: Write the Introduction
 
 Write an Introduction section (3-4 paragraphs) that:
@@ -62,12 +77,12 @@ Reorganize and present the results:
 
 ### Step 5: Write the Discussion
 
-Write a Discussion section (4-5 paragraphs) that:
-1. Summarize the main findings
-2. Compare with previous literature (use general knowledge)
-3. Discuss strengths and limitations
-4. Discuss clinical implications
-5. Conclusion
+Write a Discussion section (5-6 paragraphs, each making ONE clear point) that:
+1. Summarize the main findings (1 paragraph, concise)
+2. Compare with previous literature using general knowledge (1-2 paragraphs)
+3. Discuss strengths (factual, without evaluative adjectives) and limitations (1 paragraph)
+4. **Clinical implications** (1 dedicated paragraph): Explicitly state how findings should influence clinical practice — mention specific patient subgroups, screening recommendations, or treatment considerations
+5. **Conclusions** (standalone subsection): Include at least ONE specific, actionable clinical recommendation. Do NOT end with only "further research is needed"
 
 ### Step 6: Write the Abstract
 

@@ -143,9 +143,9 @@ After each iteration:
 - Blind Integrity: [PASS/SUSPECT/FAIL]
 
 ## Score Trend
-| Iteration | Accuracy | Completeness | Logic | Readability | Structure | Clinical | Originality | Blind | Overall |
-|-----------|----------|--------------|-------|-------------|-----------|----------|-------------|-------|---------|
-| 1         | X        | X            | X     | X           | X         | X        | X           | P/S/F | X       |
+| Iteration | Accuracy | Completeness | Logic | Readability | Structure | Clinical | Originality | Conciseness | Clin.Action | Blind | Overall |
+|-----------|----------|--------------|-------|-------------|-----------|----------|-------------|-------------|-------------|-------|---------|
+| 1         | X        | X            | X     | X           | X         | X        | X           | X           | X           | P/S/F | X       |
 ```
 
 ### Stopping Criteria
