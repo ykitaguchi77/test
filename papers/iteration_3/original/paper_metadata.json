@@ -1,0 +1,79 @@
+{
+  "title": "The Association between Diabetic Retinopathy and Macular Degeneration: A Nationwide Population-Based Study",
+  "authors": "Lin H.-T., Zheng C.-M., Tsai C.-H., Chen C.-L., Chou Y.-C., Zheng J.-Q., Lin Y.-F., Lin C.-W., Chen Y.-C., Sun C.-A., et al.",
+  "journal": "Biomedicines",
+  "year": 2024,
+  "volume": 12,
+  "issue": 4,
+  "article_number": 727,
+  "doi": "10.3390/biomedicines12040727",
+  "pmid": "38672083",
+  "pmcid": "PMC11047965",
+  "issn": "2227-9059",
+  "publisher": "MDPI",
+  "license": "CC BY 4.0",
+  "dates": {
+    "received": "2024-02-02",
+    "revised": "2024-03-12",
+    "accepted": "2024-03-20",
+    "published": "2024-03-25"
+  },
+  "affiliations": [
+    "Department of Ophthalmology, Tri-Service General Hospital, National Defense Medical Center, Taipei 114, Taiwan",
+    "Graduate Institute of Medical Sciences, National Defense Medical Center, Taipei 114, Taiwan",
+    "Division of Nephrology, Department of Internal Medicine, School of Medicine, College of Medicine, Taipei Medical University, Taipei 110, Taiwan",
+    "TMU Research Center of Urology and Kidney, Taipei Medical University, Taipei 110, Taiwan",
+    "Division of Nephrology, Department of Internal Medicine, Shuang Ho Hospital, Taipei Medical University, Taipei 235, Taiwan",
+    "Graduate Institute of Clinical Medicine, College of Medicine, Taipei Medical University, Taipei 110, Taiwan"
+  ],
+  "study_design": "Retrospective cohort study",
+  "database": "Taiwan National Health Insurance Database (NHIRD), Longitudinal Health Insurance Database (LHID) 2000",
+  "study_period": "2000-2013",
+  "enrollment_period": "2000-2006",
+  "sample_size": {
+    "dr_group": 3413,
+    "non_dr_group": 13652,
+    "total": 17065,
+    "matching_ratio": "1:4"
+  },
+  "irb": {
+    "board": "Institutional Review Board of Fu Jen Catholic University",
+    "approval_number": "FJU-IRB NO: C104014",
+    "consent_waiver": true
+  },
+  "funding": "No external funding",
+  "conflicts_of_interest": "None declared",
+  "special_issue": "Molecular Research and Recent Advances in Diabetic Retinopathy",
+  "keywords": [
+    "diabetes mellitus (DM)",
+    "diabetic retinopathy (DR)",
+    "non-diabetic retinopathy (non-DR)",
+    "age-related macular degeneration (AMD)",
+    "Taiwan National Health Insurance Database (NHIRD)"
+  ],
+  "key_results": {
+    "overall_amd_ahr": "3.50 (95% CI: 3.10-3.95)",
+    "senile_amd_ahr": "3.45 (95% CI: 3.04-3.92)",
+    "non_exudative_amd_ahr": "2.92 (95% CI: 2.08-4.09)",
+    "exudative_amd_ahr": "3.92 (95% CI: 2.51-6.14)",
+    "overall_amd_incidence_dr": "16.77 per 10,000 person-years",
+    "overall_amd_incidence_non_dr": "5.36 per 10,000 person-years",
+    "senile_amd_incidence_dr": "14.65 per 10,000 person-years",
+    "senile_amd_incidence_non_dr": "4.78 per 10,000 person-years",
+    "exudative_amd_incidence_dr": "1.37 per 10,000 person-years",
+    "exudative_amd_incidence_non_dr": "0.31 per 10,000 person-years"
+  },
+  "statistical_software": ["SAS 9.4", "SPSS 22.0"],
+  "icd_codes": {
+    "dr": ["362.01", "362.02"],
+    "dm": ["250"],
+    "amd_senile_unspecified": "362.50",
+    "amd_non_exudative": "362.51",
+    "amd_exudative": "362.52"
+  },
+  "urls": {
+    "pmc": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11047965/",
+    "mdpi": "https://www.mdpi.com/2227-9059/12/4/727",
+    "doi_url": "https://doi.org/10.3390/biomedicines12040727"
+  }
+}

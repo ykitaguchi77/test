@@ -1,0 +1,102 @@
+{
+  "title": "Impact of ophthalmic clinical service use in mitigating myopia onset and progression in preschool children: a retrospective cohort study",
+  "authors": [
+    {
+      "name": "Pingping Lyu",
+      "affiliations": [
+        "Department of Maternal, Child and Adolescent Health, School of Public Health, Fudan University, 138 Yixueyuan Road, Xuhui District, Shanghai 200032, China",
+        "Shanghai Eye Disease Prevention and Treatment Center, Shanghai Eye Hospital, Shanghai, China"
+      ]
+    },
+    {
+      "name": "Jingwen Hu",
+      "affiliations": [
+        "Department of Maternal, Child and Adolescent Health, School of Public Health, Fudan University, Shanghai, China"
+      ]
+    },
+    {
+      "name": "Yujie Wang",
+      "affiliations": [
+        "Department of Maternal, Child and Adolescent Health, School of Public Health, Fudan University, Shanghai, China"
+      ]
+    },
+    {
+      "name": "Jingjing Wang",
+      "affiliations": [
+        "Shanghai Eye Disease Prevention and Treatment Center, Shanghai Eye Hospital, Shanghai, China"
+      ]
+    },
+    {
+      "name": "Xiangui He",
+      "affiliations": [
+        "Shanghai Eye Disease Prevention and Treatment Center, Shanghai Eye Hospital, Shanghai, China"
+      ]
+    },
+    {
+      "name": "Huijing Shi",
+      "affiliations": [
+        "Department of Maternal, Child and Adolescent Health, School of Public Health, Fudan University, 138 Yixueyuan Road, Xuhui District, Shanghai 200032, China"
+      ],
+      "corresponding_author": true,
+      "email": "hjshi@fudan.edu.cn"
+    }
+  ],
+  "journal": "BMC Ophthalmology",
+  "volume": "24",
+  "article_number": "221",
+  "year": 2024,
+  "doi": "10.1186/s12886-024-03488-5",
+  "pmcid": "PMC11129446",
+  "pmid": null,
+  "dates": {
+    "received": "2023-09-07",
+    "accepted": "2024-05-20",
+    "published": "2024-05-27"
+  },
+  "urls": {
+    "bmc_full_text": "https://bmcophthalmol.biomedcentral.com/articles/10.1186/s12886-024-03488-5",
+    "pmc": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11129446/",
+    "doi_url": "https://doi.org/10.1186/s12886-024-03488-5"
+  },
+  "ethics_approval": {
+    "committee": "Ethics Committee of the School of Public Health, Fudan University",
+    "approval_number": "IRB#2020-07-0836",
+    "declaration": "Declaration of Helsinki"
+  },
+  "funding": [
+    {
+      "funder": "Key Discipline Program of Sixth Round of the Three-Year Public Health Action Plan (Year 2023-2025) of Shanghai, China",
+      "grant_number": "GWVI-11.1-32"
+    },
+    {
+      "funder": "Shanghai three-year action plan to strengthen public health project",
+      "grant_number": "GWV-9.1"
+    }
+  ],
+  "keywords": [
+    "School vision screening",
+    "Myopia onset",
+    "Progression",
+    "Health service",
+    "Referral",
+    "Cox proportional model"
+  ],
+  "study_design": "Retrospective cohort study",
+  "data_source": "Shanghai Child and Adolescent Large-scale Eye Study (SCALE)",
+  "study_period": "January 2015 to December 2020",
+  "sample_size": {
+    "initial_screening": 14572,
+    "needed_referral": 5917,
+    "final_cohort": 5511
+  },
+  "population": {
+    "age_range": "4-6 years at baseline",
+    "mean_age": "5.25 +/- 0.75 years",
+    "percent_male": 52.24,
+    "location": "Shanghai, China",
+    "districts": ["Jing'an", "Minhang", "Pudong"]
+  },
+  "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+  "open_access": true,
+  "competing_interests": "None declared"
+}

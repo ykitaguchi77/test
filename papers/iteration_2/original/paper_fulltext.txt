@@ -1,0 +1,216 @@
+TITLE: Long-term outcomes of trabeculectomy versus canaloplasty in open-angle glaucoma -- an 11-year follow-up of the TVC study cohort
+
+AUTHORS: Raoul Verma-Fuehring, Juliane Matlach, Thomas Klink, Jost Hillenkamp, Franz Grehn
+
+JOURNAL: BMC Ophthalmology 25, 340 (2025)
+DOI: 10.1186/s12886-025-04183-9
+PMC: PMC12168381
+Received: 2025 April 8; Accepted: 2025 June 2; Published: 2025 June 16
+
+AFFILIATION: Department of Ophthalmology, University Hospital Wuerzburg, Wuerzburg, Germany
+ClinicalTrials.gov: NCT01228799
+
+================================================================================
+ABSTRACT
+================================================================================
+
+Background: The TVC study was a prospective, single-center, randomized clinical trial comparing the 24-month surgical outcomes of trabeculectomy and canaloplasty in patients with open-angle glaucoma. This prospective follow-up study included only patients from the original 2015 TVC cohort.
+
+Objective: To assess the long-term outcomes of the Trabeculectomy versus Canaloplasty (TVC) study cohort after 11 years.
+
+Methods: This prospective follow-up study included only patients from the original 2015 TVC cohort. Primary endpoints were complete (without glaucoma medication) and qualified success (with or without glaucoma medication), defined as intraocular pressure (IOP) <= 18 mmHg (Definition 1) or IOP <= 21 mmHg with >= 20% reduction from baseline (Definition 2). Secondary endpoints included changes in IOP, medication use, complications, and revision surgeries.
+
+Results: Mean follow-up was 11.9 +/- 1.1 years for trabeculectomy (TE, n=15) and 11.0 +/- 2.0 years for canaloplasty (CP, n=13). Complete success rates for TE vs. CP were 53.3% vs. 15.4% (Definition 1, p=0.06) and 46.7% vs. 15.4% (Definition 2, p=0.22). Qualified success was achieved by 73.3% vs. 69.2% (Definition 1, p=1.0) and 66.7% vs. 76.9% (Definition 2, p=0.69). Median IOP was 10.0 (6.0-12.0) mmHg for TE and 14.0 (11.5-17.75) mmHg for CP (p<0.01).
+
+Conclusions: After 11 years, trabeculectomy still demonstrated greater IOP reduction and higher complete success rates but was associated with a higher complication rate. For patients with moderately low target IOPs who can tolerate some glaucoma medication use, canaloplasty remains a reliable and safer alternative.
+
+================================================================================
+INTRODUCTION
+================================================================================
+
+Glaucoma is a leading cause of irreversible blindness worldwide. The surgical management of open-angle glaucoma traditionally includes trabeculectomy (TE) and canaloplasty (CP) as established procedures. The original TVC (Trabeculectomy versus Canaloplasty) study was the first head-to-head prospective randomized clinical trial comparing these two surgical approaches. Published in 2015 by Matlach et al., it demonstrated that trabeculectomy achieved greater IOP reduction with less need for medication but at the cost of a higher complication rate over 24 months.
+
+While 2-year outcomes are informative, long-term follow-up data are critical for surgical decision-making. To the best of the authors' knowledge, this study reports the longest follow-up of a randomized comparison between trabeculectomy and canaloplasty.
+
+================================================================================
+METHODS
+================================================================================
+
+Study Design and Participants:
+This was a prospective follow-up study of the original TVC study cohort. The original prospective, randomized clinical trial included 62 patients who randomly received trabeculectomy (n=32) or canaloplasty (n=30) and were followed up prospectively for 2 years at the University Hospital Wuerzburg (ClinicalTrials.gov Identifier: NCT01228799).
+
+For this long-term follow-up, starting with the original 2015 TVC cohort (TE n=31, CP n=23 -- those completing the 2-year follow-up), patients were excluded due to:
+- Confirmed death via case files
+- Refusal to participate
+- Unknown address
+- Confirmation of death by relatives
+Of 49 patients contacted, 28 were included in the analysis (15 TE, 13 CP).
+
+Surgical Techniques:
+Trabeculectomy was performed with mitomycin C (MMC). Canaloplasty was performed as an ab externo procedure with a tensioning suture placed in Schlemm's canal.
+
+In the original 2-year study, antiglaucomatous drugs were added in case of increased IOP after failed laser goniopuncture in canaloplasty patients and scleral flap revision or bleb needling in trabeculectomy patients.
+
+Examination Protocol:
+IOP was measured on two separate occasions using Goldmann applanation tonometry with a one-hour interval between each measurement. One value was obtained in miosis, and the other after the instillation of tropicamide eye drops. As in the original TVC study, no washout of glaucoma medication was performed at baseline.
+
+Spectral-Domain Optical Coherence Tomography (SD-OCT) was performed using Heidelberg Spectralis OCT (Heidelberg Engineering, Heidelberg, Germany). The G-value of the retinal nerve fiber layer (RNFL) scan was used as a descriptive value in the results. Only scans with a Q value of >20 were included.
+
+Visual field testing was conducted using a static perimeter with the 30-2 program (Octopus 900, Haag-Streit, Switzerland).
+
+For patients whose data were collected from external ophthalmologists, standardized forms were provided to ensure consistent documentation of key parameters, including IOP, visual acuity, OCT, visual field, and relevant surgical or treatment history.
+
+Outcome Definitions:
+Primary endpoints:
+- Complete success: IOP within target WITHOUT glaucoma medication
+- Qualified success: IOP within target WITH or WITHOUT glaucoma medication
+
+Definition 1: IOP <= 18 mmHg
+Definition 2: IOP <= 21 mmHg with >= 20% reduction from baseline
+
+Additional criteria for success: IOP >= 5 mmHg, no vision loss, and no further glaucoma surgery.
+
+Secondary endpoints: changes in IOP, medication use, complications, and revision surgeries.
+
+Statistical Methods:
+- Kaplan-Meier analysis assessed cumulative success probability
+- Log-rank test compared survival distributions
+- Mann-Whitney U test for cross-sectional analysis
+- Wilcoxon signed-rank test for longitudinal comparisons
+- Fisher's Exact test for differences in dichotomous variables
+- A p-value <= 0.05 indicated statistical significance
+
+================================================================================
+RESULTS
+================================================================================
+
+Patient Cohort and Baseline Characteristics (Table 1):
+The final cohort consisted of 15 TE patients and 13 CP patients.
+Mean follow-up: 11.9 +/- 1.1 years (TE) and 11.0 +/- 2.0 years (CP).
+
+Baseline parameters:
+- Median baseline IOP: TE 20.0 mmHg (IQR 19.0-25.0), CP 22.0 mmHg (IQR 20.0-26.3) (p=0.06)
+- Median baseline number of topical glaucoma medications: TE 3.5 (IQR 3.0-4.0), CP 3.0 (IQR 1.8-4.0) (p=0.09)
+- Baseline visual acuity (BCVA): TE 0.10 logMAR (IQR 0.00-0.28), CP 0.22 logMAR (IQR 0.08-0.40) (p=0.13)
+- Baseline visual field mean defect: TE 10.43 dB, CP 4.57 dB
+- Pseudophakic at time of surgery: TE 6 (18.8%), CP 5 (16.7%)
+- Glaucoma types: POAG, PG, and PEXG (open-angle glaucoma subtypes; all Caucasian population)
+
+Primary Outcomes - Success Rates:
+
+Complete Success (without medication):
+- Definition 1 (IOP <= 18 mmHg): TE 53.3% (8/15) vs CP 15.4% (2/13), p=0.06
+- Definition 2 (IOP <= 21 mmHg + >= 20% reduction): TE 46.7% (7/15) vs CP 15.4% (2/13), p=0.22
+
+Qualified Success (with or without medication):
+- Definition 1: TE 73.3% (11/15) vs CP 69.2% (9/13), p=1.0
+- Definition 2: TE 66.7% (10/15) vs CP 76.9% (10/13), p=0.69
+
+Overall success: TE 73.3% vs CP 76.9%
+
+Kaplan-Meier Survival Analysis:
+Both survival curves differed significantly at 11 years for Definition 1 (p=0.03), whereas no difference was observed for Definition 2 (p=0.09).
+
+Complete success (IOP <= 18 mmHg without medication) was significantly higher in the trabeculectomy group (53.3%) than in the canaloplasty group (15.4%, P=0.03) on Kaplan-Meier analysis.
+
+IOP Outcomes:
+- Median IOP at follow-up: TE 10.0 mmHg (IQR 6.0-12.0), CP 14.0 mmHg (IQR 11.5-17.75), p<0.01
+- Mean IOP reduction from baseline: TE 11.6 +/- 10.1 mmHg, CP 9.4 +/- 5.2 mmHg
+
+Medication Use:
+- Mean number of compounds at follow-up: TE 1.0 +/- 1.4, CP 1.9 +/- 1.5, p=0.17
+- Absolute reduction in compounds from baseline: TE 2.13 +/- 1.6, CP 0.31 +/- 1.7
+- Significance of medication reduction: TE p<0.01 (significant), CP p=0.47 (not significant)
+- Need for >= 1 medication: TE 33% (5/15), CP 77% (10/13), p=0.03
+
+Visual Outcomes:
+- Mean BCVA at follow-up: TE 0.34 logMAR, CP 0.43 logMAR
+- Change from baseline: TE worsened from 0.1 to 0.34 logMAR, CP worsened from 0.2 to 0.43 logMAR (p=0.52 between groups)
+- Visual field mean defect at follow-up: TE 14.28 dB, CP 7.29 dB (p<0.05)
+- Visual field mean defect at baseline: TE 10.43 dB, CP 4.57 dB
+
+Structural Outcomes (RNFL):
+- Mean RNFL thickness (G-value) at follow-up: TE 62.4 +/- 19.1 um, CP 66.1 +/- 24.3 um
+
+Complications:
+- Hypotony maculopathy (IOP <= 5 mmHg with macular folds on OCT): TE 13.3% (2/15), CP 0% (0/13)
+- No bleb-related complications observed
+- Original 2-year TVC early postoperative complications (TE): transient hypotony (37.5%), hypotony-related choroidal detachment (12.5%), elevated IOP (25.0%)
+- Original 2-year TVC early postoperative complications (CP): elevated IOP (>25 mmHg) 30%, hyphema >= 1mm 23.3%, hypotony (IOP <5 mmHg) 20%
+- Context: Transient hyphema common in CP (21-40%); hypotony rates low in CP (0.6-20%); TE higher complication rates (7-40%), hypotony maculopathy (4-7%), bleb-related complications (1.6-23%)
+
+Revision Surgeries:
+- TE: 20.0% (3/15) underwent subsequent glaucoma surgery [also reported as 26.7% in some sources]
+- CP: 23.1% (3/13) underwent subsequent glaucoma surgery
+- Time to revision: TE 63 +/- 33.5 months, CP 96 +/- 43.6 months
+
+================================================================================
+DISCUSSION
+================================================================================
+
+After 11 years, trabeculectomy demonstrated greater IOP reduction and higher complete success rates compared to canaloplasty. However, this came at the cost of an increased risk of complications, with hypotony maculopathy observed exclusively in trabeculectomy.
+
+The study findings are consistent with previously published shorter-term data. The original 2-year TVC study (Matlach et al. 2015) also showed superior IOP reduction with trabeculectomy. The sustained separation in IOP between groups suggests stable, long-term efficacy differences between the two procedures.
+
+Complete success (medication-free IOP control) was notably higher in trabeculectomy. This is clinically meaningful as medication-free outcomes reduce the burden of chronic therapy and improve patient quality of life. The Kaplan-Meier survival analysis showed significant differences for Definition 1 (p=0.03) but not Definition 2 (p=0.09).
+
+Qualified success rates were comparable between groups, suggesting that when medications are permitted as adjunctive therapy, canaloplasty achieves similar IOP control to trabeculectomy.
+
+Hypotony maculopathy was the only long-term complication and occurred exclusively in the trabeculectomy group (13.3%). No bleb-related complications were observed. This safety profile is consistent with the known complication profile of trabeculectomy versus canaloplasty.
+
+For patients with moderately low target IOPs who can tolerate some glaucoma medication use, canaloplasty remains a reliable and safer alternative.
+
+Limitations:
+- Small sample size (15 TE, 13 CP) may limit generalizability
+- Attrition from original cohort (62 to 28 patients) - approximately 50% follow-up rate
+- Challenges of collecting long-term outcome data including patient relocation, inability to visit due to declining health, or mortality
+- Reliance on community-based practitioner data may have introduced bias
+- Comparison for TE lacked statistical power
+- No washout of glaucoma medications was performed
+
+To the best of the authors' knowledge, this study reports the longest follow-up of a randomized comparison between trabeculectomy and canaloplasty.
+
+================================================================================
+CONCLUSIONS
+================================================================================
+
+After 11 years, trabeculectomy still demonstrated greater IOP reduction and higher complete success rates but was associated with a higher complication rate. At an average follow-up of more than 11 years, both trabeculectomy and canaloplasty demonstrated durable intraocular pressure reduction in patients with open-angle glaucoma. Trabeculectomy demonstrated greater IOP reduction and a higher complete success rate, as well as a higher rate of complications. For patients with moderately low target IOPs who can tolerate some glaucoma medication use, canaloplasty remains a reliable and safer alternative.
+
+================================================================================
+FIGURES
+================================================================================
+
+Figure 1: [Flowchart] Patient flow diagram showing enrollment from original TVC cohort through to 11-year follow-up. Original cohort: TE n=31, CP n=23. Exclusions due to death, refusal, unknown address. Final: TE n=15, CP n=13.
+
+Figure 2: [Kaplan-Meier] Kaplan-Meier survival analysis of complete and qualified success.
+- Panel A: Complete success Definition 1 (IOP <= 18 mmHg without medication) - significant difference (p=0.03)
+- Panel B: Complete success Definition 2 (IOP <= 21 mmHg + >= 20% reduction without medication) - non-significant (p=0.09)
+- Shows separation of curves with TE maintaining higher success probability
+
+Figure 3: [Box plots/IOP over time] IOP outcomes at follow-up showing TE median 10.0 mmHg vs CP 14.0 mmHg
+
+================================================================================
+REFERENCES (Key citations found in the paper)
+================================================================================
+
+1. Matlach J, Dhillon C, Hain J, Schlunck G, Grehn F, Klink T. Trabeculectomy versus canaloplasty (TVC study) in the treatment of patients with open-angle glaucoma: a prospective randomized clinical trial. Acta Ophthalmol. 2015;93(8):753-761.
+
+[Note: Full reference list not available from web searches. The paper is published as open access in BMC Ophthalmology and can be accessed at:
+- https://bmcophthalmol.biomedcentral.com/articles/10.1186/s12886-025-04183-9
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC12168381/]
+
+================================================================================
+ORIGINAL TVC STUDY (Matlach et al. 2015) - SUPPLEMENTARY DATA
+================================================================================
+
+Published in Acta Ophthalmologica 2015;93(8):753-761.
+62 patients randomized: TE n=32, CP n=30. 2-year prospective follow-up.
+
+2-year key results:
+- Complete success: TE 74.2% vs CP 39.1% (Def 1, p=0.01); TE 67.7% vs CP 39.1% (Def 2, p=0.04)
+- Mean IOP at 2 years: TE 11.5 +/- 3.4 mmHg, CP 14.4 +/- 4.2 mmHg
+- Mean IOP reduction: TE 10.8 +/- 6.9 mmHg, CP 9.3 +/- 5.7 mmHg (p=0.47)
+- Preoperative IOP (CP group): 23.7 +/- 5.1 mmHg
+- Preoperative medications (overall): 2.6 +/- 1.6 compounds, declining to 0.9 +/- 1.1 postoperatively
+- Complications (TE): hypotony 37.5%, choroidal detachment 12.5%, elevated IOP 25.0%
+- Complications (CP): elevated IOP (>25 mmHg) 30%, hyphema >= 1mm 23.3%, hypotony (IOP <5) 20%

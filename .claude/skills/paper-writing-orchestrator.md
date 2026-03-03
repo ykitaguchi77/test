@@ -1,0 +1,154 @@
+# Paper Writing Orchestrator (論文執筆オーケストレータ)
+
+## Purpose
+Orchestrate the iterative paper-writing improvement loop. This is the main entry point for the paper writing skills system.
+
+## Process Overview
+
+```
+┌───────────────────────────────────────────────────────────────┐
+│                    Orchestrator Loop                           │
+│                                                               │
+│  Phase 1         Phase 2                                      │
+│  ┌──────────┐    ┌──────────────┐                            │
+│  │  Paper    │───>│  Data Extract │                            │
+│  │  Search   │    │  (PDF+Vision) │                            │
+│  └──────────┘    │  + Anonymize  │                            │
+│                  └──────────────┘                             │
+│                       │                                       │
+│                       v  Phase 3 (BLIND — no web, no refs)    │
+│                  ┌──────────┐                                 │
+│                  │  Draft   │  text frozen after this          │
+│                  │  Writing │  uses [REF] placeholders         │
+│                  └──────────┘                                 │
+│                       │                                       │
+│                       v  Phase 3.5                             │
+│                  ┌──────────────┐                             │
+│                  │  Reference   │  text NOT changed            │
+│                  │  Discovery   │  only [1],[2] + ref list     │
+│                  └──────────────┘                             │
+│                       │                                       │
+│                       v  Phase 4                               │
+│  ┌──────────┐    ┌──────────────────────────┐                │
+│  │  Update   │<──│  Compare Draft vs        │                │
+│  │  Skills   │   │  Original Paper          │                │
+│  └──────────┘    │  + Blind Integrity Check │                │
+│       │          └──────────────────────────┘                │
+│       └──── Next Iteration ──────────────>                   │
+│                                                               │
+│  Report to user every 3 iterations                           │
+└───────────────────────────────────────────────────────────────┘
+```
+
+## Prerequisites
+
+Ensure the following are installed (see `requirements.txt`):
+```bash
+pip3 install -r requirements.txt
+```
+
+Scripts available in `scripts/`:
+- `download_pdf.py` — Download PDF from Europe PMC
+- `extract_tables_from_pdf.py` — Extract tables using PyMuPDF
+- `pdf_to_images.py` — Convert PDF pages to PNG for vision reading
+- `search_pubmed.py` — Search PubMed for reference verification
+
+## Instructions
+
+### Initialization
+1. Check current iteration number (look at existing `papers/iteration_*` directories)
+2. Load current writing guidelines from `.claude/skills/writing-guidelines.md` if exists
+
+### For Each Iteration
+
+#### Phase 1: Paper Search (論文検索サブエージェント)
+Launch a subagent (Agent tool, subagent_type="general-purpose") with the paper-search skill instructions:
+- Search Europe PMC for an open-access ophthalmology paper
+- Download and save to `papers/iteration_{N}/original/`
+- Select a DIFFERENT paper than previous iterations
+
+#### Phase 2: Data Extraction (データ抽出サブエージェント — PDF Enhanced + Anonymized)
+Launch a subagent with the data-extraction skill instructions:
+- **Step 0**: Download PDF and run PyMuPDF table extraction + page-to-image conversion
+  ```bash
+  python3 scripts/download_pdf.py {PMCID} papers/iteration_{N}/original/
+  python3 scripts/extract_tables_from_pdf.py papers/iteration_{N}/original/paper.pdf papers/iteration_{N}/extracted/
+  python3 scripts/pdf_to_images.py papers/iteration_{N}/original/paper.pdf papers/iteration_{N}/original/page_images/ --dpi 200
+  ```
+- **Step 1-4**: Extract Results, tables (from PDF + text), figures (from page images), study design
+- **Step 5**: Extract raw reference list
+- **Step 6**: Save all extracted data to `papers/iteration_{N}/extracted/`
+- **Step 7 (CRITICAL — Anonymization)**: Before saving `extracted_data_bundle.md`:
+  1. Remove ALL identifying information: paper title, author names, journal name, DOI, PMCID, PMID, institution names, named study acronyms
+  2. Save identifying metadata separately to `papers/iteration_{N}/extracted/paper_identity.json`
+  3. Verify the bundle contains NO information that could identify the original paper
+  This ensures the Phase 3 draft writer cannot "cheat" by recognizing the paper from its training data.
+
+#### Phase 3: Draft Writing (ドラフト作成サブエージェント — Blind)
+Launch a subagent with the draft-writing skill instructions:
+- **CRITICAL**: This subagent must NOT have access to the original paper
+- **CRITICAL**: This subagent must NOT receive any identifying information (title, authors, journal, DOI, PMCID)
+- **CRITICAL**: This subagent must NOT use WebSearch or WebFetch tools (to prevent identifying the paper via search)
+- Provide ONLY:
+  - `extracted_data_bundle.md` (anonymized — no identifying info)
+  - `writing-guidelines.md`
+- Do NOT provide `paper_identity.json` or any file from `original/`
+- No reference list is provided — the draft writer uses `[REF]` placeholders where citations would go
+- Instruct the subagent to write in its OWN structure and words — not to replicate any known paper's structure
+- Save draft to `papers/iteration_{N}/draft/`
+
+#### Phase 3.5: Reference Discovery (参考文献発見サブエージェント — NEW)
+Launch a subagent with the reference-search skill instructions:
+- **Input**: `papers/iteration_{N}/draft/draft_paper.md` (finalized draft — text is FROZEN)
+- **TEXT FREEZE**: The draft text MUST NOT be modified — only citation markers `[1]`, `[2]` are inserted
+- Identify claims in the draft that need supporting references
+- Search PubMed for papers that support each claim (NOT for the paper being drafted)
+- Insert citation markers and append a Vancouver-style reference list
+- Save to `papers/iteration_{N}/draft/draft_paper_with_refs.md`
+- Do NOT read the original paper or `paper_identity.json`
+
+#### Phase 4: Comparison & Skill Refinement (比較・スキル改善サブエージェント)
+Launch a subagent with the draft-comparison skill instructions:
+- Compare draft with original paper
+- Generate improvement rules
+- Update `.claude/skills/writing-guidelines.md`
+- Save comparison report to `papers/iteration_{N}/comparison/`
+
+### Iteration Control
+
+After each iteration:
+1. Record iteration results in `papers/progress_log.md`
+2. Check if iteration count is a multiple of 3
+3. If yes: Report to user with:
+   - Summary of last 3 iterations
+   - Quality score trends
+   - Key improvements made
+   - Ask for user guidance on next steps
+4. If no: Continue to next iteration automatically
+
+### Progress Log Format
+
+`papers/progress_log.md`:
+```markdown
+# Paper Writing Skills Progress
+
+## Iteration 1
+- Paper: [title]
+- Journal: [journal]
+- Quality Score: [X/10]
+- Key Gaps: [list]
+- New Rules Added: [count]
+- PDF Tables Extracted: [count]
+- References Discovered: [count]
+- Blind Integrity: [PASS/SUSPECT/FAIL]
+
+## Score Trend
+| Iteration | Accuracy | Completeness | Logic | Readability | Structure | Clinical | Originality | Conciseness | Clin.Action | Blind | Overall |
+|-----------|----------|--------------|-------|-------------|-----------|----------|-------------|-------------|-------------|-------|---------|
+| 1         | X        | X            | X     | X           | X         | X        | X           | X           | X           | P/S/F | X       |
+```
+
+### Stopping Criteria
+- User requests stop
+- Quality score reaches 8.0/10 or above consistently (3 consecutive iterations)
+- Maximum 15 iterations unless user requests more

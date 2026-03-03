@@ -1,0 +1,54 @@
+{
+  "title": "Long-term outcomes of trabeculectomy versus canaloplasty in open-angle glaucoma -- an 11-year follow-up of the TVC study cohort",
+  "authors": [
+    "Raoul Verma-Fuehring",
+    "Juliane Matlach",
+    "Thomas Klink",
+    "Jost Hillenkamp",
+    "Franz Grehn"
+  ],
+  "journal": "BMC Ophthalmology",
+  "year": 2025,
+  "volume": "25",
+  "article_number": "340",
+  "doi": "10.1186/s12886-025-04183-9",
+  "pmcid": "PMC12168381",
+  "received": "2025-04-08",
+  "accepted": "2025-06-02",
+  "published": "2025-06-16",
+  "institution": "Department of Ophthalmology, University Hospital Wuerzburg, Wuerzburg, Germany",
+  "study_type": "Prospective follow-up of a randomized clinical trial",
+  "clinical_trial_id": "NCT01228799",
+  "open_access": true,
+  "original_study": {
+    "authors": "Matlach J, Dhillon C, Hain J, Schlunck G, Grehn F, Klink T",
+    "title": "Trabeculectomy versus canaloplasty (TVC study) in the treatment of patients with open-angle glaucoma: a prospective randomized clinical trial",
+    "journal": "Acta Ophthalmologica",
+    "year": 2015,
+    "volume": "93",
+    "issue": "8",
+    "pages": "753-761"
+  },
+  "keywords": [
+    "trabeculectomy",
+    "canaloplasty",
+    "open-angle glaucoma",
+    "long-term follow-up",
+    "intraocular pressure",
+    "randomized clinical trial"
+  ],
+  "sample_size": {
+    "trabeculectomy": 15,
+    "canaloplasty": 13,
+    "total": 28,
+    "original_cohort_total": 62
+  },
+  "mean_follow_up_years": {
+    "trabeculectomy": 11.9,
+    "canaloplasty": 11.0
+  },
+  "urls": {
+    "bmc": "https://bmcophthalmol.biomedcentral.com/articles/10.1186/s12886-025-04183-9",
+    "pmc": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12168381/"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "iteration": 6,
+  "paper": "Keratoconus Risk Factors Case-Control Study (All of Us Database)",
+  "accuracy": 10.0,
+  "completeness": 8.5,
+  "logic": 9.5,
+  "readability": 9.0,
+  "structure": 9.5,
+  "clinical": 8.5,
+  "originality": 9.0,
+  "blind_integrity": "PASS",
+  "overall": 9.1,
+  "data_points_verified": {"correct": 50, "total": 50},
+  "rules_proposed": 7
+}

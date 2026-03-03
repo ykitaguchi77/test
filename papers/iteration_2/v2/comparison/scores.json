@@ -1,0 +1,99 @@
+{
+  "accuracy": 10,
+  "completeness": 9,
+  "logic": 10,
+  "readability": 9,
+  "structure": 10,
+  "clinical_relevance": 9,
+  "overall": 9.5,
+  "table_completeness_pct": 85,
+  "references_verified": "10/20 PubMed-verified; 20/~30 total identified",
+  "previous_overall_score": 8.5,
+  "iteration": "2v2",
+  "paper": "TVC Study 11-Year Follow-Up (Verma-Fuehring et al., BMC Ophthalmology 2025)",
+  "date": "2026-03-02",
+  "numerical_accuracy": {
+    "data_points_verified": 37,
+    "data_points_correct": 37,
+    "accuracy_rate": 1.0
+  },
+  "improvements_over_v1": {
+    "v1_overall": 8.5,
+    "v2_overall": 9.5,
+    "improvement": 1.0,
+    "key_improvements": [
+      "Reference list expanded from 1 to 20 (10 PubMed-verified with PMID/DOI)",
+      "Discussion enriched with 9+ verified literature comparisons across 6 thematic paragraphs",
+      "Dedicated revision surgery paragraph with TVT benchmark (per Iter2 rule 12)",
+      "Baseline VF confounder explicitly discussed in Limitations (per Iter2 rule 13)",
+      "Ethics/IRB statement added to Methods (per Iter2 rule 10)",
+      "QoL comparison (Klink et al.) integrated into medication burden discussion",
+      "Complication rates contextualized with published literature ranges",
+      "Sample size calculation detail (80% power, 0.05 significance) added to Methods",
+      "37 data points verified (up from 34 in v1) -- 100% accuracy maintained"
+    ]
+  },
+  "remaining_gaps": [
+    "Age and sex demographics unavailable from web extraction",
+    "~10 references from original paper still unidentified",
+    "Number-at-risk data for KM plots unavailable",
+    "Statistical software/version not specified in original extraction"
+  ],
+  "section_scores": {
+    "abstract": {
+      "accuracy": 10,
+      "completeness": 9,
+      "readability": 9,
+      "structure": 10,
+      "overall": 9.5
+    },
+    "introduction": {
+      "accuracy": 10,
+      "completeness": 9,
+      "logic": 10,
+      "readability": 9,
+      "structure": 10,
+      "overall": 9.6
+    },
+    "methods": {
+      "accuracy": 10,
+      "completeness": 9,
+      "readability": 9,
+      "structure": 10,
+      "overall": 9.5
+    },
+    "results": {
+      "accuracy": 10,
+      "completeness": 10,
+      "readability": 9,
+      "structure": 10,
+      "overall": 9.8
+    },
+    "discussion": {
+      "accuracy": 9,
+      "completeness": 9,
+      "logic": 10,
+      "readability": 9,
+      "clinical_relevance": 9,
+      "structure": 10,
+      "overall": 9.3
+    },
+    "strengths_limitations": {
+      "accuracy": 10,
+      "completeness": 10,
+      "balance": 9,
+      "overall": 9.7
+    },
+    "conclusions": {
+      "accuracy": 10,
+      "completeness": 10,
+      "readability": 9,
+      "overall": 9.7
+    },
+    "references": {
+      "accuracy": 10,
+      "completeness": 7,
+      "overall": 8.5
+    }
+  }
+}

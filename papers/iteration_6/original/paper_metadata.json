@@ -1,0 +1,58 @@
+{
+  "title": "Exploring New Links Among Keratoconus, Hormonal Factors, and Medications: Insights From a Case-Control Study Utilizing the All of Us Database",
+  "authors": [
+    {
+      "name": "Carol Beatty",
+      "affiliation": "Medical College of Georgia, Augusta University, Augusta, GA, USA"
+    },
+    {
+      "name": "Amy Estes",
+      "affiliation": "Department of Ophthalmology, James and Jean Culver Vision Discovery Institute, Augusta University, Augusta, GA, USA"
+    },
+    {
+      "name": "Hongyan Xu",
+      "affiliation": "Department of Biostatistics, Data Science and Epidemiology, Augusta University, Augusta, GA, USA"
+    },
+    {
+      "name": "Yutao Liu",
+      "affiliation": "Department of Cellular Biology and Anatomy, Center for Biotechnology and Genomic Medicine, James and Jean Culver Vision Discovery Institute, Augusta University, Augusta, GA, USA",
+      "corresponding": true,
+      "email": "yutliu@augusta.edu"
+    }
+  ],
+  "journal": "Translational Vision Science & Technology",
+  "journal_abbreviation": "Transl Vis Sci Technol",
+  "publisher": "The Association for Research in Vision and Ophthalmology",
+  "doi": "10.1167/tvst.13.11.18",
+  "pmid": "39556086",
+  "pmcid": "PMC11578156",
+  "volume": "13",
+  "issue": "11",
+  "elocation_id": "18",
+  "publication_date": "2024-11-18",
+  "received_date": "2024-07-11",
+  "accepted_date": "2024-10-11",
+  "study_design": "Retrospective matched case-control study",
+  "article_type": "research-article",
+  "subject_category": "Cornea & External Disease",
+  "open_access": true,
+  "license": "Creative Commons Attribution 4.0 International License (CC BY 4.0)",
+  "keywords": [
+    "keratoconus",
+    "hormone",
+    "estrogen",
+    "vitamin C",
+    "tetracycline"
+  ],
+  "sample_size": {
+    "total": 2288,
+    "cases": 572,
+    "controls": 1716,
+    "matching_ratio": "1:3"
+  },
+  "data_source": "All of Us Research Program (NIH)",
+  "reference_count": 59,
+  "tables": 5,
+  "figures": 1,
+  "page_count": 9
+}
