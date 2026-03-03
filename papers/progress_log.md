@@ -9,14 +9,15 @@
 | 4         | Anti-VEGF/ONH Parameters (Cross-sectional) | 9.5 | 8.2 | 9.0 | 9.0 | 9.5 | 8.5 | **8.9** |
 | 5         | DR Progression Primary Care (Longitudinal) | 9.5 | 8.5 | 9.0 | 9.0 | 9.5 | 8.5 | **9.0** |
 | 6         | KC Risk Factors (Case-Control, All of Us) | 10.0 | 8.5 | 9.5 | 9.0 | 9.5 | 8.5 | **9.1** |
+| 7         | BlephEx Blepharitis (Sham-Controlled RCT) | 10.0 | 7.0 | 9.0 | 9.0 | 9.5 | 9.0 | **8.8** |
 
-## Summary After 6 Iterations
-- **Total improvement**: 5.2 -> 9.1 (+3.9 points, +75%)
-- **Total rules accumulated**: 50 (15 from Iter1, 6 from Iter2, 9 from Iter3, 7 from Iter4, 6 from Iter5, 7 from Iter6)
-- **Numerical accuracy**: 0% (Iter1) -> 100% (Iter2) -> 100% (Iter3) -> 100% (Iter4) -> 100% (Iter5) -> 100% (Iter6)
-- **Blind integrity**: PASS (Iter4), PASS (Iter5), PASS (Iter6)
-- **Study designs covered**: Prospective cohort, RCT follow-up, retrospective database, cross-sectional, longitudinal observational, case-control
-- **Primary bottleneck**: Discussion conciseness, clinical actionability of Conclusions, and fine-grained clinical details
+## Summary After 7 Iterations
+- **Total improvement**: 5.2 -> 9.1 peak, current 8.8 (+3.6 points, +69%)
+- **Total rules accumulated**: 56 (15 from Iter1, 6 from Iter2, 9 from Iter3, 7 from Iter4, 6 from Iter5, 7 from Iter6, 6 from Iter7)
+- **Numerical accuracy**: 0% (Iter1) -> 100% (Iter2-7, 6 consecutive)
+- **Blind integrity**: PASS (Iter4), PASS (Iter5), PASS (Iter6), PASS (Iter7)
+- **Study designs covered**: Prospective cohort, RCT follow-up, retrospective database, cross-sectional, longitudinal observational, case-control, sham-controlled device RCT
+- **Primary bottleneck**: Discussion scholarly depth when original has extensive literature comparisons not available in extracted data bundle
 
 ## Iteration 1
 - **Paper**: Lyu et al. (2024) "Impact of ophthalmic clinical service use in mitigating myopia onset and progression in preschool children" - BMC Ophthalmology 24, 221
@@ -112,3 +113,21 @@
   - Translational Relevance section (TVST-specific) absent
 - **New Rules Added**: 7
 - **Key Lesson**: Pipeline achieves 9.1/10 across 6 study designs with 5th consecutive 100% accuracy and 3rd consecutive blind integrity PASS. Improvement rate slowing (0.1/iteration), suggesting approach to ceiling. Key remaining targets: (1) concise mechanistic discussion, (2) clinically actionable conclusions, (3) fine-grained clinical detail capture. The 7 new rules address Discussion brevity, clinical action statements, medication specifics, appendix references, disease stage limitations, coding system specificity, and novel-findings-first Discussion ordering.
+
+## Iteration 7
+- **Paper**: Siegel et al. (2024) "BlephEx-treatment for blepharitis: a prospective randomized placebo-controlled trial" - BMC Ophthalmology 24, PMC11575124
+- **Quality Score**: 8.8/10 (-0.3 from Iteration 6)
+- **Blind Integrity**: PASS
+- **Key Results**:
+  - 100% numerical accuracy maintained (56/56 correct) -- 6th consecutive perfect accuracy, largest data point count verified to date
+  - Fourth consecutive blind integrity PASS with zero knowledge leakage
+  - Superior Clinical Implications section exceeding original's single-sentence conclusion
+  - New study design covered: sham-controlled device/procedural RCT
+- **Score Decrease Cause**: Discussion completeness gap. The original contains detailed comparisons with 8+ named studies that could not be replicated from the anonymized data bundle, resulting in a draft Discussion approximately 50% shorter than the original.
+- **Remaining Gaps**:
+  - Missing named literature comparisons (8+ studies in original Discussion)
+  - Missing unmeasured mechanistic endpoint limitations
+  - Missing zero-prevalence Table 1 rows and figure references
+  - Word count ratio 0.57 (substantially under 0.95-1.15 target)
+- **New Rules Added**: 6
+- **Key Lesson**: This iteration reveals the pipeline's vulnerability to literature-rich Discussion sections. When the original paper devotes extensive space to named study comparisons not available in the data bundle, the draft inevitably undershoots on completeness. The 6 new rules address this by encouraging framework-level literature contextualization, intervention-class mechanism discussion, unmeasured endpoint limitations, Discussion length monitoring, figure referencing, and zero-prevalence row retention. The score decrease is paper-specific rather than systemic -- the pipeline's core strengths (accuracy, blind integrity, structural organization, clinical actionability) remain undiminished.
