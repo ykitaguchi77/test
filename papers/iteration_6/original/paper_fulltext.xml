@@ -1,0 +1,574 @@
+<!DOCTYPE article
+PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.3 20210610//EN" "JATS-archivearticle1-3-mathml3.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.3" xml:lang="en" article-type="research-article"><?properties open_access?><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Transl Vis Sci Technol</journal-id><journal-id journal-id-type="iso-abbrev">Transl Vis Sci Technol</journal-id><journal-id journal-id-type="publisher-id">TVST</journal-id><journal-title-group><journal-title>Translational Vision Science &#x00026; Technology</journal-title></journal-title-group><issn pub-type="epub">2164-2591</issn><publisher><publisher-name>The Association for Research in Vision and Ophthalmology</publisher-name></publisher></journal-meta>
+<article-meta><article-id pub-id-type="pmid">39556086</article-id><article-id pub-id-type="pmc">PMC11578156</article-id>
+<article-id pub-id-type="doi">10.1167/tvst.13.11.18</article-id><article-id pub-id-type="publisher-id">TVST-24-7130</article-id><article-categories><subj-group subj-group-type="heading"><subject>Cornea &#x00026; External Disease</subject></subj-group><subj-group subj-group-type="category"><subject>Cornea &#x00026; External Disease</subject></subj-group></article-categories><title-group><article-title>Exploring New Links Among Keratoconus, Hormonal Factors, and Medications: Insights From a Case&#x02013;Control Study Utilizing the All of Us Database</article-title><alt-title alt-title-type="runhead">Links Between KC, Estrogen, and Medications</alt-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Beatty</surname><given-names>Carol</given-names></name><xref rid="aff1" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Estes</surname><given-names>Amy</given-names></name><xref rid="aff2" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Xu</surname><given-names>Hongyan</given-names></name><xref rid="aff3" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib contrib-type="author" corresp="yes"><name><surname>Liu</surname><given-names>Yutao</given-names></name><xref rid="aff4" ref-type="aff">
+<sup>4</sup>
+</xref></contrib><aff id="aff1"><label>1</label>Medical College of Georgia, Augusta University, Augusta, GA, USA</aff><aff id="aff2"><label>2</label>Department of Ophthalmology, James and Jean Culver Vision Discovery Institute, Augusta University, Augusta, GA, USA</aff><aff id="aff3"><label>3</label>Department of Biostatistics, Data Science and Epidemiology, Augusta University, Augusta, GA, USA</aff><aff id="aff4"><label>4</label>Department of Cellular Biology and Anatomy, Center for Biotechnology and Genomic Medicine, James and Jean Culver Vision Discovery Institute, Augusta University, Augusta, GA, USA</aff></contrib-group><author-notes><corresp id="cor1">
+<label>*</label>
+<bold>Correspondence:</bold> Yutao Liu, Department of Cellular Biology and Anatomy, Center for Biotechnology and Genomic Medicine, James and Jean Culver Vision Discovery Institute, Augusta University, 1120 15th Street, Augusta, GA 30912, USA. e-mail: <email>yutliu@augusta.edu</email></corresp></author-notes><pub-date pub-type="epub"><day>18</day><month>11</month><year>2024</year></pub-date><pub-date pub-type="collection"><month>11</month><year>2024</year></pub-date><volume>13</volume><issue>11</issue><elocation-id>18</elocation-id><history><date date-type="accepted"><day>11</day><month>10</month><year>2024</year></date><date date-type="received"><day>11</day><month>7</month><year>2024</year></date></history><permissions><copyright-statement>Copyright 2024 The Authors</copyright-statement><copyright-year>2024</copyright-year><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This work is licensed under a Creative Commons Attribution 4.0 International License.</license-p></license></permissions><self-uri xlink:title="pdf" xlink:href="tvst-13-11-18.pdf"/><abstract><sec><title>Purpose</title><p>We aimed to identify clinical factors associated with keratoconus (KC) risk in the All of Us database.</p></sec><sec><title>Methods</title><p>This retrospective matched case&#x02013;control study utilized patient data from the All of Us Research Program. All patients with a KC diagnosis (<italic toggle="yes">n</italic> = 572) were enrolled in the study and matched with three controls (<italic toggle="yes">n</italic> = 1716) based on age &#x000b1; 1 year, race, ethnicity, and sex. The patients&#x02019; medical histories, including diabetes, sleep apnea, obesity, smoking, ocular surface disease (encompassing dry eye, eczema, and allergic or atopic conjunctivitis), allergic rhinitis, pregnancy, estrogen-containing medications, tetracyclines, and vitamin C supplementation, were collected using electronic health records. Multivariable odds ratios (ORs) between KC and health history were calculated using the R programming language.</p></sec><sec><title>Results</title><p>The study included 2288 participants with an average age of 58.7 years. All included variables showed a significant positive correlation with KC except smoking history, which showed a negative correlation. The most significant correlations were ocular surface disease (OR = 6.04) and obesity (OR = 1.82). Significant positive associations were also identified for tetracyclines and estrogen-containing medications with KC. Smoking was negatively correlated.</p></sec><sec><title>Conclusions</title><p>In addition to previously known risk factors, patients with a history of increased estrogen exposure and tetracycline usage were more likely to have a KC diagnosis whereas those with a smoking history were less likely.</p></sec><sec><title>Translational Relevance</title><p>Understanding the risk factors for KC, including estrogen exposure and tetracycline medications, enhances our ability to identify at-risk patients and implement earlier screening, diagnosis, and interventions.</p></sec></abstract><kwd-group><kwd>keratoconus</kwd><kwd>hormone</kwd><kwd>estrogen</kwd><kwd>vitamin C</kwd><kwd>tetracycline</kwd></kwd-group><counts><page-count count="9"/></counts></article-meta></front><body><sec sec-type="intro" id="sec1"><title>Introduction</title><p>Keratoconus (KC) is a bilateral and asymmetric corneal ectasia affecting &#x0003e;300,000 people in the United States.<xref rid="bib1" ref-type="bibr"><sup>1</sup></xref><sup>&#x02013;</sup><xref rid="bib4" ref-type="bibr"><sup>4</sup></xref> This progressive condition is characterized by irregular thinning and steepening of the cornea, leading to a conical shape.<xref rid="bib5" ref-type="bibr"><sup>5</sup></xref> These changes to the cornea result in irregular astigmatism and diminished visual acuity,<xref rid="bib6" ref-type="bibr"><sup>6</sup></xref> both of which negatively impact patients&#x02019; quality of life.<xref rid="bib7" ref-type="bibr"><sup>7</sup></xref> KC is most commonly diagnosed during the second or third decade of life, thus imposing both financial and social burdens at a relatively early age.<xref rid="bib8" ref-type="bibr"><sup>8</sup></xref><sup>,</sup><xref rid="bib9" ref-type="bibr"><sup>9</sup></xref></p><p>Due to the progressive nature of the disease, early diagnosis and treatment can improve visual outcomes.<xref rid="bib10" ref-type="bibr"><sup>10</sup></xref> KC is a multifactorial disease influenced by both environmental and genetic factors.<xref rid="bib11" ref-type="bibr"><sup>11</sup></xref> The disease is highly associated with eye rubbing, and many conditions are correlated with eye rubbing such as dry eye, allergy, and conjunctivitis.<xref rid="bib12" ref-type="bibr"><sup>12</sup></xref><sup>&#x02013;</sup><xref rid="bib15" ref-type="bibr"><sup>15</sup></xref> Eye rubbing has been hypothesized to be causative, as rubbing one's eye can mechanically thin out the cornea.<xref rid="bib16" ref-type="bibr"><sup>16</sup></xref> Through this study, we aimed to widen our understanding of the known risk factors for KC, including eye rubbing, atopy, allergy, and eczema.<xref rid="bib8" ref-type="bibr"><sup>8</sup></xref><sup>,</sup><xref rid="bib17" ref-type="bibr"><sup>17</sup></xref><sup>&#x02013;</sup><xref rid="bib19" ref-type="bibr"><sup>19</sup></xref></p><p>Identification of known risk factors for KC might increase clinical suspicion and result in earlier evaluation of the condition.<xref rid="bib20" ref-type="bibr"><sup>20</sup></xref><sup>&#x02013;</sup><xref rid="bib22" ref-type="bibr"><sup>22</sup></xref> In this work, we sought to identify new risk factors that might assist in early diagnosis or detection of KC progression. Correlations between KC and pregnancy have been hypothesized but are lacking sufficient evidence to this point.<xref rid="bib18" ref-type="bibr"><sup>18</sup></xref><sup>,</sup><xref rid="bib23" ref-type="bibr"><sup>23</sup></xref><sup>,</sup><xref rid="bib24" ref-type="bibr"><sup>24</sup></xref> In addition to investigating this hypothesized association between KC and pregnancy in a larger dataset than previously reported, we expanded our analysis to evaluate a potential link between the ocular condition and women's hormones. Vitamin C is an essential cofactor of enzymes involved in collagen synthesis and crosslinking, having been widely used to stimulate corneal stromal fibroblast cells to secrete extracellular matrix in in vitro cell culture experiments.<xref rid="bib25" ref-type="bibr"><sup>25</sup></xref><sup>,</sup><xref rid="bib26" ref-type="bibr"><sup>26</sup></xref> These same enzymes are thought to play a role in corneal remodeling and define the initiation and progression of KC.<xref rid="bib27" ref-type="bibr"><sup>27</sup></xref> Notably, levels of vitamin C were found to be elevated in KC corneas<xref rid="bib28" ref-type="bibr"><sup>28</sup></xref> and increased following corneal cross-linking.<xref rid="bib29" ref-type="bibr"><sup>29</sup></xref> Vitamin C deficiency has also been hypothesized to correlate with KC.<xref rid="bib30" ref-type="bibr"><sup>30</sup></xref> Considering the mixed body of literature surrounding this topic, we investigated whether a relationship between vitamin C supplementation and the prevalence of KC existed in our study population. Although KC is a non-inflammatory disease, more evidence has indicated the potential involvement of inflammatory factors in KC pathogenesis.<xref rid="bib31" ref-type="bibr"><sup>31</sup></xref><sup>,</sup><xref rid="bib32" ref-type="bibr"><sup>32</sup></xref> Antibiotics, such as tetracyclines, are often prescribed during inflammatory ocular events such as ocular rosacea or sterile corneal ulcerations.<xref rid="bib33" ref-type="bibr"><sup>33</sup></xref><sup>&#x02013;</sup><xref rid="bib35" ref-type="bibr"><sup>35</sup></xref> We were interested in exploring whether tetracyclines, some of the most commonly used ocular antibiotics, are associated with KC risk.<xref rid="bib33" ref-type="bibr"><sup>33</sup></xref></p><p>The study was conducted utilizing the All of Us research database. The All of Us Research Program is a National Institute of Health&#x02013;funded data initiative to collect health data on more than 1 million Americans. The database collects patient-level data on a diverse population from across the United States.<xref rid="bib36" ref-type="bibr"><sup>36</sup></xref> The platform allows us to analyze a large, diverse population to understand better the relationships between a relatively rare ocular disease and common risk factors.</p></sec><sec sec-type="methods" id="sec2"><title>Methods</title><p>This was a retrospective case&#x02013;control study utilizing the data available in the All of Us database. The database includes patients 18 years and older recruited within the period of May 2018 to January 2022. In the All of Us platform, volunteers may complete health-related surveys and consent to sharing their electronic health records (EHRs). The health data of each participant were transferred to the database; they were then deidentified and made accessible to registered users for research purposes.<xref rid="bib37" ref-type="bibr"><sup>37</sup></xref> Data used in this study are available to registered researchers of the All of Us Researcher Workbench. For information about access, please visit <ext-link xlink:href="https://www.researchallofus.org/" ext-link-type="uri">https://www.researchallofus.org/</ext-link>.</p><p>This study selected two cohorts of adult patients with associated EHRs using the All of Us data analysis workbench: KC patients and matched non-KC patients. The KC patients were identified by the Systemized Nomenclature of Medicine, Clinical Terms (SNOMED-CT) term &#x0201c;keratoconus,&#x0201d; based on the International Classification of Diseases (ICD) codes for KC. The KC cohort was built to include all patients with at least one KC diagnosis in their EHRs (<italic toggle="yes">n</italic> = 572). Age, ethnicity, and sex data were extracted from the survey data available in the database. Participants in the KC cohort were matched with three controls based on age &#x000b1; 1 year, ethnicity, and sex to create the matched non-KC cohort (<italic toggle="yes">n</italic> = 1716).</p><p>ICD codes were used to identify covariates, including a history of diabetes, sleep apnea, obesity, dry eye, eczema, allergic rhinitis, allergic or atopic conjunctivitis, tetracycline medication, vitamin C supplementation, pregnancy, and estrogen-containing medication. History of smoking was identified using a combination of survey data and ICD codes. Participants who reported smoking more than 100 cigarettes in their lifetime, smoking for more than 5 years, or smoking a cigarette in the last month were defined as smokers by the survey results. Due to significant overlap in the pathophysiology and previously reported strong evidence for dry eye, allergic or atopic conjunctivitis, and eczema, all participants with these risk factors were grouped into one category referred to as &#x0201c;ocular surface disease.&#x0201d;</p><p>Advanced statistical techniques were employed within the All of Us researcher workbench to analyze the collected data. Data analysis was conducted on the Jupyter Notebook web-based platform using the R programming language (R Foundation for Statistical Computing, Vienna, Austria). Tests were performed using the &#x0201c;oddsratio()&#x0201d; function from the &#x0201c;epitools&#x0201d; package and &#x0201c;glm()&#x0201d; function from the &#x0201c;stats&#x0201d; package. Univariable odds ratios (ORs) were calculated comparing KC and each collected element of the participants&#x02019; health histories (ocular surface disease, diabetes, sleep apnea, obesity, smoking, allergic rhinitis, pregnancy, estrogen-containing medications, tetracyclines, and vitamin C supplementation). A logistic regression was performed using all variables to show significant correlations to KC (ocular surface disease, diabetes, sleep apnea, obesity, smoking, allergic rhinitis, pregnancy, estrogen-containing medications, tetracyclines, and vitamin C supplementation) as covariates to calculate multivariable ORs. Also, 95% confidence intervals (CIs) and <italic toggle="yes">P</italic> values were additionally calculated. All analyses exploring the history of pregnancy and estrogen-containing medication included only female KC participants (<italic toggle="yes">n</italic> = 316) and their matched controls (<italic toggle="yes">n</italic> = 948).</p></sec><sec sec-type="results" id="sec3"><title>Results</title><p>The analyzed cohorts included 572 patients with KC and 1716 patients without KC. The mean ages of participants were 58.7 &#x000b1; 15.6 years for KC cases and 58.7 &#x000b1; 15.6 years for controls. In both the KC and control cohorts, 55% of participants were female and 25% were Hispanic. In the KC cohort, 48% of participants were European American, 23% were Black or African American. In the control cohort, 51% were European American and 18% were Black or African American (<xref rid="tbl1" ref-type="table">Table 1</xref>).</p><table-wrap position="float" content-type="4col" id="tbl1"><label>Table 1.</label><caption><p>Demographics of the Study Populations</p></caption><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" span="1"/><col align="char" char="(" span="1"/><col align="char" char="(" span="1"/><col align="char" char="." span="1"/></colgroup><thead><tr><th rowspan="1" colspan="1"/><th align="center" rowspan="1" colspan="1">KC (<italic toggle="yes">n</italic> = 572)</th><th align="center" rowspan="1" colspan="1">Non-KC (<italic toggle="yes">n</italic> = 1716)</th><th align="center" rowspan="1" colspan="1">
+<italic toggle="yes">P</italic>
+</th></tr></thead><tbody><tr><td rowspan="1" colspan="1">Age, mean &#x000b1; SD</td><td align="center" rowspan="1" colspan="1">58.7 &#x000b1; 15.6</td><td align="center" rowspan="1" colspan="1">58.7 &#x000b1; 15.6</td><td rowspan="1" colspan="1">1.0</td></tr><tr><td rowspan="1" colspan="1">Sex, <italic toggle="yes">n</italic> (%)</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">1.0</td></tr><tr><td rowspan="1" colspan="1">&#x02003;Female</td><td rowspan="1" colspan="1">316 (55)</td><td rowspan="1" colspan="1">948 (55)</td><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1">&#x02003;Male</td><td rowspan="1" colspan="1">246 (43)</td><td rowspan="1" colspan="1">738 (43)</td><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1">&#x02003;Other</td><td rowspan="1" colspan="1">10 (2)</td><td rowspan="1" colspan="1">30 (2)</td><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1">Ethnicity, <italic toggle="yes">n</italic> (%)</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">1.0</td></tr><tr><td rowspan="1" colspan="1">&#x02003;Not Hispanic or Latino</td><td rowspan="1" colspan="1">405 (71)</td><td rowspan="1" colspan="1">1215 (71)</td><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1">&#x02003;Hispanic or Latino</td><td rowspan="1" colspan="1">144 (25)</td><td rowspan="1" colspan="1">432 (25)</td><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1">&#x02003;Unknown</td><td rowspan="1" colspan="1">23 (4)</td><td rowspan="1" colspan="1">69 (4)</td><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1">Race, <italic toggle="yes">n</italic> (%)</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">&#x0003e;0.99</td></tr><tr><td rowspan="1" colspan="1">&#x02003;White</td><td rowspan="1" colspan="1">272 (48)</td><td rowspan="1" colspan="1">877 (51)</td><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1">&#x02003;Black or African American</td><td rowspan="1" colspan="1">129 (23)</td><td rowspan="1" colspan="1">315 (18)</td><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1">&#x02003;Asian</td><td rowspan="1" colspan="1">8 (1)</td><td rowspan="1" colspan="1">42 (2)</td><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1">&#x02003;Middle Eastern or North African</td><td rowspan="1" colspan="1">6 (1)</td><td rowspan="1" colspan="1">7 (0)</td><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1">&#x02003;Native Hawaiian or Other Pacific Islander</td><td rowspan="1" colspan="1">1 (0)</td><td rowspan="1" colspan="1">3 (0)</td><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1">&#x02003;More than one population</td><td rowspan="1" colspan="1">8 (1)</td><td rowspan="1" colspan="1">27 (2)</td><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1">&#x02003;Unknown</td><td rowspan="1" colspan="1">148 (26)</td><td rowspan="1" colspan="1">445 (26)</td><td rowspan="1" colspan="1"/></tr></tbody></table></table-wrap><p>The strongest correlation to KC in the multivariable analysis was ocular surface disease (57.87%; OR = 6.04; 95% CI, 4.77&#x02013;7.65). Additional variables showing a statistically significant correlation to participants with a diagnosis of KC in comparison to matched controls when accounting for all other tested variables were obesity (44.76%; OR = 1.82; 95% CI, 1.40&#x02013;2.37), history of estrogen-containing medication (44.30%; OR = 1.77; 95% CI, 1.25&#x02013;2.51), and tetracycline usage (30.59%; OR = 1.36; 95% CI, 1.03&#x02013;1.79). In contrast, participants with KC were statistically significantly less likely to have a history of smoking (31.82%; OR = 0.64; 95% CI, 0.51&#x02013;0.81) in the multivariable analysis. All other variables tested showed a positive correlation with KC but were not statistically significant: sleep apnea (32.52%; OR = 1.34; 95% CI, 1.00&#x02013;1.80); type II diabetes (29.37%; OR = 1.33; 95% CI, 0.99&#x02013;1.77); vitamin C supplementation (19.75%; OR = 1.31; 95% CI, 0.95&#x02013;1.80); pregnancy (23.73%; OR = 1.30; 95% CI, 0.87&#x02013;1.94); allergic rhinitis (33.57%; OR = 1.22; 95% CI, 0.93&#x02013;1.61); and type I diabetes (4.72%; OR = 1.00; 95% CI, 0.52&#x02013;1.95) (<xref rid="tbl2" ref-type="table">Table&#x000a0;2</xref>,&#x000a0;<xref rid="fig1" ref-type="fig">Fig</xref>.).</p><p>Results from the univariable analysis are included in <xref rid="tbl3" ref-type="table">Table A1</xref> which is available in <xref rid="appA" ref-type="app">Appendix A</xref>. Additionally, results of the univariable (<xref rid="tbl4" ref-type="table">Table B1</xref>) and multivariable (<xref rid="tbl5" ref-type="table">Table B2</xref>) analyses without grouping dry eye, eczema, and allergic or atopic conjunctivitis are included in <xref rid="appB" ref-type="app">Appendix B</xref>.</p><table-wrap position="float" content-type="4col" id="tbl2"><label>Table 2.</label><caption><p>Multivariable Analysis of Clinical Factors Associated With KC</p></caption><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="char" char="." span="1"/></colgroup><thead><tr><th rowspan="1" colspan="1">Variable</th><th rowspan="1" colspan="1">Multivariable OR</th><th rowspan="1" colspan="1">95% CI</th><th align="center" rowspan="1" colspan="1">
+<italic toggle="yes">P</italic>
+</th></tr></thead><tbody><tr><td rowspan="1" colspan="1">Ocular surface disease<xref rid="tb2fn1" ref-type="table-fn"><sup>a</sup></xref></td><td rowspan="1" colspan="1">6.04</td><td rowspan="1" colspan="1">4.77&#x02013;7.65</td><td rowspan="1" colspan="1">&#x0003c;0.0001</td></tr><tr><td rowspan="1" colspan="1">Obesity</td><td rowspan="1" colspan="1">1.82</td><td rowspan="1" colspan="1">1.40&#x02013;2.37</td><td rowspan="1" colspan="1">&#x0003c;0.0001</td></tr><tr><td rowspan="1" colspan="1">Estrogen-containing medication</td><td rowspan="1" colspan="1">1.77</td><td rowspan="1" colspan="1">1.25&#x02013;2.51</td><td rowspan="1" colspan="1">0.00139</td></tr><tr><td rowspan="1" colspan="1">Tetracycline</td><td rowspan="1" colspan="1">1.36</td><td rowspan="1" colspan="1">1.03&#x02013;1.79</td><td rowspan="1" colspan="1">0.02945</td></tr><tr><td rowspan="1" colspan="1">Sleep apnea</td><td rowspan="1" colspan="1">1.34</td><td rowspan="1" colspan="1">1.00&#x02013;1.80</td><td rowspan="1" colspan="1">0.05247</td></tr><tr><td rowspan="1" colspan="1">Type II diabetes</td><td rowspan="1" colspan="1">1.33</td><td rowspan="1" colspan="1">0.99&#x02013;1.77</td><td rowspan="1" colspan="1">0.05884</td></tr><tr><td rowspan="1" colspan="1">Vitamin C supplementation</td><td rowspan="1" colspan="1">1.31</td><td rowspan="1" colspan="1">0.95&#x02013;1.80</td><td rowspan="1" colspan="1">0.09878</td></tr><tr><td rowspan="1" colspan="1">Pregnancy</td><td rowspan="1" colspan="1">1.30</td><td rowspan="1" colspan="1">0.87&#x02013;1.94</td><td rowspan="1" colspan="1">0.2025</td></tr><tr><td rowspan="1" colspan="1">Allergic rhinitis</td><td rowspan="1" colspan="1">1.22</td><td rowspan="1" colspan="1">0.93&#x02013;1.61</td><td rowspan="1" colspan="1">0.1465</td></tr><tr><td rowspan="1" colspan="1">Type I diabetes</td><td rowspan="1" colspan="1">1.00</td><td rowspan="1" colspan="1">0.52&#x02013;1.95</td><td rowspan="1" colspan="1">0.9923</td></tr><tr><td rowspan="1" colspan="1">Smoking</td><td rowspan="1" colspan="1">0.64</td><td rowspan="1" colspan="1">0.51&#x02013;0.81</td><td rowspan="1" colspan="1">0.00163</td></tr></tbody></table><table-wrap-foot><fn id="tb2fn1"><label>a</label><p>Ocular surface disease includes participants with dry eye, allergic or atopic conjunctivitis, or eczema.</p></fn></table-wrap-foot></table-wrap><fig position="float" id="fig1"><label>Figure.</label><caption><p>Multivariable odds ratios of the association between keratoconus and health history. *Ocular surface disease includes participants with dry eye, allergic or atopic conjunctivitis, or eczema.</p></caption><graphic xlink:href="tvst-13-11-18-f001" position="float"/></fig></sec><sec sec-type="discussion" id="sec4"><title>Discussion</title><p>Our study identified novel risk factors associated with KC (estrogen-containing medications and tetracycline usage), confirmed known risk factors (ocular surface disease and obesity), and provided evidence of possible protective effects of smoking against KC. This analysis revealed a correlation between estrogen and KC. A history of estrogen-containing medications was significantly associated with KC even when accounting for covariates, and previous pregnancy showed a positive correlation although it was not significant. Several case studies have detailed instances of progression and worsening of KC following pregnancy<xref rid="bib23" ref-type="bibr"><sup>23</sup></xref><sup>,</sup><xref rid="bib24" ref-type="bibr"><sup>24</sup></xref><sup>,</sup><xref rid="bib38" ref-type="bibr"><sup>38</sup></xref><sup>,</sup><xref rid="bib39" ref-type="bibr"><sup>39</sup></xref>; however, our KC cohort included 316 female participants, which allowed for wide-scale correlation analysis. The most common estrogen-containing medication reported in our cohorts was oral contraceptive pills. Several studies have suggested a relationship between estrogen and the ocular disease, finding increased estrogen receptors in KC corneas.<xref rid="bib40" ref-type="bibr"><sup>40</sup></xref><sup>,</sup><xref rid="bib41" ref-type="bibr"><sup>41</sup></xref> This mechanism might offer a basic explanation for the 1.30&#x000d7; odds that KC patients have a history of pregnancy and 1.77&#x000d7; odds of previous estrogen-containing medication use.</p><p>The history of tetracycline usage was interestingly found to correlate positively with KC in both the univariable and multivariable analyses. Tetracyclines are most commonly used as a broad-spectrum antibiotic, but the drug class has shown non-antimicrobial properties. Tetracyclines have known anti-inflammatory effects, inhibiting matrix metalloproteinase (MMP) and interleukin-1 (IL-1) production.<xref rid="bib42" ref-type="bibr"><sup>42</sup></xref> The reported correlation to KC could relate to the usage of tetracycline as an ocular anti-inflammatory, prescribed in instances of corneal ulceration, ocular rosacea, keratoconjunctivitis sicca, other dermatological conditions, or even dry eye.<xref rid="bib33" ref-type="bibr"><sup>33</sup></xref><sup>,</sup><xref rid="bib35" ref-type="bibr"><sup>35</sup></xref><sup>,</sup><xref rid="bib42" ref-type="bibr"><sup>42</sup></xref><sup>,</sup><xref rid="bib43" ref-type="bibr"><sup>43</sup></xref> Tetracyclines are thought to slow pathological soft-tissue breakdown through anti-collagenase activity, leading to its use in sterile corneal ulcers.<xref rid="bib33" ref-type="bibr"><sup>33</sup></xref><sup>,</sup><xref rid="bib44" ref-type="bibr"><sup>44</sup></xref> Alternatively, the correlation could possibly be attributed to antibiotic management of KC treatments and sequelae. Tetracyclines and other ocular antibiotics are rarely prescribed in the event of acute corneal hydrops, a rare complication of KC, or following corneal collagen cross-linking, a procedure shown to slow KC progression.<xref rid="bib45" ref-type="bibr"><sup>45</sup></xref><sup>&#x02013;</sup><xref rid="bib47" ref-type="bibr"><sup>47</sup></xref> Future work is needed to better understand if the association between KC and tetracyclines is a direct risk factor altering corneal tissue, secondary to underlying inflammatory diseases, or is due to an alternative explanation.</p><p>History of smoking was the only covariate with a negative correlation with KC. Current literature is split on smoking, with some studies finding a positive association, some a negative association, and some no association at all.<xref rid="bib48" ref-type="bibr"><sup>48</sup></xref><sup>&#x02013;</sup><xref rid="bib52" ref-type="bibr"><sup>52</sup></xref> Our study, with a population of 572 KC patients, analyzed a larger KC population than previous studies exploring the relationship between smoking and KC.<xref rid="bib48" ref-type="bibr"><sup>48</sup></xref><sup>&#x02013;</sup><xref rid="bib52" ref-type="bibr"><sup>52</sup></xref> A proposed hypothesis relating smoking to KC is its impact on the meibomian glands, resulting in a dry eye and increasing friction across the cornea.<xref rid="bib48" ref-type="bibr"><sup>48</sup></xref> However, an alternative hypothesis could explain the mechanism by which smoking showed a negative correlation and possible protective factor against KC in our study. Smoking results in reactive glycation products, nitrogen oxide, and nitrites, which cross-link and modify collagen proteins. These modifications could contributed to corneal stabilization, slowing the pathogenesis of KC.<xref rid="bib51" ref-type="bibr"><sup>51</sup></xref></p><p>Our work additionally confirmed previous studies, which have established known risk factors associated with KC including dry eye,<xref rid="bib14" ref-type="bibr"><sup>14</sup></xref><sup>,</sup><xref rid="bib15" ref-type="bibr"><sup>15</sup></xref> allergy,<xref rid="bib8" ref-type="bibr"><sup>8</sup></xref><sup>,</sup><xref rid="bib12" ref-type="bibr"><sup>12</sup></xref><sup>,</sup><xref rid="bib13" ref-type="bibr"><sup>13</sup></xref><sup>,</sup><xref rid="bib17" ref-type="bibr"><sup>17</sup></xref> eye rubbing,<xref rid="bib8" ref-type="bibr"><sup>8</sup></xref><sup>,</sup><xref rid="bib12" ref-type="bibr"><sup>12</sup></xref><sup>,</sup><xref rid="bib13" ref-type="bibr"><sup>13</sup></xref><sup>,</sup><xref rid="bib16" ref-type="bibr"><sup>16</sup></xref><sup>,</sup><xref rid="bib17" ref-type="bibr"><sup>17</sup></xref><sup>,</sup><xref rid="bib19" ref-type="bibr"><sup>19</sup></xref> eczema,<xref rid="bib8" ref-type="bibr"><sup>8</sup></xref><sup>,</sup><xref rid="bib19" ref-type="bibr"><sup>19</sup></xref> and obesity.<xref rid="bib53" ref-type="bibr"><sup>53</sup></xref><sup>,</sup><xref rid="bib54" ref-type="bibr"><sup>54</sup></xref> Ocular surface disease, encompassing dry eye, allergic or atopic conjunctivitis, and eczema, was most strongly associated with KC. All three conditions are strongly associated with eye rubbing and proposed to contribute to the development or progression of KC through direct mechanical injury to the cornea.<xref rid="bib8" ref-type="bibr"><sup>8</sup></xref><sup>,</sup><xref rid="bib12" ref-type="bibr"><sup>12</sup></xref><sup>,</sup><xref rid="bib13" ref-type="bibr"><sup>13</sup></xref><sup>,</sup><xref rid="bib55" ref-type="bibr"><sup>55</sup></xref> Additional evidence suggests inflammation might also be contributing to this strong correlation.<xref rid="bib15" ref-type="bibr"><sup>15</sup></xref> Pro-inflammatory cytokines, including IL-1, IL-6, interferon&#x02010;gamma (IFN-&#x003b3;), and tumor necrosis factor alpha (TNF-&#x003b1;), are known to be elevated in KC tears, indicating an inflammatory microenvironment on the surface of KC corneas.<xref rid="bib56" ref-type="bibr"><sup>56</sup></xref><sup>,</sup><xref rid="bib57" ref-type="bibr"><sup>57</sup></xref> Eye rubbing and allergic eye disease have similarly been shown to increase ocular inflammatory markers, including IL-1, IL-6, MMP, and TNF-&#x003b1;.<xref rid="bib58" ref-type="bibr"><sup>58</sup></xref><sup>,</sup><xref rid="bib59" ref-type="bibr"><sup>59</sup></xref> The pathophysiology explaining the correlation of KC with obesity is not entirely understood, but it is hypothesized that obesity leads to weaker eyelid skin due to decreased elastin in the tarsal plate. This subsequently reduces the ability of the eyelid to protect the cornea and increases mechanical injury to the cornea.<xref rid="bib53" ref-type="bibr"><sup>53</sup></xref> Another hypothesis suggests that the relationship of obesity to KC is due to the systemic effects characteristic of chronic metabolic inflammation.<xref rid="bib54" ref-type="bibr"><sup>54</sup></xref> Our confirmation of previous findings not only adds to the body of evidence but also helps to validate our population, as it broadly aligns with current literature.</p><p>Our population was accessed through the All of Us database. This allowed for the analysis of a relatively large dataset of patients with and without KC who were representative of patients in the United States.<xref rid="bib36" ref-type="bibr"><sup>36</sup></xref> Considering the rarity of KC, the sample size and diversity were significant strengths of the study, a major difference that contributed to the unique findings of our study compared to those of the published literature. Previously reported risk factors were analyzed in a large, diverse database, and evidence of novel risk factors (i.e., estrogen-containing medication) was identified in a large, clinical case&#x02013;control study (<italic toggle="yes">n</italic> = 2288) rather than in a case series or in studies using animal models. Our results are limited by several factors, however. This work was a retrospective cross-sectional study. The analysis offers strong evidence of the correlation between KC and its risk factors but does not examine causality. The database does not allow for determination of the stage or severity of KC. Controls were determined by a lack of KC diagnosis, so it is possible that individuals with undiagnosed KC were included in the cohort. Alternatively, a coding error in the health record could allow patients without diagnosis to be included in our KC cohort. Additionally, the average age of participants in the KC cohort was 58.7 years. Because onset of the disease typically occurs in the second or third decade of life, it is likely that these patients have established, non-progressive KC.<xref rid="bib8" ref-type="bibr"><sup>8</sup></xref><sup>,</sup><xref rid="bib9" ref-type="bibr"><sup>9</sup></xref> Some interventions, such as medication or supplementation, might be less relevant due to the static nature of KC in the studied population. Our analysis did not account for any temporal relationship between risk factors and KC diagnosis.</p><p>In conclusion, we determined that a history of estrogen-containing medication and tetracycline usage increases the odds of KC but a history of smoking decreases the odds, even when accounting for ocular surface diseases and obesity as covariates. Because a diagnosis of KC is most common early in life, carries a significant burden on quality of life, and has effective treatment options, providers should be aware of all disease risk factors to aid in early diagnosis and intervention.</p></sec></body><back><ack><title>Acknowledgments</title><p>The All of Us Research Program is supported by the National Institutes of Health and would not be possible without the partnership of its participants.</p><p>Supported by research funds of the James and Jean Culver Vision Discovery Institute, Augusta University (YL), and by grants from the National Eye Institutes, National Institutes of Health (R01EY023242, R21EY033961, R01EY032960, R21EY028671, and P30EY031631 to YL).</p><p content-type="COI-statement">Disclosure: <bold>C. Beatty</bold>, None; <bold>A. Estes</bold>, None; <bold>H. Xu</bold>, None; <bold>Y. Liu</bold>, None</p></ack><ref-list><title>References</title><ref id="bib1"><label>1.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Akoto</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Li</surname>
+<given-names>JJ</given-names></string-name>, <string-name><surname>Estes</surname>
+<given-names>AJ</given-names></string-name>, <string-name><surname>Karamichos</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Liu</surname>
+<given-names>Y.</given-names></string-name></person-group>
+<article-title>The underlying relationship between keratoconus and Down syndrome</article-title>. <source><italic toggle="yes">Int J Mol Sci</italic></source><italic toggle="yes">.</italic>
+<year>2022</year>; <volume>23</volume>(<issue>18</issue>): <fpage>10796</fpage>.<pub-id pub-id-type="pmid">36142709</pub-id>
+</mixed-citation></ref><ref id="bib2"><label>2.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Ates</surname>
+<given-names>KM</given-names></string-name>, <string-name><surname>Estes</surname>
+<given-names>AJ</given-names></string-name>, <string-name><surname>Liu</surname>
+<given-names>Y.</given-names></string-name></person-group>
+<article-title>Potential underlying genetic associations between keratoconus and diabetes mellitus</article-title>. <source><italic toggle="yes">Adv Ophthalmol Pract Res</italic></source><italic toggle="yes">.</italic>
+<year>2021</year>; <volume>1</volume>(<issue>1</issue>): <fpage>100005</fpage>.<pub-id pub-id-type="pmid">34746916</pub-id>
+</mixed-citation></ref><ref id="bib3"><label>3.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Cai</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Estes</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Liu</surname>
+<given-names>Y.</given-names></string-name></person-group>
+<article-title>Omics analyses in keratoconus: from transcriptomics to proteomics</article-title>. <source><italic toggle="yes">Curr Ophthalmol Rep</italic></source><italic toggle="yes">.</italic>
+<year>2020</year>; <volume>8</volume>(<issue>4</issue>): <fpage>216</fpage>&#x02013;<lpage>225</lpage>.<pub-id pub-id-type="pmid">33767925</pub-id>
+</mixed-citation></ref><ref id="bib4"><label>4.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Khaled</surname>
+<given-names>ML</given-names></string-name>, <string-name><surname>Helwa</surname>
+<given-names>I</given-names></string-name>, <string-name><surname>Drewry</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Seremwe</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Estes</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Liu</surname>
+<given-names>Y.</given-names></string-name></person-group>
+<article-title>Molecular and histopathological changes associated with keratoconus</article-title>. <source><italic toggle="yes">Biomed Res Int</italic></source><italic toggle="yes">.</italic>
+<year>2017</year>; <volume>2017</volume>: <fpage>7803029</fpage>.<pub-id pub-id-type="pmid">28251158</pub-id>
+</mixed-citation></ref><ref id="bib5"><label>5.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Monteiro de Barros</surname>
+<given-names>MR</given-names></string-name>, <string-name><surname>Chakravarti</surname>
+<given-names>S.</given-names></string-name></person-group>
+<article-title>Pathogenesis of keratoconus: NRF2-antioxidant, extracellular matrix and cellular dysfunctions</article-title>. <source><italic toggle="yes">Exp Eye Res</italic></source><italic toggle="yes">.</italic>
+<year>2022</year>; <volume>219</volume>: <fpage>109062</fpage>.<pub-id pub-id-type="pmid">35385756</pub-id>
+</mixed-citation></ref><ref id="bib6"><label>6.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Santodomingo-Rubido</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Carracedo</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Suzaki</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Villa-Collar</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Vincent</surname>
+<given-names>SJ</given-names></string-name>, <string-name><surname>Wolffsohn</surname>
+<given-names>JS.</given-names></string-name></person-group>
+<article-title>Keratoconus: an updated review</article-title>. <source><italic toggle="yes">Cont Lens Anterior Eye</italic></source><italic toggle="yes">.</italic>
+<year>2022</year>; <volume>45</volume>(<issue>3</issue>): <fpage>101559</fpage>.<pub-id pub-id-type="pmid">34991971</pub-id>
+</mixed-citation></ref><ref id="bib7"><label>7.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Gothwal</surname>
+<given-names>VK</given-names></string-name>, <string-name><surname>Gujar</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Sharma</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Begum</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Pesudovs</surname>
+<given-names>K.</given-names></string-name></person-group>
+<article-title>Factors affecting quality of life in keratoconus</article-title>. <source><italic toggle="yes">Ophthalmic Physiol Opt</italic></source><italic toggle="yes">.</italic>
+<year>2022</year>; <volume>42</volume>(<issue>5</issue>): <fpage>986</fpage>&#x02013;<lpage>997</lpage>.<pub-id pub-id-type="pmid">35638140</pub-id>
+</mixed-citation></ref><ref id="bib8"><label>8.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Hashemi</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Heydarian</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Hooshmand</surname>
+<given-names>E</given-names></string-name>, <etal>et al</etal>.</person-group>
+<article-title>The prevalence and risk factors for keratoconus: a systematic review and meta-analysis</article-title>. <source><italic toggle="yes">Cornea</italic></source><italic toggle="yes">.</italic>
+<year>2020</year>; <volume>39</volume>(<issue>2</issue>): <fpage>263</fpage>&#x02013;<lpage>270</lpage>.<pub-id pub-id-type="pmid">31498247</pub-id>
+</mixed-citation></ref><ref id="bib9"><label>9.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Flockerzi</surname>
+<given-names>E</given-names></string-name>, <string-name><surname>Xanthopoulou</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Goebels</surname>
+<given-names>SC</given-names></string-name>, <etal>et al</etal>.</person-group>
+<article-title>Keratoconus staging by decades: a baseline ABCD classification of 1000 patients in the Homburg Keratoconus Center</article-title>. <source><italic toggle="yes">Br J Ophthalmol</italic></source><italic toggle="yes">.</italic>
+<year>2021</year>; <volume>105</volume>(<issue>8</issue>): <fpage>1069</fpage>&#x02013;<lpage>1075</lpage>.<pub-id pub-id-type="pmid">32830125</pub-id>
+</mixed-citation></ref><ref id="bib10"><label>10.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Bui</surname>
+<given-names>AD</given-names></string-name>, <string-name><surname>Truong</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Pasricha</surname>
+<given-names>ND</given-names></string-name>, <string-name><surname>Indaram</surname>
+<given-names>M.</given-names></string-name></person-group>
+<article-title>Keratoconus diagnosis and treatment: recent advances and future directions</article-title>. <source><italic toggle="yes">Clin Ophthalmol</italic></source><italic toggle="yes">.</italic>
+<year>2023</year>; <volume>17</volume>: <fpage>2705</fpage>&#x02013;<lpage>2718</lpage>.<pub-id pub-id-type="pmid">37736107</pub-id>
+</mixed-citation></ref><ref id="bib11"><label>11.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Gordon-Shaag</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Millodot</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Shneor</surname>
+<given-names>E</given-names></string-name>, <string-name><surname>Liu</surname>
+<given-names>Y.</given-names></string-name></person-group>
+<article-title>The genetic and environmental factors for keratoconus</article-title>. <source><italic toggle="yes">Biomed Res Int</italic></source><italic toggle="yes">.</italic>
+<year>2015</year>; <volume>2015</volume>: <fpage>795738</fpage>.<pub-id pub-id-type="pmid">26075261</pub-id>
+</mixed-citation></ref><ref id="bib12"><label>12.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Ben-Eli</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Erdinest</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Solomon</surname>
+<given-names>A.</given-names></string-name></person-group>
+<article-title>Pathogenesis and complications of chronic eye rubbing in ocular allergy</article-title>. <source><italic toggle="yes">Curr Opin Allergy Clin Immunol</italic></source><italic toggle="yes">.</italic>
+<year>2019</year>; <volume>19</volume>(<issue>5</issue>): <fpage>526</fpage>&#x02013;<lpage>534</lpage>.<pub-id pub-id-type="pmid">31343437</pub-id>
+</mixed-citation></ref><ref id="bib13"><label>13.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Seth</surname>
+<given-names>I</given-names></string-name>, <string-name><surname>Bulloch</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Vine</surname>
+<given-names>M</given-names></string-name>, <etal>et al</etal>.</person-group>
+<article-title>The association between keratoconus and allergic eye diseases: a systematic review and meta-analysis</article-title>. <source><italic toggle="yes">Clin Exp Ophthalmol</italic></source><italic toggle="yes">.</italic>
+<year>2023</year>; <volume>51</volume>(<issue>4</issue>): <fpage>O1</fpage>&#x02013;<lpage>O16</lpage>.<pub-id pub-id-type="pmid">36882200</pub-id>
+</mixed-citation></ref><ref id="bib14"><label>14.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Moran</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Gomez</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Zuber</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Gatinel</surname>
+<given-names>D.</given-names></string-name></person-group>
+<article-title>A case-control study of keratoconus risk factors</article-title>. <source><italic toggle="yes">Cornea</italic></source><italic toggle="yes">.</italic>
+<year>2020</year>; <volume>39</volume>(<issue>6</issue>): <fpage>697</fpage>&#x02013;<lpage>701</lpage>.<pub-id pub-id-type="pmid">32040008</pub-id>
+</mixed-citation></ref><ref id="bib15"><label>15.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>McMonnies</surname>
+<given-names>CW.</given-names></string-name>
+</person-group>
+<article-title>Inflammation and keratoconus</article-title>. <source><italic toggle="yes">Optom Vis Sci</italic></source><italic toggle="yes">.</italic>
+<year>2015</year>; <volume>92</volume>(<issue>2</issue>): <fpage>e35</fpage>&#x02013;<lpage>e41</lpage>.<pub-id pub-id-type="pmid">25397925</pub-id>
+</mixed-citation></ref><ref id="bib16"><label>16.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Najmi</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Mobarki</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Mania</surname>
+<given-names>K</given-names></string-name>, <etal>et al</etal>.</person-group>
+<article-title>The correlation between keratoconus and eye rubbing: a review</article-title>. <source><italic toggle="yes">Int J Ophthalmol</italic></source><italic toggle="yes">.</italic>
+<year>2019</year>; <volume>12</volume>(<issue>11</issue>): <fpage>1775</fpage>&#x02013;<lpage>1781</lpage>.<pub-id pub-id-type="pmid">31741868</pub-id>
+</mixed-citation></ref><ref id="bib17"><label>17.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Lucas</surname>
+<given-names>SEM</given-names></string-name>, <string-name><surname>Burdon</surname>
+<given-names>KP.</given-names></string-name></person-group>
+<article-title>Genetic and environmental risk factors for keratoconus</article-title>. <source><italic toggle="yes">Annu Rev Vis Sci</italic></source><italic toggle="yes">.</italic>
+<year>2020</year>; <volume>6</volume>: <fpage>25</fpage>&#x02013;<lpage>46</lpage>.<pub-id pub-id-type="pmid">32320633</pub-id>
+</mixed-citation></ref><ref id="bib18"><label>18.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Naderan</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Rajabi</surname>
+<given-names>MT</given-names></string-name>, <string-name><surname>Zarrinbakhsh</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Naderan</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Bakhshi</surname>
+<given-names>A.</given-names></string-name></person-group>
+<article-title>Association between family history and keratoconus severity</article-title>. <source><italic toggle="yes">Curr Eye Res</italic></source><italic toggle="yes">.</italic>
+<year>2016</year>; <volume>41</volume>(<issue>11</issue>): <fpage>1414</fpage>&#x02013;<lpage>1418</lpage>.<pub-id pub-id-type="pmid">27158890</pub-id>
+</mixed-citation></ref><ref id="bib19"><label>19.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Song</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Fang</surname>
+<given-names>QY</given-names></string-name>, <string-name><surname>Seth</surname>
+<given-names>I</given-names></string-name>, <string-name><surname>Baird</surname>
+<given-names>PN</given-names></string-name>, <string-name><surname>Daniell</surname>
+<given-names>MD</given-names></string-name>, <string-name><surname>Sahebjada</surname>
+<given-names>S</given-names></string-name></person-group>. <article-title>Non-genetic risk factors for keratoconus</article-title>. <source><italic toggle="yes">Clin Exp Optom</italic></source><italic toggle="yes">.</italic>
+<year>2023</year>; <volume>106</volume>(<issue>4</issue>): <fpage>362</fpage>&#x02013;<lpage>372</lpage>.<pub-id pub-id-type="pmid">35504720</pub-id>
+</mixed-citation></ref><ref id="bib20"><label>20.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Woodward</surname>
+<given-names>MA</given-names></string-name>, <string-name><surname>Blachley</surname>
+<given-names>TS</given-names></string-name>, <string-name><surname>Stein</surname>
+<given-names>JD.</given-names></string-name></person-group>
+<article-title>The association between sociodemographic factors, common systemic diseases, and keratoconus: an analysis of a nationwide heath care claims database</article-title>. <source><italic toggle="yes">Ophthalmology</italic></source><italic toggle="yes">.</italic>
+<year>2016</year>; <volume>123</volume>(<issue>3</issue>): <fpage>457</fpage>&#x02013;<lpage>465.e2</lpage>.<pub-id pub-id-type="pmid">26707415</pub-id>
+</mixed-citation></ref><ref id="bib21"><label>21.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Lin</surname>
+<given-names>KK</given-names></string-name>, <string-name><surname>Lee</surname>
+<given-names>JS</given-names></string-name>, <string-name><surname>Hou</surname>
+<given-names>CH</given-names></string-name>, <etal>et al</etal>.</person-group>
+<article-title>The sociodemographic and risk factors for keratoconus: nationwide matched case-control study in Taiwan, 1998&#x02013;2015</article-title>. <source><italic toggle="yes">Am J Ophthalmol</italic></source><italic toggle="yes">.</italic>
+<year>2021</year>; <volume>223</volume>: <fpage>140</fpage>&#x02013;<lpage>148</lpage>.<pub-id pub-id-type="pmid">33007273</pub-id>
+</mixed-citation></ref><ref id="bib22"><label>22.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Bak-Nielsen</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Ramlau-Hansen</surname>
+<given-names>CH</given-names></string-name>, <string-name><surname>Ivarsen</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Plana-Ripoll</surname>
+<given-names>O</given-names></string-name>, <string-name><surname>Hjortdal</surname>
+<given-names>J.</given-names></string-name></person-group>
+<article-title>A nationwide population-based study of social demographic factors, associated diseases and mortality of keratoconus patients in Denmark from 1977 to 2015</article-title>. <source><italic toggle="yes">Acta Ophthalmol</italic></source><italic toggle="yes">.</italic>
+<year>2019</year>; <volume>97</volume>(<issue>5</issue>): <fpage>497</fpage>&#x02013;<lpage>504</lpage>.<pub-id pub-id-type="pmid">30426693</pub-id>
+</mixed-citation></ref><ref id="bib23"><label>23.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Jani</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>McKelvie</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Misra</surname>
+<given-names>SL.</given-names></string-name></person-group>
+<article-title>Progressive corneal ectatic disease in pregnancy</article-title>. <source><italic toggle="yes">Clin Exp Optom</italic></source><italic toggle="yes">.</italic>
+<year>2021</year>; <volume>104</volume>(<issue>8</issue>): <fpage>815</fpage>&#x02013;<lpage>825</lpage>.<pub-id pub-id-type="pmid">34384340</pub-id>
+</mixed-citation></ref><ref id="bib24"><label>24.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Bilgihan</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Hondur</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Sul</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Ozturk</surname>
+<given-names>S.</given-names></string-name></person-group>
+<article-title>Pregnancy-induced progression of keratoconus</article-title>. <source><italic toggle="yes">Cornea</italic></source><italic toggle="yes">.</italic>
+<year>2011</year>; <volume>30</volume>(<issue>9</issue>): <fpage>991</fpage>&#x02013;<lpage>994</lpage>.<pub-id pub-id-type="pmid">21705880</pub-id>
+</mixed-citation></ref><ref id="bib25"><label>25.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Pinnell</surname>
+<given-names>SR.</given-names></string-name>
+</person-group>
+<article-title>Regulation of collagen biosynthesis by ascorbic acid: a review</article-title>. <source><italic toggle="yes">Yale J Biol Med</italic></source><italic toggle="yes">.</italic>
+<year>1985</year>; <volume>58</volume>(<issue>6</issue>): <fpage>553</fpage>&#x02013;<lpage>559</lpage>.<pub-id pub-id-type="pmid">3008449</pub-id>
+</mixed-citation></ref><ref id="bib26"><label>26.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>McKay</surname>
+<given-names>TB</given-names></string-name>, <string-name><surname>Hutcheon</surname>
+<given-names>AEK</given-names></string-name>, <string-name><surname>Guo</surname>
+<given-names>X</given-names></string-name>, <string-name><surname>Zieske</surname>
+<given-names>JD</given-names></string-name>, <string-name><surname>Karamichos</surname>
+<given-names>D.</given-names></string-name></person-group>
+<article-title>Modeling the cornea in 3-dimensions: current and future perspectives</article-title>. <source><italic toggle="yes">Exp Eye Res</italic></source><italic toggle="yes">.</italic>
+<year>2020</year>; <volume>197</volume>: <fpage>108127</fpage>.<pub-id pub-id-type="pmid">32619578</pub-id>
+</mixed-citation></ref><ref id="bib27"><label>27.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Shetty</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>D'Souza</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Khamar</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Ghosh</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Nuijts</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Sethu</surname>
+<given-names>S</given-names></string-name></person-group>. <article-title>Biochemical markers and alterations in keratoconus</article-title>. <source><italic toggle="yes">Asia Pac J Ophthalmol (Phila)</italic></source><italic toggle="yes">.</italic>
+<year>2020</year>; <volume>9</volume>(<issue>6</issue>): <fpage>533</fpage>&#x02013;<lpage>540</lpage>.<pub-id pub-id-type="pmid">33323707</pub-id>
+</mixed-citation></ref><ref id="bib28"><label>28.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Lasagni Vitar</surname>
+<given-names>RM</given-names></string-name>, <string-name><surname>Bonelli</surname>
+<given-names>F</given-names></string-name>, <string-name><surname>Rama</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Ferrari</surname>
+<given-names>G</given-names></string-name></person-group>. <article-title>Nutritional and metabolic imbalance in keratoconus</article-title>. <source><italic toggle="yes">Nutrients</italic></source><italic toggle="yes">.</italic>
+<year>2022</year>; <volume>14</volume>(<issue>4</issue>): <fpage>913</fpage>.<pub-id pub-id-type="pmid">35215563</pub-id>
+</mixed-citation></ref><ref id="bib29"><label>29.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Sharif</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Sejersen</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Frank</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Hjortdal</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Karamichos</surname>
+<given-names>D.</given-names></string-name></person-group>
+<article-title>Effects of collagen cross-linking on the keratoconus metabolic network</article-title>. <source><italic toggle="yes">Eye (Lond)</italic></source><italic toggle="yes">.</italic>
+<year>2018</year>; <volume>32</volume>(<issue>7</issue>): <fpage>1271</fpage>&#x02013;<lpage>1281</lpage>.<pub-id pub-id-type="pmid">29576618</pub-id>
+</mixed-citation></ref><ref id="bib30"><label>30.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Clijsters</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Van Wijngaerden</surname>
+<given-names>E</given-names></string-name>, <string-name><surname>Delbeke</surname>
+<given-names>H.</given-names></string-name></person-group>
+<article-title>Atypical corneal ectasia associated with vitamin C deficiency</article-title>. <source><italic toggle="yes">Cornea</italic></source><italic toggle="yes">.</italic>
+<year>2020</year>; <volume>39</volume>(<issue>9</issue>): <fpage>1167</fpage>&#x02013;<lpage>1170</lpage>.<pub-id pub-id-type="pmid">32301811</pub-id>
+</mixed-citation></ref><ref id="bib31"><label>31.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Taurone</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Ralli</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Plateroti</surname>
+<given-names>AM</given-names></string-name>, <etal>et al</etal>.</person-group>
+<article-title>Keratoconus: the possible involvement of inflammatory cytokines in its pathogenesis. An experimental study and review of the literature</article-title>. <source><italic toggle="yes">Eur Rev Med Pharmacol Sci</italic></source><italic toggle="yes">.</italic>
+<year>2021</year>; <volume>25</volume>(<issue>13</issue>): <fpage>4478</fpage>&#x02013;<lpage>4489</lpage>.<pub-id pub-id-type="pmid">34286490</pub-id>
+</mixed-citation></ref><ref id="bib32"><label>32.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Erdinest</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Wajnsztajn</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>London</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Solomon</surname>
+<given-names>A.</given-names></string-name></person-group>
+<article-title>Ocular surface inflammation and ectatic corneal disorders</article-title>. <source><italic toggle="yes">Curr Opin Allergy Clin Immunol</italic></source><italic toggle="yes">.</italic>
+<year>2023</year>; <volume>23</volume>(<issue>5</issue>): <fpage>430</fpage>&#x02013;<lpage>437</lpage>.<pub-id pub-id-type="pmid">37490610</pub-id>
+</mixed-citation></ref><ref id="bib33"><label>33.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Federici</surname>
+<given-names>TJ.</given-names></string-name>
+</person-group>
+<article-title>The non-antibiotic properties of tetracyclines: clinical potential in ophthalmic disease</article-title>. <source><italic toggle="yes">Pharmacol Res</italic></source><italic toggle="yes">.</italic>
+<year>2011</year>; <volume>64</volume>(<issue>6</issue>): <fpage>614</fpage>&#x02013;<lpage>623</lpage>.<pub-id pub-id-type="pmid">21843641</pub-id>
+</mixed-citation></ref><ref id="bib34"><label>34.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Salamon</surname>
+<given-names>SM.</given-names></string-name>
+</person-group>
+<article-title>Tetracyclines in ophthalmology</article-title>. <source><italic toggle="yes">Surv Ophthalmol</italic></source><italic toggle="yes">.</italic>
+<year>1985</year>; <volume>29</volume>(<issue>4</issue>): <fpage>265</fpage>&#x02013;<lpage>275</lpage>.<pub-id pub-id-type="pmid">3157226</pub-id>
+</mixed-citation></ref><ref id="bib35"><label>35.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Korting</surname>
+<given-names>HC</given-names></string-name>, <string-name><surname>Schollmann</surname>
+<given-names>C.</given-names></string-name></person-group>
+<article-title>Tetracycline actions relevant to rosacea treatment</article-title>. <source><italic toggle="yes">Skin Pharmacol Physiol</italic></source><italic toggle="yes">.</italic>
+<year>2009</year>; <volume>22</volume>(<issue>6</issue>): <fpage>287</fpage>&#x02013;<lpage>294</lpage>.<pub-id pub-id-type="pmid">19786821</pub-id>
+</mixed-citation></ref><ref id="bib36"><label>36.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Mapes</surname>
+<given-names>BM</given-names></string-name>, <string-name><surname>Foster</surname>
+<given-names>CS</given-names></string-name>, <string-name><surname>Kusnoor</surname>
+<given-names>SV</given-names></string-name>, <etal>et al</etal>.</person-group>
+<article-title>Diversity and inclusion for the All of Us Research Program: a scoping review</article-title>. <source><italic toggle="yes">PLoS One</italic></source><italic toggle="yes">.</italic>
+<year>2020</year>; <volume>15</volume>(<issue>7</issue>): <fpage>e0234962</fpage>.<pub-id pub-id-type="pmid">32609747</pub-id>
+</mixed-citation></ref><ref id="bib37"><label>37.</label><mixed-citation publication-type="other">
+<collab>All of Us Research Program</collab>. <article-title>Opportunities for researchers</article-title>. Available at: <ext-link xlink:href="https://allofus.nih.gov/get-involved/opportunities-researchers" ext-link-type="uri">https://allofus.nih.gov/get-involved/opportunities-researchers</ext-link>. Accessed April 15, 2024.</mixed-citation></ref><ref id="bib38"><label>38.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Toprak</surname>
+<given-names>I.</given-names></string-name>
+</person-group>
+<article-title>To what extent is pregnancy-induced keratoconus progression reversible? A case-report and literature review</article-title>. <source><italic toggle="yes">Eur J Ophthalmol</italic></source><italic toggle="yes">.</italic>
+<year>2023</year>; <volume>33</volume>(<issue>1</issue>): <fpage>NP37</fpage>&#x02013;<lpage>NP41</lpage>.</mixed-citation></ref><ref id="bib39"><label>39.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Gatzioufas</surname>
+<given-names>Z</given-names></string-name>, <string-name><surname>Panos</surname>
+<given-names>GD</given-names></string-name>, <string-name><surname>Gkaragkani</surname>
+<given-names>E</given-names></string-name>, <string-name><surname>Georgoulas</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Angunawela</surname>
+<given-names>R.</given-names></string-name></person-group>
+<article-title>Recurrence of keratoconus after deep anterior lamellar keratoplasty following pregnancy</article-title>. <source><italic toggle="yes">Int J Ophthalmol</italic></source><italic toggle="yes">.</italic>
+<year>2017</year>; <volume>10</volume>(<issue>6</issue>): <fpage>1011</fpage>&#x02013;<lpage>1013</lpage>.<pub-id pub-id-type="pmid">28730097</pub-id>
+</mixed-citation></ref><ref id="bib40"><label>40.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Ayan</surname>
+<given-names>B</given-names></string-name>, <string-name><surname>Yuksel</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Carhan</surname>
+<given-names>A</given-names></string-name>, <etal>et al</etal>.</person-group>
+<article-title>Evaluation estrogen, progesteron and androgen receptor expressions in corneal epithelium in keratoconus</article-title>. <source><italic toggle="yes">Cont Lens Anterior Eye</italic></source><italic toggle="yes">.</italic>
+<year>2019</year>; <volume>42</volume>(<issue>5</issue>): <fpage>492</fpage>&#x02013;<lpage>496</lpage>.<pub-id pub-id-type="pmid">30538061</pub-id>
+</mixed-citation></ref><ref id="bib41"><label>41.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Escandon</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Nicholas</surname>
+<given-names>SE</given-names></string-name>, <string-name><surname>Cunningham</surname>
+<given-names>RL</given-names></string-name>, <string-name><surname>Murphy</surname>
+<given-names>DA</given-names></string-name>, <string-name><surname>Riaz</surname>
+<given-names>KM</given-names></string-name>, <string-name><surname>Karamichos</surname>
+<given-names>D.</given-names></string-name></person-group>
+<article-title>The role of estriol and estrone in keratoconic stromal sex hormone receptors</article-title>. <source><italic toggle="yes">Int J Mol Sci</italic></source><italic toggle="yes">.</italic>
+<year>2022</year>; <volume>23</volume>(<issue>2</issue>): <fpage>916</fpage>.<pub-id pub-id-type="pmid">35055103</pub-id>
+</mixed-citation></ref><ref id="bib42"><label>42.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Pflugfelder</surname>
+<given-names>SC.</given-names></string-name>
+</person-group>
+<article-title>Anti-inflammatory therapy of dry eye</article-title>. <source><italic toggle="yes">Ocul Surf</italic></source><italic toggle="yes">.</italic>
+<year>2003</year>; <volume>1</volume>(<issue>1</issue>): <fpage>31</fpage>&#x02013;<lpage>36</lpage>.<pub-id pub-id-type="pmid">17075627</pub-id>
+</mixed-citation></ref><ref id="bib43"><label>43.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Eiseman</surname>
+<given-names>AS.</given-names></string-name>
+</person-group>
+<article-title>The ocular manifestations of atopic dermatitis and rosacea</article-title>. <source><italic toggle="yes">Curr Allergy Asthma Rep</italic></source><italic toggle="yes">.</italic>
+<year>2006</year>; <volume>6</volume>(<issue>4</issue>): <fpage>292</fpage>&#x02013;<lpage>298</lpage>.<pub-id pub-id-type="pmid">16822381</pub-id>
+</mixed-citation></ref><ref id="bib44"><label>44.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Golub</surname>
+<given-names>LM</given-names></string-name>, <string-name><surname>Ramamurthy</surname>
+<given-names>NS</given-names></string-name>, <string-name><surname>McNamara</surname>
+<given-names>TF</given-names></string-name>, <string-name><surname>Greenwald</surname>
+<given-names>RA</given-names></string-name>, <string-name><surname>Rifkin</surname>
+<given-names>BR.</given-names></string-name></person-group>
+<article-title>Tetracyclines inhibit connective tissue breakdown: new therapeutic implications for an old family of drugs</article-title>. <source><italic toggle="yes">Crit Rev Oral Biol Med</italic></source><italic toggle="yes">.</italic>
+<year>1991</year>; <volume>2</volume>(<issue>3</issue>): <fpage>297</fpage>&#x02013;<lpage>321</lpage>.<pub-id pub-id-type="pmid">1654139</pub-id>
+</mixed-citation></ref><ref id="bib45"><label>45.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Fan Gaskin</surname>
+<given-names>JC</given-names></string-name>, <string-name><surname>Patel</surname>
+<given-names>DV</given-names></string-name>, <string-name><surname>McGhee</surname>
+<given-names>CN</given-names></string-name></person-group>. <article-title>Acute corneal hydrops in keratoconus&#x02014;new perspectives</article-title>. <source><italic toggle="yes">Am J Ophthalmol</italic></source><italic toggle="yes">.</italic>
+<year>2014</year>; <volume>157</volume>(<issue>5</issue>): <fpage>921</fpage>&#x02013;<lpage>928</lpage>.<pub-id pub-id-type="pmid">24491416</pub-id>
+</mixed-citation></ref><ref id="bib46"><label>46.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Maharana</surname>
+<given-names>PK</given-names></string-name>, <string-name><surname>Sharma</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Vajpayee</surname>
+<given-names>RB.</given-names></string-name></person-group>
+<article-title>Acute corneal hydrops in keratoconus</article-title>. <source><italic toggle="yes">Indian J Ophthalmol</italic></source><italic toggle="yes">.</italic>
+<year>2013</year>; <volume>61</volume>(<issue>8</issue>): <fpage>461</fpage>&#x02013;<lpage>464</lpage>.<pub-id pub-id-type="pmid">23925338</pub-id>
+</mixed-citation></ref><ref id="bib47"><label>47.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Vinciguerra</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Pagano</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Borgia</surname>
+<given-names>A</given-names></string-name>, <etal>et al</etal>.</person-group>
+<article-title>Corneal cross-linking for progressive keratoconus: up to 13 years of follow-up</article-title>. <source><italic toggle="yes">J Refract Surg</italic></source><italic toggle="yes">.</italic>
+<year>2020</year>; <volume>36</volume>(<issue>12</issue>): <fpage>838</fpage>&#x02013;<lpage>843</lpage>.<pub-id pub-id-type="pmid">33295997</pub-id>
+</mixed-citation></ref><ref id="bib48"><label>48.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Debourdeau</surname>
+<given-names>E</given-names></string-name>, <string-name><surname>Planells</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Chamard</surname>
+<given-names>C</given-names></string-name>, <etal>et al</etal>.</person-group>
+<article-title>New keratoconus risk factors: a cross-sectional case&#x02013;control study</article-title>. <source><italic toggle="yes">J Ophthalmol</italic></source><italic toggle="yes">.</italic>
+<year>2022</year>; <volume>2022</volume>: <fpage>6605771</fpage>.<pub-id pub-id-type="pmid">36211596</pub-id>
+</mixed-citation></ref><ref id="bib49"><label>49.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Gordon-Shaag</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Millodot</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Kaiserman</surname>
+<given-names>I</given-names></string-name>, <etal>et al</etal>.</person-group>
+<article-title>Risk factors for keratoconus in Israel: a case&#x02013;control study</article-title>. <source><italic toggle="yes">Ophthalmic Physiol Opt</italic></source><italic toggle="yes">.</italic>
+<year>2015</year>; <volume>35</volume>(<issue>6</issue>): <fpage>673</fpage>&#x02013;<lpage>681</lpage>.<pub-id pub-id-type="pmid">26286678</pub-id>
+</mixed-citation></ref><ref id="bib50"><label>50.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Ozalp</surname>
+<given-names>O</given-names></string-name>, <string-name><surname>Atalay</surname>
+<given-names>E</given-names></string-name>, <string-name><surname>Yildirim</surname>
+<given-names>N.</given-names></string-name></person-group>
+<article-title>Prevalence and risk factors for keratoconus in a university-based population in Turkey</article-title>. <source><italic toggle="yes">J Cataract Refract Surg</italic></source><italic toggle="yes">.</italic>
+<year>2021</year>; <volume>47</volume>(<issue>12</issue>): <fpage>1524</fpage>&#x02013;<lpage>1529</lpage>.<pub-id pub-id-type="pmid">33929805</pub-id>
+</mixed-citation></ref><ref id="bib51"><label>51.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Spoerl</surname>
+<given-names>E</given-names></string-name>, <string-name><surname>Raiskup-Wolf</surname>
+<given-names>F</given-names></string-name>, <string-name><surname>Kuhlisch</surname>
+<given-names>E</given-names></string-name>, <string-name><surname>Pillunat</surname>
+<given-names>LE.</given-names></string-name></person-group>
+<article-title>Cigarette smoking is negatively associated with keratoconus</article-title>. <source><italic toggle="yes">J Refract Surg</italic></source><italic toggle="yes">.</italic>
+<year>2008</year>; <volume>24</volume>(<issue>7</issue>): <fpage>S737</fpage>&#x02013;<lpage>S740</lpage>.<pub-id pub-id-type="pmid">18811121</pub-id>
+</mixed-citation></ref><ref id="bib52"><label>52.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Sahebjada</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Chan</surname>
+<given-names>E</given-names></string-name>, <string-name><surname>Xie</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Snibson</surname>
+<given-names>GR</given-names></string-name>, <string-name><surname>Daniell</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Baird</surname>
+<given-names>PN.</given-names></string-name></person-group>
+<article-title>Risk factors and association with severity of keratoconus: the Australian study of keratoconus</article-title>. <source><italic toggle="yes">Int Ophthalmol</italic></source><italic toggle="yes">.</italic>
+<year>2021</year>; <volume>41</volume>(<issue>3</issue>): <fpage>891</fpage>&#x02013;<lpage>899</lpage>.<pub-id pub-id-type="pmid">33200389</pub-id>
+</mixed-citation></ref><ref id="bib53"><label>53.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Eliasi</surname>
+<given-names>E</given-names></string-name>, <string-name><surname>Bez</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Megreli</surname>
+<given-names>J</given-names></string-name>, <etal>et al</etal>.</person-group>
+<article-title>The association between keratoconus and body mass index: a population-based cross-sectional study among half a million adolescents</article-title>. <source><italic toggle="yes">Am J Ophthalmol</italic></source><italic toggle="yes">.</italic>
+<year>2021</year>; <volume>224</volume>: <fpage>200</fpage>&#x02013;<lpage>206</lpage>.<pub-id pub-id-type="pmid">33309695</pub-id>
+</mixed-citation></ref><ref id="bib54"><label>54.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Wang</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Liu</surname>
+<given-names>F</given-names></string-name>, <string-name><surname>Mo</surname>
+<given-names>J</given-names></string-name>, <etal>et al</etal>.</person-group>
+<article-title>Exploring the causal relationship between body mass index and keratoconus: a Mendelian randomization study</article-title>. <source><italic toggle="yes">Front Med (Lausanne)</italic></source><italic toggle="yes">.</italic>
+<year>2024</year>; <volume>11</volume>: <fpage>1402108</fpage>.<pub-id pub-id-type="pmid">39050542</pub-id>
+</mixed-citation></ref><ref id="bib55"><label>55.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Copeman</surname>
+<given-names>PW</given-names></string-name>
+</person-group>. <article-title>Eczema and keratoconus</article-title>. <source><italic toggle="yes">Br Med J</italic></source><italic toggle="yes">.</italic>
+<year>1965</year>; <volume>2</volume>(<issue>5468</issue>): <fpage>977</fpage>&#x02013;<lpage>979</lpage>.<pub-id pub-id-type="pmid">5826924</pub-id>
+</mixed-citation></ref><ref id="bib56"><label>56.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Zhang</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Cao</surname>
+<given-names>X</given-names></string-name>, <string-name><surname>Liu</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Wang</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Li</surname>
+<given-names>X.</given-names></string-name></person-group>
+<article-title>Tear levels of inflammatory cytokines in keratoconus: a meta-analysis of case-control and cross-sectional studies</article-title>. <source><italic toggle="yes">Biomed Res Int</italic></source><italic toggle="yes">.</italic>
+<year>2021</year>; <volume>2021</volume>: <fpage>6628923</fpage>.<pub-id pub-id-type="pmid">34631885</pub-id>
+</mixed-citation></ref><ref id="bib57"><label>57.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Wisse</surname>
+<given-names>RP</given-names></string-name>, <string-name><surname>Kuiper</surname>
+<given-names>JJ</given-names></string-name>, <string-name><surname>Gans</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Imhof</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Radstake</surname>
+<given-names>TR</given-names></string-name>, <string-name><surname>Van der Lelij</surname>
+<given-names>A</given-names></string-name></person-group>. <article-title>Cytokine expression in keratoconus and its corneal microenvironment: a systematic review</article-title>. <source><italic toggle="yes">Ocul Surf</italic></source><italic toggle="yes">.</italic>
+<year>2015</year>; <volume>13</volume>(<issue>4</issue>): <fpage>272</fpage>&#x02013;<lpage>283</lpage>.<pub-id pub-id-type="pmid">26235733</pub-id>
+</mixed-citation></ref><ref id="bib58"><label>58.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Balasubramanian</surname>
+<given-names>SA</given-names></string-name>, <string-name><surname>Pye</surname>
+<given-names>DC</given-names></string-name>, <string-name><surname>Willcox</surname>
+<given-names>MD.</given-names></string-name></person-group>
+<article-title>Effects of eye rubbing on the levels of protease, protease activity and cytokines in tears: relevance in keratoconus</article-title>. <source><italic toggle="yes">Clin Exp Optom</italic></source><italic toggle="yes">.</italic>
+<year>2013</year>; <volume>96</volume>(<issue>2</issue>): <fpage>214</fpage>&#x02013;<lpage>218</lpage>.<pub-id pub-id-type="pmid">23496656</pub-id>
+</mixed-citation></ref><ref id="bib59"><label>59.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Leonardi</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Curnow</surname>
+<given-names>SJ</given-names></string-name>, <string-name><surname>Zhan</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Calder</surname>
+<given-names>VL.</given-names></string-name></person-group>
+<article-title>Multiple cytokines in human tear specimens in seasonal and chronic allergic eye disease and in conjunctival fibroblast cultures</article-title>. <source><italic toggle="yes">Clin Exp Allergy</italic></source><italic toggle="yes">.</italic>
+<year>2006</year>; <volume>36</volume>(<issue>6</issue>): <fpage>777</fpage>&#x02013;<lpage>784</lpage>.<pub-id pub-id-type="pmid">16776679</pub-id>
+</mixed-citation></ref></ref-list><app-group><app id="appA"><label>Appendix A.</label><title>Appendix A</title><table-wrap position="anchor" content-type="4col" id="tbl3"><label>Table A1.</label><caption><p>Univariable Analysis of Clinical Factors Associated With KC</p></caption><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/></colgroup><thead><tr><th rowspan="1" colspan="1">Variable</th><th rowspan="1" colspan="1">Univariate OR</th><th rowspan="1" colspan="1">95% CI</th><th rowspan="1" colspan="1">
+<italic toggle="yes">P</italic>-Value</th></tr></thead><tbody><tr><td rowspan="1" colspan="1">Pregnancy</td><td rowspan="1" colspan="1">2.32</td><td rowspan="1" colspan="1">1.67&#x02013;3.21</td><td rowspan="1" colspan="1">&#x0003c;0.0001</td></tr><tr><td rowspan="1" colspan="1">Estrogen-Containing Medication</td><td rowspan="1" colspan="1">3.64</td><td rowspan="1" colspan="1">2.76&#x02013;4.80</td><td rowspan="1" colspan="1">&#x0003c;0.0001</td></tr><tr><td rowspan="1" colspan="1">Type I Diabetes</td><td rowspan="1" colspan="1">3.35</td><td rowspan="1" colspan="1">1.92&#x02013;5.86</td><td rowspan="1" colspan="1">&#x0003c;0.0001</td></tr><tr><td rowspan="1" colspan="1">Type II Diabetes</td><td rowspan="1" colspan="1">2.67</td><td rowspan="1" colspan="1">2.13&#x02013;3.35</td><td rowspan="1" colspan="1">&#x0003c;0.0001</td></tr><tr><td rowspan="1" colspan="1">Sleep Apnea</td><td rowspan="1" colspan="1">3.53</td><td rowspan="1" colspan="1">2.81&#x02013;4.43</td><td rowspan="1" colspan="1">&#x0003c;0.0001</td></tr><tr><td rowspan="1" colspan="1">Obesity</td><td rowspan="1" colspan="1">3.5</td><td rowspan="1" colspan="1">2.86&#x02013;4.30</td><td rowspan="1" colspan="1">&#x0003c;0.0001</td></tr><tr><td rowspan="1" colspan="1">Tetracycline Usage</td><td rowspan="1" colspan="1">2.98</td><td rowspan="1" colspan="1">2.37&#x02013;3.74</td><td rowspan="1" colspan="1">&#x0003c;0.0001</td></tr><tr><td rowspan="1" colspan="1">Vitamin C Supplementation</td><td rowspan="1" colspan="1">2.77</td><td rowspan="1" colspan="1">2.11&#x02013;3.62</td><td rowspan="1" colspan="1">&#x0003c;0.0001</td></tr><tr><td rowspan="1" colspan="1">Smoking</td><td rowspan="1" colspan="1">0.713</td><td rowspan="1" colspan="1">0.582&#x02013;0.870</td><td rowspan="1" colspan="1">0.0009</td></tr><tr><td rowspan="1" colspan="1">Allergic Rhinitis</td><td rowspan="1" colspan="1">3.28</td><td rowspan="1" colspan="1">2.62&#x02013;4.10</td><td rowspan="1" colspan="1">&#x0003c;0.0001</td></tr><tr><td rowspan="1" colspan="1">Ocular Surface Atopy</td><td rowspan="1" colspan="1">8.39</td><td rowspan="1" colspan="1">6.78&#x02013;10.42</td><td rowspan="1" colspan="1">&#x0003c;0.0001</td></tr></tbody></table><table-wrap-foot><fn id="tb3fn1"><p>CI, confidence interval; OR, odds ratio; KC, keratoconus.</p></fn><fn id="tb3fn2"><label>*</label><p>Ocular Surface Disease includes participants with Dry Eye, Allergic or Atopic Conjunctivitis, or Eczema.</p></fn></table-wrap-foot></table-wrap></app><app id="appB"><label>Appendix B.</label><title>Appendix B</title><table-wrap position="anchor" content-type="4col" id="tbl4"><label>Table B1.</label><caption><p>Univariable Analysis of Clinical Factors Associated With KC</p></caption><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/></colgroup><thead><tr><th rowspan="1" colspan="1">Variable</th><th rowspan="1" colspan="1">Univariable OR</th><th rowspan="1" colspan="1">95% CI</th><th rowspan="1" colspan="1">
+<italic toggle="yes">P</italic>-Value</th></tr></thead><tbody><tr><td rowspan="1" colspan="1">Pregnancy</td><td rowspan="1" colspan="1">2.32</td><td rowspan="1" colspan="1">1.67&#x02013;3.21</td><td rowspan="1" colspan="1">&#x0003c;0.0001</td></tr><tr><td rowspan="1" colspan="1">Estrogen-Containing Medication</td><td rowspan="1" colspan="1">3.64</td><td rowspan="1" colspan="1">2.76&#x02013;4.80</td><td rowspan="1" colspan="1">&#x0003c;0.0001</td></tr><tr><td rowspan="1" colspan="1">Type I Diabetes</td><td rowspan="1" colspan="1">3.35</td><td rowspan="1" colspan="1">1.92&#x02013;5.86</td><td rowspan="1" colspan="1">&#x0003c;0.0001</td></tr><tr><td rowspan="1" colspan="1">Type II Diabetes</td><td rowspan="1" colspan="1">2.67</td><td rowspan="1" colspan="1">2.13&#x02013;3.35</td><td rowspan="1" colspan="1">&#x0003c;0.0001</td></tr><tr><td rowspan="1" colspan="1">Sleep Apnea</td><td rowspan="1" colspan="1">3.53</td><td rowspan="1" colspan="1">2.81&#x02013;4.43</td><td rowspan="1" colspan="1">&#x0003c;0.0001</td></tr><tr><td rowspan="1" colspan="1">Obesity</td><td rowspan="1" colspan="1">3.5</td><td rowspan="1" colspan="1">2.86&#x02013;4.30</td><td rowspan="1" colspan="1">&#x0003c;0.0001</td></tr><tr><td rowspan="1" colspan="1">Tetracycline Usage</td><td rowspan="1" colspan="1">2.98</td><td rowspan="1" colspan="1">2.37&#x02013;3.74</td><td rowspan="1" colspan="1">&#x0003c;0.0001</td></tr><tr><td rowspan="1" colspan="1">Vitamin C Supplementation</td><td rowspan="1" colspan="1">2.77</td><td rowspan="1" colspan="1">2.11&#x02013;3.62</td><td rowspan="1" colspan="1">&#x0003c;0.0001</td></tr><tr><td rowspan="1" colspan="1">Smoking</td><td rowspan="1" colspan="1">0.713</td><td rowspan="1" colspan="1">0.582 &#x02013; 0.870</td><td rowspan="1" colspan="1">0.0009</td></tr><tr><td rowspan="1" colspan="1">Dry Eye</td><td rowspan="1" colspan="1">10.43</td><td rowspan="1" colspan="1">7.95&#x02013;13.80</td><td rowspan="1" colspan="1">&#x0003c;0.0001</td></tr><tr><td rowspan="1" colspan="1">Eczema</td><td rowspan="1" colspan="1">4.01</td><td rowspan="1" colspan="1">3.14&#x02013;5.11</td><td rowspan="1" colspan="1">&#x0003c;0.0001</td></tr><tr><td rowspan="1" colspan="1">Allergic Rhinitis</td><td rowspan="1" colspan="1">3.28</td><td rowspan="1" colspan="1">2.62&#x02013;4.10</td><td rowspan="1" colspan="1">&#x0003c;0.0001</td></tr><tr><td rowspan="1" colspan="1">Allergic or Atopic Conjunctivitis</td><td rowspan="1" colspan="1">6.69</td><td rowspan="1" colspan="1">4.54&#x02013;10.02</td><td rowspan="1" colspan="1">&#x0003c;0.0001</td></tr></tbody></table><table-wrap-foot><fn id="tb4fn1"><p>CI, confidence interval; OR, odds ratio.</p></fn></table-wrap-foot></table-wrap><table-wrap position="anchor" content-type="4col" id="tbl5"><label>Table B2.</label><caption><p>Multivariable Analysis of Clinical Factors Associated With KC</p></caption><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/></colgroup><thead><tr><th rowspan="1" colspan="1">Variable</th><th rowspan="1" colspan="1">Multivariable OR</th><th rowspan="1" colspan="1">95% CI</th><th rowspan="1" colspan="1">
+<italic toggle="yes">P</italic>-Value</th></tr></thead><tbody><tr><td rowspan="1" colspan="1">Pregnancy</td><td rowspan="1" colspan="1">1.37</td><td rowspan="1" colspan="1">0.905&#x02013;2.07</td><td rowspan="1" colspan="1">0.133</td></tr><tr><td rowspan="1" colspan="1">Estrogen-Containing Medication</td><td rowspan="1" colspan="1">1.88</td><td rowspan="1" colspan="1">1.30&#x02013;2.70</td><td rowspan="1" colspan="1">0.000678</td></tr><tr><td rowspan="1" colspan="1">Type I Diabetes</td><td rowspan="1" colspan="1">1.13</td><td rowspan="1" colspan="1">0.567&#x02013;2.23</td><td rowspan="1" colspan="1">0.734</td></tr><tr><td rowspan="1" colspan="1">Type II Diabetes</td><td rowspan="1" colspan="1">1.28</td><td rowspan="1" colspan="1">0.950&#x02013;1.72</td><td rowspan="1" colspan="1">0.101</td></tr><tr><td rowspan="1" colspan="1">Sleep Apnea</td><td rowspan="1" colspan="1">1.18</td><td rowspan="1" colspan="1">0.868&#x02013;1.60</td><td rowspan="1" colspan="1">0.287</td></tr><tr><td rowspan="1" colspan="1">Obesity</td><td rowspan="1" colspan="1">1.98</td><td rowspan="1" colspan="1">1.51&#x02013;2.59</td><td rowspan="1" colspan="1">&#x0003c;0.0001</td></tr><tr><td rowspan="1" colspan="1">Tetracycline Usage</td><td rowspan="1" colspan="1">1.6</td><td rowspan="1" colspan="1">1.20&#x02013;2.12</td><td rowspan="1" colspan="1">0.00108</td></tr><tr><td rowspan="1" colspan="1">Vitamin C Supplementation</td><td rowspan="1" colspan="1">1.37</td><td rowspan="1" colspan="1">0.983&#x02013;1.89</td><td rowspan="1" colspan="1">0.06066</td></tr><tr><td rowspan="1" colspan="1">Smoking</td><td rowspan="1" colspan="1">0.614</td><td rowspan="1" colspan="1">0.484&#x02013;0.777</td><td rowspan="1" colspan="1">&#x0003c;0.0001</td></tr><tr><td rowspan="1" colspan="1">Dry Eye</td><td rowspan="1" colspan="1">7.19</td><td rowspan="1" colspan="1">5.35&#x02013;9.72</td><td rowspan="1" colspan="1">&#x0003c;0.0001</td></tr><tr><td rowspan="1" colspan="1">Eczema</td><td rowspan="1" colspan="1">1.92</td><td rowspan="1" colspan="1">1.43&#x02013;2.58</td><td rowspan="1" colspan="1">&#x0003c;0.0001</td></tr><tr><td rowspan="1" colspan="1">Allergic Rhinitis</td><td rowspan="1" colspan="1">1.29</td><td rowspan="1" colspan="1">0.970&#x02013;1.70</td><td rowspan="1" colspan="1">0.0777</td></tr><tr><td rowspan="1" colspan="1">Allergic or Atopic Conjunctivitis</td><td rowspan="1" colspan="1">3.21</td><td rowspan="1" colspan="1">2.05&#x02013;5.07</td><td rowspan="1" colspan="1">&#x0003c;0.0001</td></tr></tbody></table><table-wrap-foot><fn id="tb5fn1"><p>CI, confidence interval; OR, odds ratio; KC, keratoconus.</p></fn></table-wrap-foot></table-wrap></app></app-group></back></article>

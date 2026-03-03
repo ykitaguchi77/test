@@ -1,0 +1,233 @@
+================================================================================
+TITLE
+================================================================================
+Exploring New Links Among Keratoconus, Hormonal Factors, and Medications: Insights From a Case-Control Study Utilizing the All of Us Database
+
+================================================================================
+AUTHORS
+================================================================================
+  Carol Beatty
+    Medical College of Georgia, Augusta University, Augusta, GA, USA
+  Amy Estes
+    Department of Ophthalmology, James and Jean Culver Vision Discovery Institute, Augusta University, Augusta, GA, USA
+  Hongyan Xu
+    Department of Biostatistics, Data Science and Epidemiology, Augusta University, Augusta, GA, USA
+  Yutao Liu *
+    Department of Cellular Biology and Anatomy, Center for Biotechnology and Genomic Medicine, James and Jean Culver Vision Discovery Institute, Augusta University, Augusta, GA, USA
+
+* Corresponding author: * Correspondence: Yutao Liu, Department of Cellular Biology and Anatomy, Center for Biotechnology and Genomic Medicine, James and Jean Culver Vision Discovery Institute, Augusta University, 1120 15th Street, Augusta, GA 30912, USA. e-mail: yutliu@augusta.edu
+
+================================================================================
+PUBLICATION INFORMATION
+================================================================================
+Journal: Translational Vision Science & Technology
+DOI: 10.1167/tvst.13.11.18
+PMID: 39556086
+PMCID: PMC11578156
+Volume: 13, Issue: 11, Article: 18
+Published: 2024-11-18
+Received: 2024-07-11
+Accepted: 2024-10-11
+License: This work is licensed under a Creative Commons Attribution 4.0 International License.
+
+================================================================================
+KEYWORDS
+================================================================================
+keratoconus, hormone, estrogen, vitamin C, tetracycline
+
+================================================================================
+ABSTRACT
+================================================================================
+
+Purpose
+-------
+We aimed to identify clinical factors associated with keratoconus (KC) risk in the All of Us database.
+
+Methods
+-------
+This retrospective matched case-control study utilized patient data from the All of Us Research Program. All patients with a KC diagnosis (n = 572) were enrolled in the study and matched with three controls (n = 1716) based on age +/- 1 year, race, ethnicity, and sex. The patients' medical histories, including diabetes, sleep apnea, obesity, smoking, ocular surface disease (encompassing dry eye, eczema, and allergic or atopic conjunctivitis), allergic rhinitis, pregnancy, estrogen-containing medications, tetracyclines, and vitamin C supplementation, were collected using electronic health records. Multivariable odds ratios (ORs) between KC and health history were calculated using the R programming language.
+
+Results
+-------
+The study included 2288 participants with an average age of 58.7 years. All included variables showed a significant positive correlation with KC except smoking history, which showed a negative correlation. The most significant correlations were ocular surface disease (OR = 6.04) and obesity (OR = 1.82). Significant positive associations were also identified for tetracyclines and estrogen-containing medications with KC. Smoking was negatively correlated.
+
+Conclusions
+-----------
+In addition to previously known risk factors, patients with a history of increased estrogen exposure and tetracycline usage were more likely to have a KC diagnosis whereas those with a smoking history were less likely.
+
+Translational Relevance
+-----------------------
+Understanding the risk factors for KC, including estrogen exposure and tetracycline medications, enhances our ability to identify at-risk patients and implement earlier screening, diagnosis, and interventions.
+
+================================================================================
+INTRODUCTION
+================================================================================
+Keratoconus (KC) is a bilateral and asymmetric corneal ectasia affecting >300,000 people in the United States.1-4 This progressive condition is characterized by irregular thinning and steepening of the cornea, leading to a conical shape.5 These changes to the cornea result in irregular astigmatism and diminished visual acuity,6 both of which negatively impact patients' quality of life.7 KC is most commonly diagnosed during the second or third decade of life, thus imposing both financial and social burdens at a relatively early age.8,9
+
+Due to the progressive nature of the disease, early diagnosis and treatment can improve visual outcomes.10 KC is a multifactorial disease influenced by both environmental and genetic factors.11 The disease is highly associated with eye rubbing, and many conditions are correlated with eye rubbing such as dry eye, allergy, and conjunctivitis.12-15 Eye rubbing has been hypothesized to be causative, as rubbing one's eye can mechanically thin out the cornea.16 Through this study, we aimed to widen our understanding of the known risk factors for KC, including eye rubbing, atopy, allergy, and eczema.8,17-19
+
+Identification of known risk factors for KC might increase clinical suspicion and result in earlier evaluation of the condition.20-22 In this work, we sought to identify new risk factors that might assist in early diagnosis or detection of KC progression. Correlations between KC and pregnancy have been hypothesized but are lacking sufficient evidence to this point.18,23,24 In addition to investigating this hypothesized association between KC and pregnancy in a larger dataset than previously reported, we expanded our analysis to evaluate a potential link between the ocular condition and women's hormones. Vitamin C is an essential cofactor of enzymes involved in collagen synthesis and crosslinking, having been widely used to stimulate corneal stromal fibroblast cells to secrete extracellular matrix in in vitro cell culture experiments.25,26 These same enzymes are thought to play a role in corneal remodeling and define the initiation and progression of KC.27 Notably, levels of vitamin C were found to be elevated in KC corneas28 and increased following corneal cross-linking.29 Vitamin C deficiency has also been hypothesized to correlate with KC.30 Considering the mixed body of literature surrounding this topic, we investigated whether a relationship between vitamin C supplementation and the prevalence of KC existed in our study population. Although KC is a non-inflammatory disease, more evidence has indicated the potential involvement of inflammatory factors in KC pathogenesis.31,32 Antibiotics, such as tetracyclines, are often prescribed during inflammatory ocular events such as ocular rosacea or sterile corneal ulcerations.33-35 We were interested in exploring whether tetracyclines, some of the most commonly used ocular antibiotics, are associated with KC risk.33
+
+The study was conducted utilizing the All of Us research database. The All of Us Research Program is a National Institute of Health-funded data initiative to collect health data on more than 1 million Americans. The database collects patient-level data on a diverse population from across the United States.36 The platform allows us to analyze a large, diverse population to understand better the relationships between a relatively rare ocular disease and common risk factors.
+
+================================================================================
+METHODS
+================================================================================
+This was a retrospective case-control study utilizing the data available in the All of Us database. The database includes patients 18 years and older recruited within the period of May 2018 to January 2022. In the All of Us platform, volunteers may complete health-related surveys and consent to sharing their electronic health records (EHRs). The health data of each participant were transferred to the database; they were then deidentified and made accessible to registered users for research purposes.37 Data used in this study are available to registered researchers of the All of Us Researcher Workbench. For information about access, please visit https://www.researchallofus.org/.
+
+This study selected two cohorts of adult patients with associated EHRs using the All of Us data analysis workbench: KC patients and matched non-KC patients. The KC patients were identified by the Systemized Nomenclature of Medicine, Clinical Terms (SNOMED-CT) term "keratoconus," based on the International Classification of Diseases (ICD) codes for KC. The KC cohort was built to include all patients with at least one KC diagnosis in their EHRs (n = 572). Age, ethnicity, and sex data were extracted from the survey data available in the database. Participants in the KC cohort were matched with three controls based on age +/- 1 year, ethnicity, and sex to create the matched non-KC cohort (n = 1716).
+
+ICD codes were used to identify covariates, including a history of diabetes, sleep apnea, obesity, dry eye, eczema, allergic rhinitis, allergic or atopic conjunctivitis, tetracycline medication, vitamin C supplementation, pregnancy, and estrogen-containing medication. History of smoking was identified using a combination of survey data and ICD codes. Participants who reported smoking more than 100 cigarettes in their lifetime, smoking for more than 5 years, or smoking a cigarette in the last month were defined as smokers by the survey results. Due to significant overlap in the pathophysiology and previously reported strong evidence for dry eye, allergic or atopic conjunctivitis, and eczema, all participants with these risk factors were grouped into one category referred to as "ocular surface disease."
+
+Advanced statistical techniques were employed within the All of Us researcher workbench to analyze the collected data. Data analysis was conducted on the Jupyter Notebook web-based platform using the R programming language (R Foundation for Statistical Computing, Vienna, Austria). Tests were performed using the "oddsratio()" function from the "epitools" package and "glm()" function from the "stats" package. Univariable odds ratios (ORs) were calculated comparing KC and each collected element of the participants' health histories (ocular surface disease, diabetes, sleep apnea, obesity, smoking, allergic rhinitis, pregnancy, estrogen-containing medications, tetracyclines, and vitamin C supplementation). A logistic regression was performed using all variables to show significant correlations to KC (ocular surface disease, diabetes, sleep apnea, obesity, smoking, allergic rhinitis, pregnancy, estrogen-containing medications, tetracyclines, and vitamin C supplementation) as covariates to calculate multivariable ORs. Also, 95% confidence intervals (CIs) and P values were additionally calculated. All analyses exploring the history of pregnancy and estrogen-containing medication included only female KC participants (n = 316) and their matched controls (n = 948).
+
+================================================================================
+RESULTS
+================================================================================
+The analyzed cohorts included 572 patients with KC and 1716 patients without KC. The mean ages of participants were 58.7 +/- 15.6 years for KC cases and 58.7 +/- 15.6 years for controls. In both the KC and control cohorts, 55% of participants were female and 25% were Hispanic. In the KC cohort, 48% of participants were European American, 23% were Black or African American. In the control cohort, 51% were European American and 18% were Black or African American (Table 1).
+
+
+[Table 1.]
+Demographics of the Study Populations
+
+ | KC (n = 572) | Non-KC (n = 1716) | P
+Age, mean +/- SD | 58.7 +/- 15.6 | 58.7 +/- 15.6 | 1.0
+Sex, n (%) |  |  | 1.0
+Female | 316 (55) | 948 (55) | 
+Male | 246 (43) | 738 (43) | 
+Other | 10 (2) | 30 (2) | 
+Ethnicity, n (%) |  |  | 1.0
+Not Hispanic or Latino | 405 (71) | 1215 (71) | 
+Hispanic or Latino | 144 (25) | 432 (25) | 
+Unknown | 23 (4) | 69 (4) | 
+Race, n (%) |  |  | >0.99
+White | 272 (48) | 877 (51) | 
+Black or African American | 129 (23) | 315 (18) | 
+Asian | 8 (1) | 42 (2) | 
+Middle Eastern or North African | 6 (1) | 7 (0) | 
+Native Hawaiian or Other Pacific Islander | 1 (0) | 3 (0) | 
+More than one population | 8 (1) | 27 (2) | 
+Unknown | 148 (26) | 445 (26) | 
+
+The strongest correlation to KC in the multivariable analysis was ocular surface disease (57.87%; OR = 6.04; 95% CI, 4.77-7.65). Additional variables showing a statistically significant correlation to participants with a diagnosis of KC in comparison to matched controls when accounting for all other tested variables were obesity (44.76%; OR = 1.82; 95% CI, 1.40-2.37), history of estrogen-containing medication (44.30%; OR = 1.77; 95% CI, 1.25-2.51), and tetracycline usage (30.59%; OR = 1.36; 95% CI, 1.03-1.79). In contrast, participants with KC were statistically significantly less likely to have a history of smoking (31.82%; OR = 0.64; 95% CI, 0.51-0.81) in the multivariable analysis. All other variables tested showed a positive correlation with KC but were not statistically significant: sleep apnea (32.52%; OR = 1.34; 95% CI, 1.00-1.80); type II diabetes (29.37%; OR = 1.33; 95% CI, 0.99-1.77); vitamin C supplementation (19.75%; OR = 1.31; 95% CI, 0.95-1.80); pregnancy (23.73%; OR = 1.30; 95% CI, 0.87-1.94); allergic rhinitis (33.57%; OR = 1.22; 95% CI, 0.93-1.61); and type I diabetes (4.72%; OR = 1.00; 95% CI, 0.52-1.95) (Table 2, Fig.).
+
+Results from the univariable analysis are included in Table A1 which is available in Appendix A. Additionally, results of the univariable (Table B1) and multivariable (Table B2) analyses without grouping dry eye, eczema, and allergic or atopic conjunctivitis are included in Appendix B.
+
+
+[Table 2.]
+Multivariable Analysis of Clinical Factors Associated With KC
+
+Variable | Multivariable OR | 95% CI | P
+Ocular surface diseasea | 6.04 | 4.77-7.65 | <0.0001
+Obesity | 1.82 | 1.40-2.37 | <0.0001
+Estrogen-containing medication | 1.77 | 1.25-2.51 | 0.00139
+Tetracycline | 1.36 | 1.03-1.79 | 0.02945
+Sleep apnea | 1.34 | 1.00-1.80 | 0.05247
+Type II diabetes | 1.33 | 0.99-1.77 | 0.05884
+Vitamin C supplementation | 1.31 | 0.95-1.80 | 0.09878
+Pregnancy | 1.30 | 0.87-1.94 | 0.2025
+Allergic rhinitis | 1.22 | 0.93-1.61 | 0.1465
+Type I diabetes | 1.00 | 0.52-1.95 | 0.9923
+Smoking | 0.64 | 0.51-0.81 | 0.00163
+aOcular surface disease includes participants with dry eye, allergic or atopic conjunctivitis, or eczema.
+
+
+[Figure.]
+Multivariable odds ratios of the association between keratoconus and health history. *Ocular surface disease includes participants with dry eye, allergic or atopic conjunctivitis, or eczema.
+
+================================================================================
+DISCUSSION
+================================================================================
+Our study identified novel risk factors associated with KC (estrogen-containing medications and tetracycline usage), confirmed known risk factors (ocular surface disease and obesity), and provided evidence of possible protective effects of smoking against KC. This analysis revealed a correlation between estrogen and KC. A history of estrogen-containing medications was significantly associated with KC even when accounting for covariates, and previous pregnancy showed a positive correlation although it was not significant. Several case studies have detailed instances of progression and worsening of KC following pregnancy23,24,38,39; however, our KC cohort included 316 female participants, which allowed for wide-scale correlation analysis. The most common estrogen-containing medication reported in our cohorts was oral contraceptive pills. Several studies have suggested a relationship between estrogen and the ocular disease, finding increased estrogen receptors in KC corneas.40,41 This mechanism might offer a basic explanation for the 1.30x odds that KC patients have a history of pregnancy and 1.77x odds of previous estrogen-containing medication use.
+
+The history of tetracycline usage was interestingly found to correlate positively with KC in both the univariable and multivariable analyses. Tetracyclines are most commonly used as a broad-spectrum antibiotic, but the drug class has shown non-antimicrobial properties. Tetracyclines have known anti-inflammatory effects, inhibiting matrix metalloproteinase (MMP) and interleukin-1 (IL-1) production.42 The reported correlation to KC could relate to the usage of tetracycline as an ocular anti-inflammatory, prescribed in instances of corneal ulceration, ocular rosacea, keratoconjunctivitis sicca, other dermatological conditions, or even dry eye.33,35,42,43 Tetracyclines are thought to slow pathological soft-tissue breakdown through anti-collagenase activity, leading to its use in sterile corneal ulcers.33,44 Alternatively, the correlation could possibly be attributed to antibiotic management of KC treatments and sequelae. Tetracyclines and other ocular antibiotics are rarely prescribed in the event of acute corneal hydrops, a rare complication of KC, or following corneal collagen cross-linking, a procedure shown to slow KC progression.45-47 Future work is needed to better understand if the association between KC and tetracyclines is a direct risk factor altering corneal tissue, secondary to underlying inflammatory diseases, or is due to an alternative explanation.
+
+History of smoking was the only covariate with a negative correlation with KC. Current literature is split on smoking, with some studies finding a positive association, some a negative association, and some no association at all.48-52 Our study, with a population of 572 KC patients, analyzed a larger KC population than previous studies exploring the relationship between smoking and KC.48-52 A proposed hypothesis relating smoking to KC is its impact on the meibomian glands, resulting in a dry eye and increasing friction across the cornea.48 However, an alternative hypothesis could explain the mechanism by which smoking showed a negative correlation and possible protective factor against KC in our study. Smoking results in reactive glycation products, nitrogen oxide, and nitrites, which cross-link and modify collagen proteins. These modifications could contributed to corneal stabilization, slowing the pathogenesis of KC.51
+
+Our work additionally confirmed previous studies, which have established known risk factors associated with KC including dry eye,14,15 allergy,8,12,13,17 eye rubbing,8,12,13,16,17,19 eczema,8,19 and obesity.53,54 Ocular surface disease, encompassing dry eye, allergic or atopic conjunctivitis, and eczema, was most strongly associated with KC. All three conditions are strongly associated with eye rubbing and proposed to contribute to the development or progression of KC through direct mechanical injury to the cornea.8,12,13,55 Additional evidence suggests inflammation might also be contributing to this strong correlation.15 Pro-inflammatory cytokines, including IL-1, IL-6, interferon-gamma (IFN-gamma), and tumor necrosis factor alpha (TNF-alpha), are known to be elevated in KC tears, indicating an inflammatory microenvironment on the surface of KC corneas.56,57 Eye rubbing and allergic eye disease have similarly been shown to increase ocular inflammatory markers, including IL-1, IL-6, MMP, and TNF-alpha.58,59 The pathophysiology explaining the correlation of KC with obesity is not entirely understood, but it is hypothesized that obesity leads to weaker eyelid skin due to decreased elastin in the tarsal plate. This subsequently reduces the ability of the eyelid to protect the cornea and increases mechanical injury to the cornea.53 Another hypothesis suggests that the relationship of obesity to KC is due to the systemic effects characteristic of chronic metabolic inflammation.54 Our confirmation of previous findings not only adds to the body of evidence but also helps to validate our population, as it broadly aligns with current literature.
+
+Our population was accessed through the All of Us database. This allowed for the analysis of a relatively large dataset of patients with and without KC who were representative of patients in the United States.36 Considering the rarity of KC, the sample size and diversity were significant strengths of the study, a major difference that contributed to the unique findings of our study compared to those of the published literature. Previously reported risk factors were analyzed in a large, diverse database, and evidence of novel risk factors (i.e., estrogen-containing medication) was identified in a large, clinical case-control study (n = 2288) rather than in a case series or in studies using animal models. Our results are limited by several factors, however. This work was a retrospective cross-sectional study. The analysis offers strong evidence of the correlation between KC and its risk factors but does not examine causality. The database does not allow for determination of the stage or severity of KC. Controls were determined by a lack of KC diagnosis, so it is possible that individuals with undiagnosed KC were included in the cohort. Alternatively, a coding error in the health record could allow patients without diagnosis to be included in our KC cohort. Additionally, the average age of participants in the KC cohort was 58.7 years. Because onset of the disease typically occurs in the second or third decade of life, it is likely that these patients have established, non-progressive KC.8,9 Some interventions, such as medication or supplementation, might be less relevant due to the static nature of KC in the studied population. Our analysis did not account for any temporal relationship between risk factors and KC diagnosis.
+
+In conclusion, we determined that a history of estrogen-containing medication and tetracycline usage increases the odds of KC but a history of smoking decreases the odds, even when accounting for ocular surface diseases and obesity as covariates. Because a diagnosis of KC is most common early in life, carries a significant burden on quality of life, and has effective treatment options, providers should be aware of all disease risk factors to aid in early diagnosis and intervention.
+
+================================================================================
+ACKNOWLEDGMENTS
+================================================================================
+The All of Us Research Program is supported by the National Institutes of Health and would not be possible without the partnership of its participants.
+
+Supported by research funds of the James and Jean Culver Vision Discovery Institute, Augusta University (YL), and by grants from the National Eye Institutes, National Institutes of Health (R01EY023242, R21EY033961, R01EY032960, R21EY028671, and P30EY031631 to YL).
+
+Disclosure: C. Beatty, None; A. Estes, None; H. Xu, None; Y. Liu, None
+
+================================================================================
+REFERENCES
+================================================================================
+Total references: 59
+
+[1.] Akoto T, Li JJ, Estes AJ, Karamichos D, Liu Y. The underlying relationship between keratoconus and Down syndrome. Int J Mol Sci. 2022; 23(18): 10796.36142709
+[2.] Ates KM, Estes AJ, Liu Y. Potential underlying genetic associations between keratoconus and diabetes mellitus. Adv Ophthalmol Pract Res. 2021; 1(1): 100005.34746916
+[3.] Cai J, Estes A, Liu Y. Omics analyses in keratoconus: from transcriptomics to proteomics. Curr Ophthalmol Rep. 2020; 8(4): 216-225.33767925
+[4.] Khaled ML, Helwa I, Drewry M, Seremwe M, Estes A, Liu Y. Molecular and histopathological changes associated with keratoconus. Biomed Res Int. 2017; 2017: 7803029.28251158
+[5.] Monteiro de Barros MR, Chakravarti S. Pathogenesis of keratoconus: NRF2-antioxidant, extracellular matrix and cellular dysfunctions. Exp Eye Res. 2022; 219: 109062.35385756
+[6.] Santodomingo-Rubido J, Carracedo G, Suzaki A, Villa-Collar C, Vincent SJ, Wolffsohn JS. Keratoconus: an updated review. Cont Lens Anterior Eye. 2022; 45(3): 101559.34991971
+[7.] Gothwal VK, Gujar R, Sharma S, Begum N, Pesudovs K. Factors affecting quality of life in keratoconus. Ophthalmic Physiol Opt. 2022; 42(5): 986-997.35638140
+[8.] Hashemi H, Heydarian S, Hooshmand E, et al. The prevalence and risk factors for keratoconus: a systematic review and meta-analysis. Cornea. 2020; 39(2): 263-270.31498247
+[9.] Flockerzi E, Xanthopoulou K, Goebels SC, et al. Keratoconus staging by decades: a baseline ABCD classification of 1000 patients in the Homburg Keratoconus Center. Br J Ophthalmol. 2021; 105(8): 1069-1075.32830125
+[10.] Bui AD, Truong A, Pasricha ND, Indaram M. Keratoconus diagnosis and treatment: recent advances and future directions. Clin Ophthalmol. 2023; 17: 2705-2718.37736107
+[11.] Gordon-Shaag A, Millodot M, Shneor E, Liu Y. The genetic and environmental factors for keratoconus. Biomed Res Int. 2015; 2015: 795738.26075261
+[12.] Ben-Eli H, Erdinest N, Solomon A. Pathogenesis and complications of chronic eye rubbing in ocular allergy. Curr Opin Allergy Clin Immunol. 2019; 19(5): 526-534.31343437
+[13.] Seth I, Bulloch G, Vine M, et al. The association between keratoconus and allergic eye diseases: a systematic review and meta-analysis. Clin Exp Ophthalmol. 2023; 51(4): O1-O16.36882200
+[14.] Moran S, Gomez L, Zuber K, Gatinel D. A case-control study of keratoconus risk factors. Cornea. 2020; 39(6): 697-701.32040008
+[15.] McMonnies CW. Inflammation and keratoconus. Optom Vis Sci. 2015; 92(2): e35-e41.25397925
+[16.] Najmi H, Mobarki Y, Mania K, et al. The correlation between keratoconus and eye rubbing: a review. Int J Ophthalmol. 2019; 12(11): 1775-1781.31741868
+[17.] Lucas SEM, Burdon KP. Genetic and environmental risk factors for keratoconus. Annu Rev Vis Sci. 2020; 6: 25-46.32320633
+[18.] Naderan M, Rajabi MT, Zarrinbakhsh P, Naderan M, Bakhshi A. Association between family history and keratoconus severity. Curr Eye Res. 2016; 41(11): 1414-1418.27158890
+[19.] Song M, Fang QY, Seth I, Baird PN, Daniell MD, Sahebjada S. Non-genetic risk factors for keratoconus. Clin Exp Optom. 2023; 106(4): 362-372.35504720
+[20.] Woodward MA, Blachley TS, Stein JD. The association between sociodemographic factors, common systemic diseases, and keratoconus: an analysis of a nationwide heath care claims database. Ophthalmology. 2016; 123(3): 457-465.e2.26707415
+[21.] Lin KK, Lee JS, Hou CH, et al. The sociodemographic and risk factors for keratoconus: nationwide matched case-control study in Taiwan, 1998-2015. Am J Ophthalmol. 2021; 223: 140-148.33007273
+[22.] Bak-Nielsen S, Ramlau-Hansen CH, Ivarsen A, Plana-Ripoll O, Hjortdal J. A nationwide population-based study of social demographic factors, associated diseases and mortality of keratoconus patients in Denmark from 1977 to 2015. Acta Ophthalmol. 2019; 97(5): 497-504.30426693
+[23.] Jani D, McKelvie J, Misra SL. Progressive corneal ectatic disease in pregnancy. Clin Exp Optom. 2021; 104(8): 815-825.34384340
+[24.] Bilgihan K, Hondur A, Sul S, Ozturk S. Pregnancy-induced progression of keratoconus. Cornea. 2011; 30(9): 991-994.21705880
+[25.] Pinnell SR. Regulation of collagen biosynthesis by ascorbic acid: a review. Yale J Biol Med. 1985; 58(6): 553-559.3008449
+[26.] McKay TB, Hutcheon AEK, Guo X, Zieske JD, Karamichos D. Modeling the cornea in 3-dimensions: current and future perspectives. Exp Eye Res. 2020; 197: 108127.32619578
+[27.] Shetty R, D'Souza S, Khamar P, Ghosh A, Nuijts R, Sethu S. Biochemical markers and alterations in keratoconus. Asia Pac J Ophthalmol (Phila). 2020; 9(6): 533-540.33323707
+[28.] Lasagni Vitar RM, Bonelli F, Rama P, Ferrari G. Nutritional and metabolic imbalance in keratoconus. Nutrients. 2022; 14(4): 913.35215563
+[29.] Sharif R, Sejersen H, Frank G, Hjortdal J, Karamichos D. Effects of collagen cross-linking on the keratoconus metabolic network. Eye (Lond). 2018; 32(7): 1271-1281.29576618
+[30.] Clijsters L, Van Wijngaerden E, Delbeke H. Atypical corneal ectasia associated with vitamin C deficiency. Cornea. 2020; 39(9): 1167-1170.32301811
+[31.] Taurone S, Ralli M, Plateroti AM, et al. Keratoconus: the possible involvement of inflammatory cytokines in its pathogenesis. An experimental study and review of the literature. Eur Rev Med Pharmacol Sci. 2021; 25(13): 4478-4489.34286490
+[32.] Erdinest N, Wajnsztajn D, London N, Solomon A. Ocular surface inflammation and ectatic corneal disorders. Curr Opin Allergy Clin Immunol. 2023; 23(5): 430-437.37490610
+[33.] Federici TJ. The non-antibiotic properties of tetracyclines: clinical potential in ophthalmic disease. Pharmacol Res. 2011; 64(6): 614-623.21843641
+[34.] Salamon SM. Tetracyclines in ophthalmology. Surv Ophthalmol. 1985; 29(4): 265-275.3157226
+[35.] Korting HC, Schollmann C. Tetracycline actions relevant to rosacea treatment. Skin Pharmacol Physiol. 2009; 22(6): 287-294.19786821
+[36.] Mapes BM, Foster CS, Kusnoor SV, et al. Diversity and inclusion for the All of Us Research Program: a scoping review. PLoS One. 2020; 15(7): e0234962.32609747
+[37.] All of Us Research Program. Opportunities for researchers. Available at: https://allofus.nih.gov/get-involved/opportunities-researchers. Accessed April 15, 2024.
+[38.] Toprak I. To what extent is pregnancy-induced keratoconus progression reversible? A case-report and literature review. Eur J Ophthalmol. 2023; 33(1): NP37-NP41.
+[39.] Gatzioufas Z, Panos GD, Gkaragkani E, Georgoulas S, Angunawela R. Recurrence of keratoconus after deep anterior lamellar keratoplasty following pregnancy. Int J Ophthalmol. 2017; 10(6): 1011-1013.28730097
+[40.] Ayan B, Yuksel N, Carhan A, et al. Evaluation estrogen, progesteron and androgen receptor expressions in corneal epithelium in keratoconus. Cont Lens Anterior Eye. 2019; 42(5): 492-496.30538061
+[41.] Escandon P, Nicholas SE, Cunningham RL, Murphy DA, Riaz KM, Karamichos D. The role of estriol and estrone in keratoconic stromal sex hormone receptors. Int J Mol Sci. 2022; 23(2): 916.35055103
+[42.] Pflugfelder SC. Anti-inflammatory therapy of dry eye. Ocul Surf. 2003; 1(1): 31-36.17075627
+[43.] Eiseman AS. The ocular manifestations of atopic dermatitis and rosacea. Curr Allergy Asthma Rep. 2006; 6(4): 292-298.16822381
+[44.] Golub LM, Ramamurthy NS, McNamara TF, Greenwald RA, Rifkin BR. Tetracyclines inhibit connective tissue breakdown: new therapeutic implications for an old family of drugs. Crit Rev Oral Biol Med. 1991; 2(3): 297-321.1654139
+[45.] Fan Gaskin JC, Patel DV, McGhee CN. Acute corneal hydrops in keratoconus—new perspectives. Am J Ophthalmol. 2014; 157(5): 921-928.24491416
+[46.] Maharana PK, Sharma N, Vajpayee RB. Acute corneal hydrops in keratoconus. Indian J Ophthalmol. 2013; 61(8): 461-464.23925338
+[47.] Vinciguerra R, Pagano L, Borgia A, et al. Corneal cross-linking for progressive keratoconus: up to 13 years of follow-up. J Refract Surg. 2020; 36(12): 838-843.33295997
+[48.] Debourdeau E, Planells G, Chamard C, et al. New keratoconus risk factors: a cross-sectional case-control study. J Ophthalmol. 2022; 2022: 6605771.36211596
+[49.] Gordon-Shaag A, Millodot M, Kaiserman I, et al. Risk factors for keratoconus in Israel: a case-control study. Ophthalmic Physiol Opt. 2015; 35(6): 673-681.26286678
+[50.] Ozalp O, Atalay E, Yildirim N. Prevalence and risk factors for keratoconus in a university-based population in Turkey. J Cataract Refract Surg. 2021; 47(12): 1524-1529.33929805
+[51.] Spoerl E, Raiskup-Wolf F, Kuhlisch E, Pillunat LE. Cigarette smoking is negatively associated with keratoconus. J Refract Surg. 2008; 24(7): S737-S740.18811121
+[52.] Sahebjada S, Chan E, Xie J, Snibson GR, Daniell M, Baird PN. Risk factors and association with severity of keratoconus: the Australian study of keratoconus. Int Ophthalmol. 2021; 41(3): 891-899.33200389
+[53.] Eliasi E, Bez M, Megreli J, et al. The association between keratoconus and body mass index: a population-based cross-sectional study among half a million adolescents. Am J Ophthalmol. 2021; 224: 200-206.33309695
+[54.] Wang J, Liu F, Mo J, et al. Exploring the causal relationship between body mass index and keratoconus: a Mendelian randomization study. Front Med (Lausanne). 2024; 11: 1402108.39050542
+[55.] Copeman PW . Eczema and keratoconus. Br Med J. 1965; 2(5468): 977-979.5826924
+[56.] Zhang H, Cao X, Liu Y, Wang P, Li X. Tear levels of inflammatory cytokines in keratoconus: a meta-analysis of case-control and cross-sectional studies. Biomed Res Int. 2021; 2021: 6628923.34631885
+[57.] Wisse RP, Kuiper JJ, Gans R, Imhof S, Radstake TR, Van der Lelij A. Cytokine expression in keratoconus and its corneal microenvironment: a systematic review. Ocul Surf. 2015; 13(4): 272-283.26235733
+[58.] Balasubramanian SA, Pye DC, Willcox MD. Effects of eye rubbing on the levels of protease, protease activity and cytokines in tears: relevance in keratoconus. Clin Exp Optom. 2013; 96(2): 214-218.23496656
+[59.] Leonardi A, Curnow SJ, Zhan H, Calder VL. Multiple cytokines in human tear specimens in seasonal and chronic allergic eye disease and in conjunctival fibroblast cultures. Clin Exp Allergy. 2006; 36(6): 777-784.16776679
+
+================================================================================
+DOCUMENT STATISTICS
+================================================================================
+Reference count: 59
+Tables: 5
+Figures: 1
+Page count: 9
