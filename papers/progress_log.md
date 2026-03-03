@@ -6,12 +6,15 @@
 | 1         | Lyu 2024 (Myopia/Referral) | 4.8 | 5.6 | 7.2 | 7.4 | 6.4 | 5.8 | **5.2** |
 | 2         | TVC Study 11yr (Glaucoma Surgery) | 9.0 | 7.3 | 9.0 | 8.9 | 9.0 | 7.9 | **8.5** |
 | 3         | DR-AMD Taiwan NHIRD (Retina) | 9.2 | 7.7 | 9.0 | 8.8 | 9.1 | 8.3 | **8.7** |
+| 4         | Anti-VEGF/ONH Parameters (Cross-sectional) | 9.5 | 8.2 | 9.0 | 9.0 | 9.5 | 8.5 | **8.9** |
+| 5         | DR Progression Primary Care (Longitudinal) | 9.5 | 8.5 | 9.0 | 9.0 | 9.5 | 8.5 | **9.0** |
 
-## Summary After 3 Iterations
-- **Total improvement**: 5.2 -> 8.7 (+3.5 points, +67%)
-- **Total rules accumulated**: 30 (15 from Iter1, 6 from Iter2, 9 from Iter3)
-- **Numerical accuracy**: 0% (Iter1) -> 100% (Iter2) -> 100% (Iter3)
-- **Primary bottleneck**: Web extraction completeness (tables, references), not drafting quality
+## Summary After 5 Iterations
+- **Total improvement**: 5.2 -> 9.0 (+3.8 points, +73%)
+- **Total rules accumulated**: 43 (15 from Iter1, 6 from Iter2, 9 from Iter3, 7 from Iter4, 6 from Iter5)
+- **Numerical accuracy**: 0% (Iter1) -> 100% (Iter2) -> 100% (Iter3) -> 100% (Iter4) -> 100% (Iter5)
+- **Blind integrity**: PASS (Iter4), PASS (Iter5)
+- **Primary bottleneck**: Discussion depth and clinical contextualization (extraction-limited), not accuracy or structure
 
 ## Iteration 1
 - **Paper**: Lyu et al. (2024) "Impact of ophthalmic clinical service use in mitigating myopia onset and progression in preschool children" - BMC Ophthalmology 24, 221
@@ -54,3 +57,38 @@
   - No formal numbered reference list
 - **New Rules Added**: 9
 - **Key Lesson**: Pipeline now reliably produces 100% accurate drafts across study designs. Score ceiling determined by extraction depth, not methodology.
+
+## Iteration 4
+- **Paper**: Anti-VEGF intravitreal injections and optic nerve head parameters (Cross-sectional study)
+- **Quality Score**: 8.9/10 (+0.2 improvement)
+- **Blind Integrity**: PASS
+- **Key Improvements**:
+  - 100% numerical accuracy maintained (28/28 correct)
+  - First blind writing iteration with anonymized data bundle
+  - Zero knowledge leakage, zero verbatim phrase overlap
+  - Superior structural organization vs. original (6 Methods subsections, 5 formal tables)
+  - Clean blind integrity: independently structured throughout
+- **Remaining Gaps**:
+  - Limited Discussion depth (unable to match original's named study comparisons)
+  - General-knowledge numerical claims without verifiable sources
+  - Verbosity (60% longer than original)
+- **New Rules Added**: 7
+- **Key Lesson**: Blind writing pipeline works -- independently structured paper with no evidence of accessing original. Key remaining gaps: controlling general-knowledge claims and maintaining conciseness.
+
+## Iteration 5
+- **Paper**: Lalwani et al. (2025) "Progression of diabetic retinopathy in a longitudinal real-world study of patients in primary care" - BMC Ophthalmology
+- **Quality Score**: 9.0/10 (+0.1 improvement)
+- **Blind Integrity**: PASS
+- **Key Improvements**:
+  - 100% numerical accuracy maintained (50/50 correct) -- largest data point count verified to date
+  - Strong structural originality: Introduction (3 vs 2 paragraphs), Methods (7 vs 4 subsections), Discussion (9 vs 3 subsections)
+  - Complete Table 1 with all 13 baseline DRSS levels
+  - All 7 figure legends accurately reproduced
+  - Second consecutive blind integrity PASS
+- **Remaining Gaps**:
+  - Verbosity (~35-40% longer than original) with Discussion-Conclusions redundancy
+  - Missing clinical trial benchmark comparisons (PANORAMA, Protocol W) -- extraction-limited
+  - Missing supplementary material references and clinical guideline connections
+  - Discussion literature comparisons lack quantitative specificity
+- **New Rules Added**: 6
+- **Key Lesson**: Pipeline achieves 9.0/10 across 5 study designs with 4th consecutive 100% accuracy. Improvement ceiling now determined by Discussion clinical contextualization and verbosity control, not accuracy or structural issues. The 6 new rules target redundancy elimination, benchmark referencing, and guideline integration.

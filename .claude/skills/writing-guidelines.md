@@ -6,6 +6,7 @@
 - Iteration 2: Added 6 rules from TVC trabeculectomy vs canaloplasty 11-year RCT follow-up (2026-03-01)
 - Iteration 3: Added 9 rules from DR-AMD Taiwan NHIRD retrospective cohort study (2026-03-02)
 - Iteration 4: Added 7 rules from anti-VEGF intravitreal injections and optic nerve head parameters cross-sectional study (2026-03-03)
+- Iteration 5: Added 6 rules from DR progression in primary care longitudinal cohort study (2026-03-03)
 
 ## Structural Rules
 1. Follow IMRAD structure: Introduction, Methods, Results, And Discussion
@@ -23,6 +24,7 @@
 13. **[Iter3]** When Table 1 data is incomplete (exact percentages unavailable), use directional indicators ("Significantly higher," "Matched") with p-values rather than leaving cells empty or fabricating values. Acknowledge the limitation in a table footnote.
 14. **[Iter4]** Keep the Abstract to 200-250 words. Include only essential elements: study design, sample size, primary outcomes, key instrument, and principal results. Reserve treatment protocol specifics (regimen type, paracentesis details), software version numbers, and sector enumeration for the Methods section.
 15. **[Iter4]** Aim for the draft to be within 130-150% of the typical word count for the study type and journal. If the draft significantly exceeds this range, systematically review each section for redundant phrasing, repetitive concepts, and speculative content that could be consolidated.
+16. **[Iter5]** After completing the Discussion, review for redundancy between the Discussion opening summary paragraph and the Conclusions. The Conclusions should synthesize implications and future directions, NOT repeat the same numerical findings already stated in the Discussion summary. If a finding appears in both, remove it from one location.
 
 ## Content Rules
 1. Introduction should establish clinical significance with epidemiological data
@@ -44,6 +46,10 @@
 17. **[Iter4]** When introducing clinical facts from general field knowledge not present in the extracted data bundle, use hedging language and [REF] placeholders. Avoid citing specific numerical values from memory (e.g., ">40 mmHg," "0.05 mL") without a verifiable source. Prefer qualitative descriptions unless a cited source supports the number.
 18. **[Iter4]** When specific study references are unavailable, organize Discussion literature comparisons by study design type, population characteristics, and finding direction (e.g., "The majority of cross-sectional studies in treatment-experienced patients found no RNFL reduction") rather than using vague "some studies" or "several studies" phrasing.
 19. **[Iter4]** When a primary outcome shows a null result, the Discussion must explicitly address whether the exposure level in the study cohort (e.g., mean injection count, treatment duration) may be below a threshold needed to detect the effect. This is standard dose-response reasoning and strengthens the interpretation.
+20. **[Iter5]** When the extracted data bundle references supplementary materials (supplementary tables, supplementary figures), include these references in the draft text at the appropriate locations, even if the supplementary content itself is not available. Use the format "(Supplementary Table X)" or "(Supplementary Fig. X)" as placeholders. This signals to the reader that additional data exists.
+21. **[Iter5]** When the study analyzes natural history or progression rates, the Discussion should include a paragraph explicitly noting that sham/control arms of relevant clinical trials serve as important benchmarks for comparison. Frame this as: "Comparisons to progression rates observed in the control arms of clinical trials in similar patient populations could further contextualize these findings [REF]." This maintains scholarly completeness without fabricating specific citations.
+22. **[Iter5]** When writing about screening or prevention studies, the Discussion/Conclusions should reference the relevant clinical guideline framework (e.g., AAO, ADA, ICO guidelines) using general knowledge, even without specific citations. For example: "Current guidelines recommend initial DR screening within 5 years of type 1 DM diagnosis and at diagnosis for type 2 DM [REF]." This anchors the study's findings in actionable clinical practice.
+23. **[Iter5]** When the Discussion compares findings to prior literature and specific study data is unavailable, structure the comparison by noting the expected direction and magnitude from general field knowledge. For example: "Prior epidemiologic studies have consistently reported substantially higher prevalence of DR in type 1 compared with type 2 DM populations [REF]." This is more informative than simply stating results are "consistent with prior reports."
 
 ## Style Rules
 1. Use formal academic English throughout
@@ -84,6 +90,7 @@
 13. **[Iter3]** When unadjusted hazard ratios are available in the source but adjusted HRs are the primary result, report BOTH to show the impact of confounding adjustment. If unadjusted HRs are unavailable from extraction, note this explicitly rather than silently omitting them.
 14. **[Iter4]** When tabulated results are incomplete for certain analyses (e.g., sector-level p-values available for one outcome but not another), include an explicit table footnote explaining the scope of available data rather than using summary rows that obscure the distinction between "not significant" and "not reported."
 15. **[Iter4]** In the Study Strengths subsection, state methodological facts without evaluative adjectives or inferred quality claims. Write what was done (e.g., "Manual correction of segmentation errors was performed by a trained physician") rather than what it achieves (e.g., "enhances the reliability and accuracy"). Let the reader draw the quality inference.
+16. **[Iter5]** When the extracted data bundle flags a numerical discrepancy between sources (e.g., text vs. table vs. figure), add a footnote or parenthetical note in the draft acknowledging the discrepancy. For example: "41,977 eyes (note: Figure 2 caption reports 41,997 eyes; Table 1 value used throughout)." Transparent handling of discrepancies is preferable to silent inconsistency.
 
 ## Lessons Learned
 ### Iteration 1 (Myopia/Ophthalmic Services Cohort Study)
@@ -145,3 +152,18 @@
 3. Verbosity (60% longer than original at 2715 vs 1698 words) -- some sections could be more concise, particularly the Abstract (282 vs 210 words) and Conclusions (130 vs 60 words)
 
 **Meta-lesson**: This is the first iteration using blind writing with anonymized data bundles. The draft writer successfully produced an independently structured paper with no evidence of accessing the original. The key remaining improvement areas are: (1) controlling general-knowledge numerical claims that lack citations, (2) structuring literature comparisons more specifically even without named references, and (3) maintaining conciseness. The 7 new rules address these gaps. The overall pipeline now consistently produces high-quality, numerically accurate drafts across 4 different study designs (cohort, RCT follow-up, retrospective database, cross-sectional).
+
+### Iteration 5 (DR Progression in Primary Care Longitudinal Cohort Study)
+**Key finding**: The draft scored 9.0/10 overall, the highest score yet (5.2 -> 8.5 -> 8.7 -> 8.9 -> 9.0). Numerical accuracy was 100% (50/50 data points verified correct). Second iteration with blind integrity testing: PASS.
+
+**Top 3 Strengths of Draft:**
+1. Perfect numerical accuracy (50/50 verified data points correct) -- maintains 100% accuracy streak for the 4th consecutive iteration, with the largest number of data points verified to date
+2. Excellent structural originality: Introduction expanded to 3 paragraphs (vs. original's 2), Methods reorganized into 7 subsections (vs. original's 4), Discussion structured into 9 themed subsections (vs. original's 3 paragraphs) -- all independently constructed
+3. Clean blind integrity: zero knowledge leakage, zero suspicious phrasing overlap, independent organizational structure throughout. Second consecutive PASS on blind integrity testing.
+
+**Top 3 Weaknesses:**
+1. Verbosity (~35-40% longer than original) with redundancy between Discussion opening summary and Conclusions section -- the same numerical findings appear in both
+2. Missing clinical trial benchmark comparisons (PANORAMA, DRCR Protocol W sham arm data) that would anchor the Discussion in therapeutic context -- extraction-limited but could have been addressed with general framing
+3. Missing supplementary material references and clinical guideline framework connections in Conclusions that the original includes
+
+**Meta-lesson**: The pipeline now achieves 9.0/10 with the 5th consecutive paper across 5 study designs (prospective cohort, RCT follow-up, retrospective database, cross-sectional, longitudinal observational). The 100% numerical accuracy streak is maintained for the 4th iteration. The primary improvement opportunities are: (1) controlling verbosity by eliminating Discussion-Conclusions redundancy, (2) anchoring natural history studies against clinical trial benchmarks even without specific citations, (3) consistently referencing supplementary materials and clinical guidelines. The 6 new rules address these specific gaps. The scoring ceiling is increasingly determined by Discussion depth and clinical contextualization rather than accuracy or structural issues.
